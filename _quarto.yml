@@ -10,7 +10,7 @@ website:
         text: Home
       - href: about.qmd
         text: Research
-      - href: teach.qmd
+      - href: teaching.qmd
         text: Teaching
 
 format:
