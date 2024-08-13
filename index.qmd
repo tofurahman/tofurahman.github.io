@@ -1,11 +1,18 @@
 ---
-title: "tofurahman.github.io"
+title: "Md Twfiqur Rahman"
+image: media/headshot.jpg
+toc: false
+about: 
+  template: trestles
+  image-shape: rounded
+  image-width: 20em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/tofuiba/
+    - text: GitHub
+      href: https://github.com/tofurahman
+    - text: Email
+      href: mailto:mrahman24@gsu.edu
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+I am an applied microeconomist.
