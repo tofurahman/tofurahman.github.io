@@ -1,11 +1,11 @@
 ---
 title: "Md Twfiqur Rahman"
-image: media/headshot.jpg
+image: photo.jpg
 toc: false
 about: 
   template: trestles
-  image-shape: rounded
-  image-width: 15em
+  image-shape: round
+  image-width: 12em
   links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/tofuiba/
@@ -16,3 +16,5 @@ about:
 ---
 
 I am an applied microeconomist with special interest in causal inference and machine learning. I leverage modern econometric tools to answer policy relevant questions.
+
+I am an Economics PhD candidate at Georgia State University.
