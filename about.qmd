@@ -1,7 +1,11 @@
-#Working Papers
+## Working Papers
 
--   TennCare through Synthetic Lens: Effect of Medicaid Disnerollment on Health (JMP)
+-   TennCare through Synthetic Lens: Effect of Medicaid Disenrollment on Health (JMP)
 
 -   AP Exam Fee Waivers and College Prep Outcomes
 
--   Incentive Strength: New Evidence from Piece-rate Bonus Scheme
+-   Incentive Strength and Effort: New Evidence from Piece-rate Teacher Bonus Scheme
+
+## Work in Progress 
+
+-   Eviction in Gig Economy: The Uber Effect
