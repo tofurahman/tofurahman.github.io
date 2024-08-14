@@ -1,7 +1,3 @@
----
-title: "teaching"
----
-
 -   Instructor, Georgia State University
 
     -   Principles of Macroeconomics (Fall 2024)
