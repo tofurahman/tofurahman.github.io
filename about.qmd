@@ -2,10 +2,10 @@
 
 -   TennCare through Synthetic Lens: Effect of Medicaid Disenrollment on Health (JMP)
 
--   AP Exam Fee Waivers and College Prep Outcomes
-
--   Incentive Strength and Effort: New Evidence from Piece-rate Teacher Bonus Scheme
+-   AP Exam Fee Waivers and College Prep Outcomes <font size="2">(with Cade Lawsom and Salma Ali)</font>
 
 ## Work in Progress 
+
+-   Incentive Strength and Effort: New Evidence from Piece-rate Teacher Bonus Scheme
 
 -   Eviction in Gig Economy: The Uber Effect

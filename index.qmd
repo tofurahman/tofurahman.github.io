@@ -15,4 +15,4 @@ about:
       href: mailto:mrahman24@gsu.edu
 ---
 
-I am an applied microeconomist.
+I am an applied microeconomist with special interest in causal inference and machine learning. I leverage modern econometric tools to answer policy relevant questions.
