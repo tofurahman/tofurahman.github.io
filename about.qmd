@@ -10,7 +10,7 @@ I study the effect of Medicaid disenrollment on health exploiting Tennessee's 20
 
 <details>
 
-<summary>AP Exam Fee Waivers and College Prep Outcomes <font size="2">(with Cade Lawsom and Salma Ali)</font> </summary>
+<summary>AP Exam Fee Waivers and College Prep Outcomes <font size="2">(with Cade Lawsom and Salma Ali)</font></summary>
 
 To be updated soon.
 
@@ -20,4 +20,4 @@ To be updated soon.
 
 -   Incentive Strength and Teacher Effort: New Evidence from Piece-rate Bonus Scheme
 
--   Eviction in Gig Economy: The Uber Effect
+-   Eviction in the Gig Economy: The Uber Effect
