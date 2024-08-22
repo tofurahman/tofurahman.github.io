@@ -1,9 +1,9 @@
 ---
 title: "Md Twfiqur Rahman"
 image: photo.jpg
-toc: false
+toc: true
 about: 
-  template: trestles
+  template: jolla
   image-shape: round
   image-width: 12em
   links:
