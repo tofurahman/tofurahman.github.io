@@ -10,7 +10,7 @@ about:
   image: photo.jpg
   links:
     - text: CV
-      href: assets/cv.pdf
+      href: assets/CV.pdf
     - text: Contact
       href: mailto:mrahman24@gsu.edu
     - icon: github
