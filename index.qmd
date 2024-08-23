@@ -21,15 +21,7 @@ I am an Economics PhD candidate at Georgia State University.
 
 <br>
 
-### EDUCATION
-
-<hr style="border:2px solid gray">
-
-<p style="line-height:80%">
-
-Georgia State University \| Atlanta, GA
-
-PhD in Economics (2025, Expected)</p>
+<br>
 
 ### RESEARCH
 
@@ -54,3 +46,27 @@ To be updated soon.
 <details><summary>Incentive Strength and Teacher Effort: New Evidence from Piece-rate Bonus Scheme</summary></details>
 
 <details><summary>Eviction in the Gig Economy: The Uber Effect</summary></details>
+
+<br>
+
+### TEACHING
+
+<hr style="border:2px solid gray">
+
+-   Instructor, Georgia State University
+
+    -   Principles of Macroeconomics
+
+-   Teaching Assistant, East West University, Bangladesh
+
+    -   Mathematics for Business and Economics I, Principles of Macroeconomics, Business Finance
+
+<br>
+
+### EDUCATION
+
+<hr style="border:2px solid gray">
+
+<p style="margin:0px; padding:0px;"><span style="font-size: 16px; line-height:8px; font-weight:bold;">Georgia State University</strong> \| Atlanta, GA</span></p>
+
+<p style="margin:0px; padding:6px;"><span style="font-size: 16px; line-height:8px;">PhD in Economics (2025, Expected)</span></p>
