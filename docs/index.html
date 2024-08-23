@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -95,12 +96,13 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
   <li><a href="#research" id="toc-research" class="nav-link active" data-scroll-target="#research">RESEARCH</a></li>
   <li><a href="#teaching" id="toc-teaching" class="nav-link" data-scroll-target="#teaching">TEACHING</a></li>
@@ -109,29 +111,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-marquee">
-  <div class="about-image-container">
-    <img src="photo.jpg" class="about-image
-  round " style="height: 12em; width: 12em;">
-  </div>
-  <div class="about-contents">
-    <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Md Twfiqur Rahman</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> <main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
-<p>I am an applied microeconomist with special interest in causal inference and machine learning. I leverage modern econometric tools to answer policy relevant questions.</p>
-<p>I am an Economics PhD candidate at Georgia State University.</p>
-<p><br></p>
-<p><br></p>
+
+
 <section id="research" class="level3">
-<h3 data-anchor-id="research">RESEARCH</h3>
+<h3 class="anchored" data-anchor-id="research">RESEARCH</h3>
 <hr style="border:2px solid gray">
 <section id="working-papers" class="level6">
-<h6 data-anchor-id="working-papers"><strong>WORKING PAPERS</strong></h6>
+<h6 class="anchored" data-anchor-id="working-papers"><strong>WORKING PAPERS</strong></h6>
 <details>
 <summary>
 Effects of Losing Medicaid on Body Weight and Health Behaviors <font color="blue;" size="2"><i>(Job Market Paper)</i></font>
@@ -147,7 +135,7 @@ The Effects of AP Exam Fee Waivers: Evidence from North Carolina <font size="2">
 <hr style="border:1px solid white">
 </section>
 <section id="work-in-progress" class="level6">
-<h6 data-anchor-id="work-in-progress"><strong>WORK IN PROGRESS</strong></h6>
+<h6 class="anchored" data-anchor-id="work-in-progress"><strong>WORK IN PROGRESS</strong></h6>
 <details>
 <summary>
 Incentive Strength and Teacher Effort: New Evidence from Piece-rate Bonus Scheme
@@ -162,7 +150,7 @@ Eviction in the Gig Economy: The Uber Effect
 </section>
 </section>
 <section id="teaching" class="level3">
-<h3 data-anchor-id="teaching">TEACHING</h3>
+<h3 class="anchored" data-anchor-id="teaching">TEACHING</h3>
 <hr style="border:2px solid gray">
 <p style="margin:0px; padding:0px;">
 <span style="font-size: 16px; line-height:8px; font-weight:bold;">Instructor | Georgia State University</span>
@@ -179,7 +167,7 @@ Eviction in the Gig Economy: The Uber Effect
 <p><br></p>
 </section>
 <section id="education" class="level3">
-<h3 data-anchor-id="education">EDUCATION</h3>
+<h3 class="anchored" data-anchor-id="education">EDUCATION</h3>
 <hr style="border:2px solid gray">
 <p style="margin:0px; padding:0px;">
 <span style="font-size: 16px; line-height:8px; font-weight:bold;">Georgia State University | Atlanta, GA</span>
@@ -196,22 +184,8 @@ Eviction in the Gig Economy: The Uber Effect
 
 
 </section>
-</main> 
-    <div class="about-footer"><div class="about-links">
-  <a href="https://www.linkedin.com/in/tofuiba/" class="about-link" rel="" target="">
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/tofurahman" class="about-link" rel="" target="">
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:mrahman24@gsu.edu" class="about-link" rel="" target="">
-     <span class="about-link-text">Email</span>
-  </a>
-</div>
-</div>
-  </div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -232,6 +206,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

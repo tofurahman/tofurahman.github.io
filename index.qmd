@@ -1,27 +1,12 @@
 ---
-title: "Md Twfiqur Rahman"
-image: photo.jpg
-toc: true
-about: 
-  template: marquee
-  image-shape: round
-  image-width: 12em
-  links:
-    - text: LinkedIn
-      href: https://www.linkedin.com/in/tofuiba/
-    - text: GitHub
-      href: https://github.com/tofurahman
-    - text: Email
-      href: mailto:mrahman24@gsu.edu
+page-layout: full
+  
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
 ---
-
-I am an applied microeconomist with special interest in causal inference and machine learning. I leverage modern econometric tools to answer policy relevant questions.
-
-I am an Economics PhD candidate at Georgia State University.
-
-<br>
-
-<br>
 
 ### RESEARCH
 
