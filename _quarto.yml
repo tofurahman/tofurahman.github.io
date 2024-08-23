@@ -4,12 +4,13 @@ project:
 
 website:
   title: "Md Twfiqur Rahman"
-  navbar:
-    right:
+  navbar: 
+    right: 
       - href: index.qmd
         text: Home
       - href: teaching.qmd
         text: CV
+        
 
 format:
   html:
