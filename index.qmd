@@ -25,7 +25,7 @@ I am an Economics PhD candidate at Georgia State University.
 
 <hr style="border:2px solid gray">
 
-<p style="margin-bottom:0">
+<p style="line-height:80%">
 
 Georgia State University \| Atlanta, GA
 
