@@ -3,19 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "M. T. Rahman"
+  title: "Md Twfiqur Rahman"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: Research
       - href: teaching.qmd
-        text: Teaching
+        text: CV
 
 format:
   html:
-    theme: lux
+    theme: cosmo
     css: styles.css
     toc: true
 
