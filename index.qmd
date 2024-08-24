@@ -23,7 +23,15 @@ about:
 ---
 
 ::: {#about}
-<center><p style="font-family: Gill Sans; font-size:150%;">Hi, I'm Toufiq.</p></center>
+<center>
+
+<p style="font-family: Gill Sans; font-size:150%;">
+
+Hi, I'm Toufiq.
+
+</p>
+
+</center>
 
 I am an Economics PhD candidate at Georgia State University. My research leverages modern econometric tools to answer policy-relevant questions. My interest spans across topics in health, education, and labor economics.
 :::
@@ -42,7 +50,7 @@ I am an Economics PhD candidate at Georgia State University. My research leverag
 
 <p style="font-family: Serif;">
 
-Tennessee's 2005 Medicaid reform resulted in approximately 4% of Tennessean childless adults losing their coverage. Leveraging this policy-induced variation in health insurance coverage, I investigate the impact of large-scale Medicaid disenrollment on body weight and health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate synthetic difference-in-differences models that compare Tennessee's outcomes before and after the reform with those of a data-driven, synthetic Tennessee. The findings indicate that the reform increased Body Mass Index (BMI) among Tennessean childless adults by 0.37 points, contributing to roughly 4% rise in the prevalence of overweight or obese individuals (BMI≥25). The effects are strong among young (aged 20-39) as well as female childless adults, who likely experienced large coverage loss due to the reform. Examining potential mechanisms, I find that decreased participation in moderate physical activity (e.g., cycling, swimming) and dietary changes partially explain the weight gain.
+Tennessee's 2005 Medicaid reform resulted in approximately 4% of Tennessean childless adults losing their coverage. Leveraging this policy-induced variation in health insurance coverage, I investigate the impact of large-scale Medicaid disenrollment on body weight and health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate synthetic difference-in-differences models that compare Tennessee's outcomes before and after the reform with those of a data-driven, synthetic Tennessee. The findings indicate that the reform increased Body Mass Index (BMI) among Tennessean childless adults by 0.37 points, contributing to roughly 4% rise in the prevalence of overweight or obese individuals (BMI≥25). The effects are strong among young (aged 20-39) as well as female childless adults, who likely experienced large coverage loss due to the reform. Examining health behaviors, I find that decreased participation in moderate physical activity (e.g., cycling, swimming) and dietary changes partially explain the weight gain.
 
 </p>
 
