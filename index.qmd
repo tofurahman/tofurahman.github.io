@@ -25,7 +25,7 @@ about:
 ::: {#about}
 <center><b style="font-size: 28px;">Md Twfiqur Rahman</b></center>
 
-<center><p style="font-family: cursive;">Hi, I'm Toufiq.</p></center>
+<center><ul style="font-family: cursive;">Hi, I'm Toufiq.</ul></center>
 
 <br>
 
