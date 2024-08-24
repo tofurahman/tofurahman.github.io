@@ -4,7 +4,8 @@ project:
 
 website:
   title: "Md Twfiqur Rahman"
-  navbar: 
+  navbar:
+    background: black
     right: 
       - href: index.qmd
         text: Home
@@ -14,7 +15,7 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme: united
     data-bs-theme: light
     css: styles.css
     toc: true
