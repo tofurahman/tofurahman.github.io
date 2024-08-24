@@ -27,7 +27,7 @@ about:
 
 <center>
 
-<ul style="font-family: cursive;">
+<ul style="font-family: monospace;">
 
 Hi, I'm Toufiq.
 
