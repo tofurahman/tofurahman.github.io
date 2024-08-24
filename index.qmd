@@ -23,6 +23,12 @@ about:
 ---
 
 ::: {#about}
+<center><b style="font-size: 28px;">Md Twfiqur Rahman</b></center>
+
+<center><p style="font-family: cursive;">Hi, I'm Toufiq.</p></center>
+
+<br>
+
 I am an Economics PhD candidate at Georgia State University. My research leverages modern econometric tools to answer policy-relevant questions. My interest spans across topics in health, education, and labor economics.
 :::
 
@@ -36,7 +42,7 @@ I am an Economics PhD candidate at Georgia State University. My research leverag
 
 <details>
 
-<summary>Effects of Losing Medicaid on Body Weight and Health Behaviors <font color=blue; size="2"><i>(Job Market Paper)<button class="button" style="vertical-align: middle" onclick="location.href='assets/BMI.pdf';" type="button"><span>Paper</span></button><button class="button" style="vertical-align: middle" onclick="location.href='assets/BMI_slides.pdf';" type="button"><span>Slides</span></button></i></font></summary>
+<summary>Effects of Losing Medicaid on Body Weight and Health Behaviors <font color=blue; size="2"><i>(Job Market Paper)<button class="button" style="vertical-align: middle" onclick="location.href='assets/BMI.pdf';" type="button">Paper</button><button class="button" style="vertical-align: middle" onclick="location.href='assets/BMI_slides.pdf';" type="button">Slides</button></i></font></summary>
 
 <p class="fulljustify">
 
@@ -48,7 +54,7 @@ Tennessee's 2005 Medicaid reform resulted in approximately 4% of Tennessean chil
 
 <details>
 
-<summary>The Effects of AP Exam Fee Waivers: Evidence from North Carolina <font size="2">(with Cade Lawsom and Salma Ali)<button class="button" style="vertical-align: middle" onclick="location.href='mailto:mrahman24@gsu.edu';" type="button"><span>Request Draft</span></button></font></summary>
+<summary>The Effects of AP Exam Fee Waivers: Evidence from North Carolina <font size="2">(with Cade Lawsom and Salma Ali)<button class="button" style="vertical-align: middle" onclick="location.href='mailto:mrahman24@gsu.edu';" type="button">Request Draft</button></font></summary>
 
 <p class="fulljustify">
 
