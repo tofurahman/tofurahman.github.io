@@ -100,5 +100,5 @@ details[open]>summary {
 
 .button:hover span:after {
   opacity: 1;
-  right: 0;
+  right: 1;
 }

@@ -3,7 +3,7 @@ itle: "Md Twfiqur Rahman"
 repo-actions: false
 code-annotations: hover
 toc: true
-
+lightbox: true
 about:
   id: about
   template: jolla
@@ -25,7 +25,15 @@ about:
 ::: {#about}
 <center><b style="font-size: 28px;">Md Twfiqur Rahman</b></center>
 
-<center><ul style="font-family: cursive;">Hi, I'm Toufiq.</ul></center>
+<center>
+
+<ul style="font-family: cursive;">
+
+Hi, I'm Toufiq.
+
+</ul>
+
+</center>
 
 <br>
 
