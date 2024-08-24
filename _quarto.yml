@@ -5,7 +5,7 @@ project:
 website:
   title: "Md Twfiqur Rahman"
   navbar:
-    background: black
+    theme: light
     right: 
       - href: index.qmd
         text: Home

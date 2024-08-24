@@ -3,7 +3,7 @@ itle: "Md Twfiqur Rahman"
 repo-actions: false
 code-annotations: hover
 toc: true
-lightbox: true
+
 about:
   id: about
   template: jolla

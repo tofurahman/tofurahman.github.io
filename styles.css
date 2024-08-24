@@ -67,7 +67,7 @@ details[open]>summary {
   display: inline-block;
   border-radius: 4px;
   background-color: white;
-  border: none;
+  border: 2px solid white;
   color: #f4511e;
   text-align: center;
   font-size: 14px;
@@ -100,5 +100,5 @@ details[open]>summary {
 
 .button:hover span:after {
   opacity: 1;
-  right: 1;
+  right: 0;
 }
