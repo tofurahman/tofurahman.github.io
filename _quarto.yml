@@ -15,7 +15,7 @@ website:
 
 format:
   html:
-    theme: united
+    theme: Journal
     data-bs-theme: light
     css: styles.css
     toc: true
