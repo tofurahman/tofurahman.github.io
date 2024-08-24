@@ -23,7 +23,15 @@ about:
 ---
 
 ::: {#about}
-<center><p style="font-family: Gill Sans; font-size:150%;">Hi, I'm Toufiq.</p></center>
+<center>
+
+<p style="font-family: Gill Sans; font-size:150%;">
+
+Hi, I'm Toufiq.
+
+</p>
+
+</center>
 
 I am an Economics PhD candidate at Georgia State University. My research leverages modern econometric tools to answer policy-relevant questions. My interest spans across topics in health, education, and labor economics.
 :::
