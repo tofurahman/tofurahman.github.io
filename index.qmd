@@ -25,7 +25,11 @@ about:
 ::: {#about}
 <center>
 
-<p style="font-family: Gill Sans; font-size:150%;">Hello, I'm Toufiq.</p>
+<p style="font-family: Gill Sans; font-size:150%;">
+
+Hello, I'm Toufiq.
+
+</p>
 
 </center>
 
