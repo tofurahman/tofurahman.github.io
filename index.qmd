@@ -7,8 +7,8 @@ toc: true
 about:
   id: about
   template: jolla
-  image: headshot2nobg.jpg
-  image-shape: round
+  image: headshotnobg3.jpg
+  image-shape: rounded
   image-width: 15em
   links:
     - text: Contact
