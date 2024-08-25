@@ -16,7 +16,7 @@ website:
 
 format:
   html:
-    theme: default
+    theme: flatly
     data-bs-theme: light
     css: styles.css
     toc: true
