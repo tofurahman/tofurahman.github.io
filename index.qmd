@@ -7,9 +7,9 @@ toc: true
 about:
   id: about
   template: jolla
-  image: photo.jpg
+  image: headshot2nobg.jpg
   image-shape: round
-  image-width: 12em
+  image-width: 15em
   links:
     - text: Contact
       href: mailto:mrahman24@gsu.edu
