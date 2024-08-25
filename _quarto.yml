@@ -16,7 +16,8 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme: default
+    mainfont: Palatino
     data-bs-theme: light
     css: styles.css
     toc: true

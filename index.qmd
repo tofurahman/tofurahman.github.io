@@ -65,7 +65,6 @@ We leverage policy-induced variation in the out-of-pocket cost of taking Advance
 </p>
 </details>
 ```
-
 <hr style="border:1px solid white">
 
 ###### **Work in Progress:**
