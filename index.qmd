@@ -11,13 +11,12 @@ about:
   image-shape: round
   image-width: 12em
   links:
-    - text: CV
-      href: assets/CV.pdf
     - text: Contact
       href: mailto:mrahman24@gsu.edu
-    - icon: github
-      text: GitHub
-      href: https://github.com/tofurahman
+    - text: CV
+      href: assets/CV.pdf
+    - text: JMP
+      href: assets/BMI.pdf
     - text: Research Statement
       href: assets/research_statement.pdf
     - text: Teaching Statement
