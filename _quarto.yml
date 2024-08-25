@@ -17,7 +17,7 @@ website:
 format:
   html:
     theme: default
-    mainfont: Palatino
+    mainfont: Georgia
     data-bs-theme: light
     css: styles.css
     toc: true
