@@ -1,12 +1,12 @@
 ---
-itle: "Md Twfiqur Rahman"
+title: "Md Twfiqur Rahman"
 repo-actions: false
 code-annotations: hover
 toc: true
 
 about:
   id: about
-  template: jolla
+  template: trestles
   image: headshotnobg0.jpg
   image-shape: rounded
   image-width: 15em
@@ -25,14 +25,13 @@ about:
 
 ::: {#about}
 ```{=html}
-<center><b style="font-size: 28px;">Md Twfiqur Rahman</b>
-<br>
-<ul style="font-family: cursive;">Hi, I'm Toufiq.</ul>
-</center>
+<p style="font-family: cursive; horiontal-align:left;">Hi, I'm Toufiq.</p>
 ```
 <br>I am an Economics PhD candidate at Georgia State University. My research leverages modern econometric tools to answer policy-relevant questions. My interest spans across topics in health, education, and labor economics.
 
 Prior to joining Georgia State University, I served as an Assistant Director at the Central Bank of Bangladesh.
+
+<a href='assets/CV.pdf'>Click here</a> to view my CV.
 :::
 
 {{< pagebreak >}}
