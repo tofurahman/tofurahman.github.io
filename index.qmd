@@ -7,7 +7,7 @@ toc: true
 about:
   id: about
   template: jolla
-  image: headshotnobg3.jpg
+  image: headshotnobg0.jpg
   image-shape: rounded
   image-width: 15em
   links:
