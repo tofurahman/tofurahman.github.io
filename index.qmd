@@ -30,9 +30,7 @@ about:
 <ul style="font-family: cursive;">Hi, I'm Toufiq.</ul>
 </center>
 ```
-<br>
-
-I am an Economics PhD candidate at Georgia State University. My research leverages modern econometric tools to answer policy-relevant questions. My interest spans across topics in health, education, and labor economics.
+<br>I am an Economics PhD candidate at Georgia State University. My research leverages modern econometric tools to answer policy-relevant questions. My interest spans across topics in health, education, and labor economics.
 
 Prior to joining Georgia State University, I served as an Assistant Director at the Central Bank of Bangladesh.
 :::
