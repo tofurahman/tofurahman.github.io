@@ -6,7 +6,7 @@ website:
   title: "Md Twfiqur Rahman"
   navbar:
     background: light
-    theme: dark
+    color: light
     right: 
       - href: index.qmd
         text: Home
@@ -16,7 +16,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: default
     data-bs-theme: light
     css: styles.css
     toc: true

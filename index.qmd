@@ -8,6 +8,8 @@ about:
   id: about
   template: jolla
   image: photo.jpg
+  image-shape: round
+  image-width: 12em
   links:
     - text: CV
       href: assets/CV.pdf
@@ -32,6 +34,8 @@ about:
 <br>
 
 I am an Economics PhD candidate at Georgia State University. My research leverages modern econometric tools to answer policy-relevant questions. My interest spans across topics in health, education, and labor economics.
+
+Prior to joining Georgia State University, I served as an Assistant Director at the Central Bank of Bangladesh.
 :::
 
 {{< pagebreak >}}
@@ -45,7 +49,7 @@ I am an Economics PhD candidate at Georgia State University. My research leverag
 ```{=html}
 <details>
 
-<summary> <font color="black">The Effects of Losing Medicaid on Body Weight and Health Behaviors</font><font color="maroon"; size="2"> <i>(Job Market Paper)</i></font></summary>
+<summary>The Effects of Losing Medicaid on Body Weight and Health Behaviors<font color="maroon"; size="2"><i>(Job Market Paper)</i></font></summary>
 
 <p class="fulljustify">
 
