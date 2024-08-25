@@ -62,3 +62,23 @@ details[open]>summary {
   text-align-last: left;
 }
 
+/*Buttons */
+.button {
+  background-color: #F5F5F5; /* Green */
+  border: 1px solid #555555;
+  border-radius: 8px;
+  color: black;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
