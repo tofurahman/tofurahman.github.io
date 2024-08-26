@@ -27,7 +27,7 @@ about:
 ```{=html}
 <p style="font-family: cursive; horiontal-align:left;">Hi, I'm Toufiq.</p>
 ```
-<br>I am an Economics PhD candidate at Georgia State University. My research leverages modern econometric tools to answer policy-relevant questions. My interest spans across topics in health, education, and labor economics.
+<br>I am an Economics PhD candidate at Georgia State University. My research leverages modern econometric tools to answer questions relevant to health, education, and labor policies.
 
 Prior to joining Georgia State University, I served as an Assistant Director at the Central Bank of Bangladesh.
 
