@@ -17,7 +17,7 @@ website:
 format:
   html:
     theme: Lumen
-    data-bs-theme: light
+    data-bs-theme: dark
     css: styles.css
     toc: true
 
