@@ -2,7 +2,9 @@
 title: "Md Twfiqur Rahman"
 repo-actions: false
 code-annotations: hover
+embed-resources: true
 toc: true
+mainfont: Gill Sans
 
 about:
   id: about
