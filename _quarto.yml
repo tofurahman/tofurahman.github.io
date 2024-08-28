@@ -16,7 +16,7 @@ website:
 
 format:
   html:
-    theme: Journal
+    theme: Lumen
     data-bs-theme: light
     css: styles.css
     toc: true
