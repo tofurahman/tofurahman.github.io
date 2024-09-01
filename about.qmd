@@ -1,4 +1,8 @@
-### **WORKING PAPERS**
+\-\--
+
+title-block-banner: images/red.jpg
+
+\-\--
 
 <hr style="border:2px solid gray">
 
