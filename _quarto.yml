@@ -16,7 +16,7 @@ website:
 
 format:
   html:
-    theme: Lumen
+    theme: Cosmo
     data-bs-theme: dark
     css: styles.css
     toc: true
