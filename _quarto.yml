@@ -5,8 +5,8 @@ project:
 website:
   title: "Md Twfiqur Rahman"
   navbar:
-    background: dark
-    theme: dark
+    background: light
+    theme: light
     right: 
       - href: index.qmd
         text: Home
@@ -17,7 +17,7 @@ website:
 format:
   html:
     theme: Cosmo
-    data-bs-theme: dark
+    data-bs-theme: light
     css: styles.css
     toc: true
 
