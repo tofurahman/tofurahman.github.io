@@ -28,7 +28,7 @@ about:
 ```{=html}
 <p style="font-family: cursive; horiontal-align:left;">Hi, I'm Toufiq.</p>
 ```
-<br>I am an Economics PhD candidate at Georgia State University. My research leverages modern econometric tools to answer questions relevant to health, education, and labor policies.
+<br>I am an Economics PhD candidate at Georgia State University. My research leverages modern econometric tools to address questions relevant to health, education, and labor policies.
 
 Prior to joining Georgia State University, I served as an Assistant Director at the Central Bank of Bangladesh.
 
@@ -61,7 +61,7 @@ Prior to joining Georgia State University, I served as an Assistant Director at 
   
 <summary>Do AP Exam Fee Waivers Improve AP Participation and Performance?<font size="2"> (with Cade Lawson & Salma Ali)</font></summary>
 <p class="fulljustify">
-We leverage policy-induced variation in the out-of-pocket cost of taking Advanced Placement (AP) exams and within student variation to examine the effects of North Carolina's AP exam fee waiver policy on AP course enrollment, exam taking, and exam performance. Our use of course-level administrative data and student fixed effects address several limitations of prior studies. We find that the fee waivers increase the likelihood of an AP enrollee to take the AP test, but does not decrease the probability of passing the test. In contrast to previous studies, we find no effect on AP course enrollment. We provide evidence that fee waivers reduce racial gap in AP exam taking and potential college credit accumulation.
+We leverage policy-induced variation in the out-of-pocket cost of taking Advanced Placement (AP) exams to examine the effects of AP exam fee waivers on AP course enrollment, exam taking, and exam performance. We use course-level administrative data and student fixed effects to identify the causal effects while addressing several limitations of prior studies. We find that the fee waivers increase the likelihood of an AP enrollee to take the AP test, but does not decrease the probability of passing the test. In contrast to previous studies, we do not find evidence thatthe waivers increase AP course enrollment. We provide evidence that fee waivers reduce racial gap in AP exam taking and potential college credit accumulation.
 <br><button class="button" style="vertical-align: middle" onclick="window.location.href='mailto:mrahman24@gsu.edu'">Request Draft</button>
 </p>
 </details>
