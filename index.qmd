@@ -87,7 +87,7 @@ participation.
 
 <details>
 
-<summary>Eviction in the Gig Economy: The Uber Effect</summary>
+<summary>Eviction in the Gig Economy</summary>
 
 </details>
 ```
