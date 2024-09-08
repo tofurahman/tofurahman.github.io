@@ -18,10 +18,6 @@ about:
       href: assets/CV.pdf
     - text: JMP
       href: assets/BMI.pdf
-    - text: Research Statement
-      href: assets/research_statement.pdf
-    - text: Teaching Statement
-      href: assets/teaching_statement.pdf
 ---
 
 ::: {#about}
