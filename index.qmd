@@ -8,7 +8,7 @@ toc: true
 about:
   id: about
   template: trestles
-  image: headshotnobg0.jpg
+  image: headshot2nobg2.jpg
   image-shape: rounded
   image-width: 15em
   links:
@@ -22,6 +22,9 @@ about:
 
 ::: {#about}
 ```{=html}
+<br> 
+<br>
+
 <p style="font-family: cursive; horiontal-align:left;">Hi, I'm Toufiq.</p>
 ```
 <br>I am an Economics PhD candidate at Georgia State University. My research leverages modern econometric tools to address questions relevant to health, education, and labor policies.
@@ -59,7 +62,7 @@ Prior to joining Georgia State University, I served as an Assistant Director at 
 <p class="fulljustify">
 We study the effects of North Carolina’s Advanced Placement (AP) exam fee
 waivers on AP course enrollment, exam taking, and exam performance. By leveraging
-course-level administrative data and incorporating student fixed effects, we identify the causal effects while overcoming several limitations of prior research. We find that the fee waivers increase the likelihood of an AP course to result in an exam by nearly 4 percentage points (∼6%), but do not significantly decrease the probability of resulting in a passing score. In contrast to previous studies, we find no evidence that the waivers increased AP enrollment. Finally, we provide evidence that the fee waivers reduced racial gap in AP participation.
+course-level administrative data and incorporating student fixed effects, we identify the causal effects while overcoming several limitations of prior research. We find that the fee waivers increase the likelihood of an AP course to result in an exam by 4 percentage points (∼6%), but do not significantly decrease the probability of resulting in a passing score. In contrast to previous studies, we find no evidence that the waivers increased AP enrollment. Finally, we provide evidence that the fee waivers reduced racial gap in AP participation.
 <br><button class="button" style="vertical-align: middle" onclick="window.location.href='mailto:mrahman24@gsu.edu'">Request Draft</button>
 </p>
 </details>
@@ -71,7 +74,7 @@ course-level administrative data and incorporating student fixed effects, we ide
 ```{=html}
 <details>
 
-<summary>Incentive Strength and Teacher Effort: New Evidence from Piece-rate Bonus Scheme</summary>
+<summary>Incentive Strength and Teacher Effort: New Evidence from a Piece-rate Bonus Scheme</summary>
 
 </details>
 
