@@ -7,7 +7,7 @@ mainfont: Lato
 
 #### **WHY?**
 
-While prior research documented the effects of gaining Medicaid coverage on Body Mass Index (BMI) and related health behaviors and led to diverging conclusions, there is a notable gap in understanding the effects of losing Medicaid.
+While prior research documented the effects of gaining Medicaid coverage on Body Mass Index (BMI) and related health behaviors and led to diverging conclusions, there is a notable gap in understanding the effects of losing Medicaid. Ok now good
 
 In this paper, I provide first evidence on the causal effects of losing public health insurance coverage on body weight and relevant health behaviors.
 
