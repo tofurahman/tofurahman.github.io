@@ -19,5 +19,12 @@
     "title": "Md Twfiqur Rahman",
     "section": "",
     "text": "Download PDF file."
+  },
+  {
+    "objectID": "assets/tldr.html",
+    "href": "assets/tldr.html",
+    "title": "Too Long; Didn’t Read version for",
+    "section": "",
+    "text": "The Effects of Losing Medicaid on Body Weight and Health Behaviors\n\nWHY?\nWhile prior research documented the effects of gaining Medicaid coverage on Body Mass Index (BMI) and related health behaviors and led to diverging conclusions, there is a notable gap in understanding the effects of losing Medicaid.\nIn this paper, I provide first evidence on the causal effects of losing public health insurance coverage on body weight and relevant health behaviors.\n\n\nHOW?\nI exploit variation in health insurance coverage induced by Tennessee’s 2005 Medicaid reform, which abruptly terminated coverage for approximately 4% (170,000) of Tennessee’s childless adults.\nUsing BRFSS data from 1997 to 2010, I estimate comparative case study models that compare Tennessee’s pre- and post-reform outcomes to those of data-driven control groups’. Specifically, for body weight outcomes, I estimates difference-in-differences, synthetic difference-in-differences, and synthetic control methods.\n\n\nWHAT?\nContributions:\nThe use of SDiD and SCM methods in the Tennessee’s setting addresses two potential problems in the analysis of single treated clusters.\n\nStandard DiD methods may severely understate the standard errors.\nThe bias from nonparallel evolution of outcomes between the treated and control states may result in severely overstating a given effect.\n\nI provide empirical evidence to highlight these problems by re-examining the estimates of a few prior studies.\nFindings:\nI find that following"
   }
 ]
