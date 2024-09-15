@@ -18,6 +18,9 @@ about:
       href: assets/CV.pdf
     - text: JMP
       href: https://www.dropbox.com/scl/fi/tkwn7ua215xsfbuxbzl23/BMI_sep2024.pdf?rlkey=ve1wn8v6phlzb9ro5j0t2ui46&dl=0
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/tofuiba/
 ---
 
 ::: {#about}
@@ -26,7 +29,10 @@ about:
 <br>
 
 <p style="font-family: cursive; horiontal-align:left;">Hi, I'm Toufiq.</p>
-```
+``` 
+
+
+
 <br>I am an Economics PhD candidate at Georgia State University. My research leverages modern econometric tools to address questions relevant to health, education, and labor policies.
 
 Prior to joining Georgia State University, I served as an Assistant Director at the Central Bank of Bangladesh.

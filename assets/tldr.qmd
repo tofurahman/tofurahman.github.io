@@ -7,7 +7,7 @@ mainfont: Lato
 
 #### **WHY?**
 
-While prior research documented the effects of gaining Medicaid coverage on Body Mass Index (BMI) and related health behaviors and led to diverging conclusions, there is a notable gap in understanding the effects of losing Medicaid. Ok now good
+While prior research documented the effects of gaining Medicaid coverage on Body Mass Index (BMI) and related health behaviors and led to diverging conclusions, there is a notable gap in understanding the effects of losing Medicaid.
 
 In this paper, I provide first evidence on the causal effects of losing public health insurance coverage on body weight and relevant health behaviors.
 
@@ -21,7 +21,7 @@ Using BRFSS data from 1997 to 2010, I estimate comparative case study models tha
 
 Contributions:
 
-The use of SDiD and SCM methods in the Tennessee's setting addresses two potential problems in the analysis of single treated clusters.
+The use of SDiD in the Tennessee's setting addresses two potential problems in the analysis of single treated clusters.
 
 1.  Standard DiD methods may severely understate the standard errors.
 2.  The bias from nonparallel evolution of outcomes between the treated and control states may result in severely overstating a given effect.
