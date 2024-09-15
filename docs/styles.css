@@ -60,6 +60,7 @@ details[open]>summary {
   text-align: justify;
   display: table-row;
   text-align-last: left;
+  font-size: 14px;
 }
 
 /*Buttons */
@@ -72,7 +73,7 @@ details[open]>summary {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   margin: 4px 2px;
   transition: all 0.4s;
   cursor: pointer;
