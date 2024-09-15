@@ -10,7 +10,7 @@ about:
   template: trestles
   image: headshot2nobg2.jpg
   image-shape: rounded
-  image-width: 15em
+  image-width: 12em
   links:
     - text: Contact
       href: mailto:mrahman24@gsu.edu
