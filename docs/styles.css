@@ -83,3 +83,8 @@ details[open]>summary {
   color: black;
 }
 
+
+# Align right section title
+div.a {
+  text-align: center;
+}

@@ -26,9 +26,8 @@ about:
 ::: {#about}
 ```{=html}
 <br> 
-<br>
 
-<p style="font-family: cursive; horiontal-align:left;">Hi, I'm Toufiq.</p>
+<b>Hi, I'm Toufiq.</b>
 ``` 
 
 
@@ -42,9 +41,14 @@ Prior to joining Georgia State University, I served as an Assistant Director at 
 
 {{< pagebreak >}}
 
-### RESEARCH
+<br>
+
+<div style="text-align: left;">
+### Research
+</div>
 
 <hr style="border:2px solid gray">
+
 
 ###### **Working Papers:**
 
@@ -92,8 +96,10 @@ course-level administrative data and incorporating student fixed effects, we ide
 ```
 <br>
 
-### TEACHING
 
+<div style="text-align: left;">
+### Teaching
+</div>
 <hr style="border:2px solid gray">
 
 **Instructor**, Georgia State University<br><em>Principles of Macroeconomics (Fall 2024)</em>
@@ -102,7 +108,9 @@ course-level administrative data and incorporating student fixed effects, we ide
 
 <br>
 
-### EDUCATION
+<div style="text-align: left;">
+### Education
+</div>
 
 <hr style="border:2px solid gray">
 
