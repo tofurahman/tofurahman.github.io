@@ -7,13 +7,9 @@ website:
   navbar:
     background: light
     theme: light
-    left: 
+    right: 
       - href: index.qmd
         text: Home
-      - href: /#research
-        text: Research
-      - href: /#teaching
-        text: Teaching
       - href: cv.qmd
         text: CV
         

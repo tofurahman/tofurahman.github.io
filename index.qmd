@@ -116,3 +116,5 @@ course-level administrative data and incorporating student fixed effects, we ide
 <hr style="border:2px solid gray">
 
 **Georgia State University** \| Atlanta, GA<br><em>Ph.D. in Economics</em> (2025, <i>Expected</i>)
+
+
