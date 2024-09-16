@@ -67,7 +67,7 @@ Prior to joining Georgia State University, I served as an Assistant Director at 
 </p>
 </details>
 
-<details>
+<details open>
   
 <summary>Do AP Exam Fee Waivers Improve AP Participation and Performance?<font size="2"> (with Cade Lawson & Salma Ali)</font></summary>
 <p class="fulljustify">
