@@ -4,7 +4,11 @@ project:
 
 website:
   title: "Md Twfiqur Rahman"
+  favicon: assets/logonobg.png
   navbar:
+    title: false
+    logo: assets/logonobg.png
+    logo-alt: "Md Twfiqur Rahman"
     background: light
     theme: light
     right: 
@@ -19,7 +23,6 @@ website:
           - text: Report an issue
             href: mailto:mrahman24@gsu.edu
 
-        
 
 format:
   html:

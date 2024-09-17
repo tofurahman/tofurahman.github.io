@@ -89,3 +89,10 @@ details[open]>summary {
 div.a {
   text-align: center;
 }
+
+
+/* Logo size */
+.navbar-brand img { 
+  max-height: 30px;
+  width: auto;
+}
