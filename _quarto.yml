@@ -12,6 +12,11 @@ website:
         text: Home
       - href: cv.qmd
         text: CV
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://github.com/tofurahman/tofurahman.github.io
+
         
 
 format:
