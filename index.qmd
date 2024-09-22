@@ -71,9 +71,7 @@ Prior to joining Georgia State University, I served as an Assistant Director at 
   
 <summary>Do AP Exam Fee Waivers Improve AP Participation and Performance?<font size="2"> (with Cade Lawson & Salma Ali)</font></summary>
 <p class="fulljustify">
-We study the effects of North Carolina’s Advanced Placement (AP) exam fee
-waivers on AP course enrollment, exam taking, and exam performance. By leveraging
-course-level administrative data and incorporating student fixed effects, we identify the causal effects while overcoming several limitations of prior research. We find that the fee waivers increase the likelihood of an AP course to result in an exam by 4 percentage points (∼6%), but do not significantly decrease the probability of resulting in a passing score. In contrast to previous studies, we find no evidence that the waivers increased AP enrollment. Finally, we provide evidence that the fee waivers reduced racial gap in AP participation.
+We study the effects of North Carolina’s Advanced Placement (AP) exam fee waivers on AP course enrollment, exam taking, and exam performance. Using course-level administrative data and exploiting within student variation, we identify the causal effects while overcoming several limitations of prior research. We find that fee waivers increased the likelihood of an AP course resulting in an exam by 4 percentage points (∼6%), but did not significantly decrease the probability of leading to a passing score. In contrast to previous studies, we do not find sufficient evidence that waivers increased AP enrollment. Finally, we provide evidence that fee waivers reduced the racial gap in AP participation and performance.
 <br><button class="button" style="vertical-align: middle" onclick="window.location.href='mailto:mrahman24@gsu.edu'">Request Draft</button>
 </p>
 </details>
