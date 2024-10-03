@@ -18,7 +18,7 @@ about:
     - text: CV
       href: assets/CV.pdf
     - text: JMP
-      href: https://www.dropbox.com/scl/fi/a0lt83rfrhbpgrf14zz48/BMI_sep2024.pdf?rlkey=he6dplnake12asa5yainqvarr&st=za5xxrti&dl=0
+      href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4973914
     - icon: envelope
       text: Email
       href: mailto:mrahman24@gsu.edu
