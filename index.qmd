@@ -38,6 +38,8 @@ about:
 
 Prior to joining Georgia State University, I served as an Assistant Director at the Central Bank of Bangladesh.
 
+I am on the 2024-25 job market and will be available for interview at the ASSA 2025 Annual Meeting. 
+
 <a href='assets/CV.pdf'>Click here</a> to view my CV.
 :::
 
@@ -61,7 +63,7 @@ Prior to joining Georgia State University, I served as an Assistant Director at 
 
 <p class="fulljustify">
 
- Tennessee’s 2005 Medicaid reform resulted in approximately 4% of the state’s childless adults losing their health insurance coverage. Leveraging this policy-induced variation, I study the effects of Medicaid disenrollment on body weight and health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate comparative case study models that compare Tennessee’s outcomes before and after the reform with those of a data-driven control group. The results suggest that the reform led to a 0.37-point increase in BMI among Tennessean childless adults, contributing to a 4% rise in the prevalence of overweight or obese (BMI≥25) within this group. The effects were large among young adults aged 20-39 and females, who likely experienced significant coverage losses due to the reform. Examining health behaviors, I find that decreased participation in moderate physical activities (e.g., brisk walking, gardening) and inclusion of less vegetable in diet explain nearly two-third of the weight gain. Finally, the findings indicate that the effects of restricting access to Medicaid on body weight and related health behaviors may not mirror those of increasing access.
+ Tennessee's 2005 Medicaid reform resulted in approximately 4% of the state's childless adults losing their public health insurance coverage. Leveraging this policy-induced variation, I study the effects of Medicaid disenrollment on body weight and health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate comparative case study models that compare Tennessee's outcomes before and after the reform with those of a data-driven control group. The preferred synthetic difference-in-differences estimates suggest that the reform led to 0.37 kg/m^2 increase in body weight among Tennessean childless adults, contributing to a 4% rise in the prevalence of overweight or obese (BMI≥25) within this group. The effects were large among young adults aged 20 to 39 years and women, who likely experienced significant coverage losses due to the reform. Examining health behaviors, I find that decreased participation in moderate physical activities (e.g., brisk walking, gardening) and a reduction in vegetable consumption explain nearly two-third of the weight gain. Finally, the findings indicate that the effects of reducing Medicaid coverage on body weight and related health behaviors may not mirror those of increasing Medicaid access.
 <br>
 <button class="button" style="vertical-align: middle" onclick="window.location.href='https://www.dropbox.com/scl/fi/tkwn7ua215xsfbuxbzl23/BMI_sep2024.pdf?rlkey=ve1wn8v6phlzb9ro5j0t2ui46&dl=0'">Paper</button>
 </p>
