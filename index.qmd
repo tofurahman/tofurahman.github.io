@@ -71,7 +71,7 @@ Abstract: Tennessee's 2005 Medicaid reform resulted in approximately 4% of the s
 
 <script>
 var i = 0;
-var txt = 'The effects of losing versus gaining Medicaid are potentially asymmetric… \nYet, existing evidence only provides insights into the impact of gaining Medicaid coverage on body weight and relevant health behaviors.\nExploiting variation induced by Tennessee’s 2005 Medicaid reform, \nI document that losing Medicaid led to significant weight gain and reduced vegetable consumption and participation in calorie-intense activities. \nThese effects are meaningfully different from those documented for Medicaid expansions.\nAdditionally, I highlight key advantages of synthetic difference-in-differences method for analyzing single treated clusters.';
+var txt = 'The effects of losing versus gaining Medicaid are potentially asymmetric… \nYet, existing evidence only provides insights into the impact of gaining Medicaid coverage on body weight and relevant health behaviors.\nExploiting variation induced by Tennessee’s 2005 Medicaid reform, \nI document that losing Medicaid led to significant weight gain. \nReduction in vegetable consumption and participation in calorie-intense activities explain most of the weight gain. \nThese effects are meaningfully different from those documented for Medicaid expansions.\nAdditionally, I highlight key advantages of synthetic difference-in-differences method for analyzing single treated clusters.';
 var speed = 60;
 
 function typeWriter() {
@@ -92,9 +92,9 @@ function typeWriter() {
 
 <details open>
   
-<summary>Do AP Exam Fee Waivers Improve AP Participation and Performance?<font size="2"> (with Cade Lawson & Salma Ali)</font></summary>
+<summary>Unlocking Potential: The Impact of AP Exam Fee Waivers<font size="2"> (with Cade Lawson & Salma Ali)</font></summary>
 <p class="fulljustify">
-We study the effects of North Carolina’s Advanced Placement (AP) exam fee waivers on AP course enrollment, exam taking, and exam performance. Using course-level administrative data and exploiting within student variation, we identify the causal effects while overcoming several limitations of prior research. We find that fee waivers increased the likelihood of an AP course resulting in an exam by 4 percentage points (∼6%), but did not significantly decrease the probability of leading to a passing score. In contrast to previous studies, we do not find sufficient evidence that waivers increased AP enrollment. Finally, we provide evidence that fee waivers reduced the racial gap in AP participation and performance.
+We study the effects of North Carolina's Advanced Placement (AP) exam fee waivers on AP course enrollment, exam taking, and exam performance. Using course-level administrative data and exploiting within student variation, we identify the causal effects while overcoming several limitations of prior research. We find no evidence that fee waivers increased AP enrollment. However, fee waivers increased the likelihood of an AP course leading to an exam by 3.5 percentage points, with no negative impact on pass rates. The gain was significantly higher among minority and economically disadvantaged students, reducing the racial and socioeconomic gap in AP exam taking and performance by one-third. A back-of-the-envelope cost-benefit analysis suggests that the implied tuition savings alone exceed the cost of subsidizing AP exams.
 <br><button class="button" style="vertical-align: middle" onclick="window.location.href='mailto:mrahman24@gsu.edu'">Request Draft</button>
 </p>
 </details>
