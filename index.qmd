@@ -18,7 +18,7 @@ about:
     - text: CV
       href: assets/CV.pdf
     - text: JMP
-      href: https://www.dropbox.com/scl/fi/a0lt83rfrhbpgrf14zz48/BMI_sep2024.pdf?rlkey=he6dplnake12asa5yainqvarr&st=za5xxrti&dl=0
+      href: https://www.dropbox.com/scl/fi/ggskshcy4m582pzm4tsqx/BMI_sep2024.pdf?rlkey=rslmrppi5jffd19vce2f6fc4c&st=ru31v465&dl=0
     - icon: envelope
       text: Email
       href: mailto:mrahman24@gsu.edu
@@ -83,7 +83,7 @@ function typeWriter() {
 }
 </script>
 
-<button class="button" style="vertical-align: middle" onclick="window.location.href='https://www.dropbox.com/scl/fi/a0lt83rfrhbpgrf14zz48/BMI_sep2024.pdf?rlkey=he6dplnake12asa5yainqvarr&st=za5xxrti&dl=0'">PDF</button>
+<button class="button" style="vertical-align: middle" onclick="window.location.href='https://www.dropbox.com/scl/fi/ggskshcy4m582pzm4tsqx/BMI_sep2024.pdf?rlkey=rslmrppi5jffd19vce2f6fc4c&st=ru31v465&dl=0'">PDF</button>
 
 
 
