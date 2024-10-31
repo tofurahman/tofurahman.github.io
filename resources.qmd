@@ -1,0 +1,16 @@
+---
+title: "Learning Resources"
+repo-actions: false
+code-annotations: hover
+embed-resources: true
+toc: true
+---
+
+```{=html}
+<ul>
+  <li>Learning Stata (+Mata) Programming</li>
+  <ol>
+    <li><a href="https://blog.stata.com/2016/01/15/programming-an-estimation-command-in-stata-a-map-to-posted-entries/">A Guided Series by David M. Drukker</a></li>
+    </ol>
+</ul>
+```
