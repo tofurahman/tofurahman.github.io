@@ -32,6 +32,6 @@
     "href": "resources.html",
     "title": "Learning Resources",
     "section": "",
-    "text": "Learning Stata (+Mata) Programming\n  \n    A Guided Series by David M. Drukker"
+    "text": "Learning Stata (+Mata) Programming\n  \n    A Guided Series by David M. Drukker\n    Output Stata’s ttest results with esttab including means of each group\n    Combining HDFE and ESTTAB with Macros (Coming soon)"
   }
 ]
