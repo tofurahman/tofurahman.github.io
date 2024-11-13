@@ -57,13 +57,13 @@ I am on the 2024-25 job market and available for interviews at the upcoming ASSA
 ###### **Working Papers:**
 
 ```{=html}
-<details open>
+<details>
 
 <summary>The Effects of Losing Medicaid on Body Weight and Health Behaviors<font color="maroon"; size="2"><i> (Job Market Paper)</i></font></summary>
 
 <p class="fulljustify">
 
-Abstract: Tennessee's 2005 Medicaid reform resulted in approximately 4% of the state's childless adults losing their public health insurance coverage. Leveraging this policy-induced variation, I study the effects of Medicaid disenrollment on body weight and health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate comparative case study models that compare Tennessee's outcomes before and after the reform with those of a data-driven control group. The preferred synthetic difference-in-differences estimates suggest that the reform led to 0.37 kg/m^2 increase in body weight among Tennessean childless adults, contributing to a 4% rise in the prevalence of overweight or obese (BMI≥25) within this group. The effects were large among young adults aged 20 to 39 years and women, who likely experienced significant coverage losses due to the reform. Examining health behaviors, I find that decreased participation in moderate physical activities (e.g., brisk walking, gardening) and a reduction in vegetable consumption explain more than half of the weight gain. Finally, the findings indicate that the effects of Medicaid contraction on body weight and related health behaviors may not mirror those of Medicaid expansion.
+Tennessee's 2005 Medicaid reform resulted in approximately 4% of the state's childless adults losing their public health insurance coverage. Leveraging this policy-induced variation, I study the effects of Medicaid disenrollment on body weight and health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate comparative case study models that compare Tennessee's outcomes before and after the reform with those of a data-driven control group. The preferred synthetic difference-in-differences estimates suggest that the reform led to 0.37 kg/m^2 increase in body weight among Tennessean childless adults, contributing to a 4% rise in the prevalence of overweight or obese (BMI≥25) within this group. The effects were large among young adults aged 20 to 39 years and women, who likely experienced significant coverage losses due to the reform. Examining health behaviors, I find that decreased participation in moderate physical activities (e.g., brisk walking, gardening) and a reduction in vegetable consumption explain more than half of the weight gain. Finally, the findings indicate that the effects of Medicaid contraction on body weight and related health behaviors may not mirror those of Medicaid expansion.
 <br>
 <button class="button" style="vertical-align: middle" onclick="typeWriter()">tl;dr</button>
 
@@ -90,7 +90,7 @@ function typeWriter() {
 </p>
 </details>
 
-<details open>
+<details>
   
 <summary>Unlocking Potential: The Impact of AP Exam Fee Waivers<font size="2"> (with Cade Lawson)</font></summary>
 <p class="fulljustify">
@@ -124,7 +124,11 @@ We study the effects of North Carolina's Advanced Placement (AP) exam fee waiver
 </div>
 <hr style="border:2px solid gray">
 
-**Instructor**, Georgia State University<br><em>Principles of Macroeconomics (Fall 2024)</em>
+**Instructor of Record**, Georgia State University<br>
+<ul>
+<li>ECON2105: Principles of Macroeconomics (Fall 2024)</li> 
+<li>ECON8220: Human Resources and Labor Markets (Spring 2025)</li>
+</ul> 
 
 **Teaching Assistant**, East West University, Bangladesh<br><em>Mathematics for Business and Economics I & II, Business Finance (2011-2013)</em>
 
