@@ -101,7 +101,7 @@ We study the effects of North Carolina's Advanced Placement (AP) exam fee waiver
 ```
 <hr style="border:1px solid white">
 
-###### **Work in Progress:**
+###### **Selected Work in Progress:**
 
 ```{=html}
 <details>
