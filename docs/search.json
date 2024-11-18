@@ -39,6 +39,6 @@
     "href": "resources.html",
     "title": "Learning Resources",
     "section": "",
-    "text": "Learning Stata (+Mata) Programming\n  \n    A Guided Series by David M. Drukker\n    Output Stata’s ttest results with esttab including means of each group\n    Publication style tables: Combining hdfe/reg commands with macros (Coming soon)\n    Add the Number of specific (inidiivudal/firm/other) Fixed Effects\n    Add Pre-period/control mean and percent change\n    Add whatever stat you'd like!\n    \n     Programming together and keeping a history of changes: Stata Projects and Git (Coming soon)\n    \n    Things Important to know\n    \n      The Hidden Curriculumn (Podcast)\n      Doing Economics (Book)"
+    "text": "Learning Stata (+Mata) Programming\n  \n    A Guided Series by David M. Drukker\n    Output Stata’s ttest results with esttab including means of each group\n    Publication style tables: Combining hdfe/reg commands with macros (Coming soon)\n    Add the Number of specific (inidiivudal/firm/other) Fixed Effects\n    Add Pre-period/control mean and percent change\n    Add whatever stat you'd like!\n    \n     Programming together and keeping a history of changes: Stata Projects and Git (Coming soon)\n    \n    Resources I wish I found Earlier!\n    \n      The Hidden Curriculumn (Podcast)\n      Doing Economics (Book)\n      Writing and Presentation Advice"
   }
 ]
