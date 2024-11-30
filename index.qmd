@@ -59,12 +59,11 @@ I am on the 2024-25 job market.
 ```{=html}
 <details>
 
-<summary>The Effects of Losing Medicaid on Body Weight and Health Behaviors<font color="maroon"; size="2"><i> (Job Market Paper)</i></font></summary>
+<summary>Effects of Losing Medicaid on Body Weight and Health Behaviors<font color="maroon"; size="2"><i> (Job Market Paper) [Submitted]</i></font></summary>
 
 <p class="fulljustify">
 
-Tennessee’s 2005 Medicaid reform terminated public health insurance coverage for approximately 170,000 childless adults. Leveraging this policy-induced variation, I study the impact of losing public health insurance on body weight and related health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate comparative case study models that compare Tennessee’s outcomes before and after the reform with those of data-driven control groups. The preferred synthetic difference-in-differences estimates suggest that the reform increased Body
-Mass Index by 0.37 points and the overweight or obesity prevalence (BMI≥25) by 4% among Tennessean childless adults. Examining health behaviors, I find evidence that reduction in moderate physical activity participation (e.g., brisk walking, gardening) and vegetable consumption contributed to the weight gain.
+Tennessee’s 2005 Medicaid reform terminated public health insurance coverage for approximately 170,000 childless adults. Leveraging this policy-induced variation, I study the impact of losing public health insurance on body weight and related health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate comparative case study models that compare Tennessee’s outcomes before and after the reform with those of data-driven control groups. The preferred synthetic difference-in-differences estimates suggest that the reform increased Body Mass Index by 0.37 points and the overweight or obesity prevalence (BMI≥25) by 4% among Tennessean childless adults. Examining health behaviors, I find evidence supporting weight gain through reduction in moderate physical activity participation (e.g., brisk walking, gardening) and vegetable consumption.
 <br>
 <button class="button" style="vertical-align: middle" onclick="typeWriter()">tl;dr</button>
 
