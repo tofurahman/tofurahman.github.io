@@ -145,5 +145,8 @@ Gig work is often taken up as a secondary profession to buffer against financial
 <hr style="border:2px solid gray">
 
 **Georgia State University** \| Atlanta, GA<br><em>Ph.D. in Economics</em> (2025, <i>Expected</i>)
-
+<p style="font-family:'Courier New'">
+*Dissertation Title*: Essays on Health and Education Policies <br>
+*Dissertation Committee*: <a href='https://www.dkreisman.com/'>Daniel Kreisman</a> (chair), <a href='https://sites.google.com/site/jonathansmithphd/'>Jonathan Smith</a>, <a href='https://sites.google.com/site/kteltser'>Keith Teltser</a>, and <a href='https://hemelt.web.unc.edu/'>Steven W. Hemelt</a>.
+</p>
 
