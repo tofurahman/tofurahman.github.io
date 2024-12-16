@@ -106,9 +106,9 @@ We study the effects of North Carolina's Advanced Placement (AP) exam fee waiver
 ```{=html}
 <details>
 
-<summary>Incentivizing Teacher Effort: Evidence from a Capped Piece-Rate Bonus Scheme</summary>
+<summary>How Incentives Shape Teacher Effort: Lessons from a Capped, Piece-rate Bonus Program</summary>
 <p class="fulljustify">
-Updating...
+I study the effects of piece-rate teacher bonus program on student outcomes. Beginning School year 2015-16, North Carolina offers Advanced Placement (AP) teachers a $50 bonus for each student passing the corresponding AP exam, with total bonuses capped at $3,500 per teacher ($2,000 in SY 2015-16 only). My theoretical model implies that the program design generates disproportionate incentives for teachers with varying baseline student number and aptitude. Using course-level student-teacher linked data and both within- and cross-teacher variation in exam pass rate, I document evidence supporting the model implicaitons. My main finding suggests that pass rate among students assigned to teachers unconstrained by the bonus cap improved significnatly relative to the teachers constrained. 
 </p>
 </details>
 
