@@ -4,10 +4,10 @@ project:
 
 website:
   title: "Md Twfiqur Rahman"
-  favicon: assets/logonobg.png
+  favicon: assets/logo-transparent-png.png
   navbar:
     title: false
-    logo: assets/logonobg.png
+    logo: assets/logo-transparent-png.png
     logo-alt: "Md Twfiqur Rahman"
     background: light
     theme: light
