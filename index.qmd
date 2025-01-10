@@ -92,9 +92,9 @@ function typeWriter() {
 
 <details>
   
-<summary>Unlocking Potential: The Impacts of North Carolina's AP Exam Fee Waivers<font size="2"> (with Cade Lawson)</font></summary>
+<summary>The Impact of AP Exam Fee Waivers on Participation, Performance, and Student Sorting<font size="2"> (with Cade Lawson)</font></summary>
 <p class="fulljustify">
-We study the effects of North Carolina's Advanced Placement (AP) exam fee waivers on student AP outcomes and equity. Using course-level administrative data and exploiting within student variation, we identify the causal effects and present novel evidence on composition effects. We find that fee waivers increased the likelihood of an AP course leading to both an exam being taken and a passing score. However, the effect on pass rates is mainly driven by students shifting to easier-to-pass subjects. The gains were significantly higher among minority and economically disadvantaged students, reducing the racial and socioeconomic gap in AP exam participation by one-third. A back-of-the-envelope cost-benefit analysis suggests that the implied tuition savings alone exceed the cost of subsidizing AP exams.
+We examine the impact of North Carolina's AP exam fee waivers on student outcomes and equity. Using course-level administrative data and within-student variation, we find that fee waivers increased the likelihood of taking AP exams and earning college-credit-granting scores, primarily driven by students sorting into easier-to-pass subjects. Exam taking and potential college-credit accumulation improved the most among the minority and economically disadvantaged students, reducing racial and socioeconomic gaps in exam participation and performance by one-third. A conservative cost-benefit analysis reveals that the implied tuition savings resulting from the fee waivers outweigh their cost.
 <br><button class="button" style="vertical-align: middle" onclick="window.location.href='mailto:mrahman24@gsu.edu'">Request Draft</button>
 </p>
 </details>
