@@ -92,9 +92,9 @@ function typeWriter() {
 
 <details>
   
-<summary>The Impact of AP Exam Fee Waivers on Participation, Performance, and Student Sorting<font size="2"> <br>(with Cade Lawson)</font></summary>
+<summary>The Impact of AP Exam Fee Waivers on Participation and Performance<font size="2"> <br>(with Cade Lawson)</font></summary>
 <p class="fulljustify">
-We examine the impact of North Carolina's AP exam fee waivers on student outcomes and equity. Using course-level administrative data and within-student variation, we find that fee waivers increased the likelihood of taking AP exams and earning college-credit-granting scores, primarily driven by students sorting into easier-to-pass subjects. Exam taking and potential college-credit accumulation improved the most among the minority and economically disadvantaged students, reducing racial and socioeconomic gaps in exam participation and performance by one-third. A conservative cost-benefit analysis reveals that the implied tuition savings resulting from the fee waivers outweigh their cost.
+We study the effects of Advanced Placement (AP) exam fee waivers on student AP exam participation, performance, and equity. Using course-level administrative data from North Carolina and exploiting within-student variation induced by the universal AP exam fee waivers policy, we find that the likelihood of an AP course resulting in an exam increased by 4 percentage points. We provide suggestive evidence that nearly 24% of these additional exams earned passing scores eligible for college credit. The rise in the share of courses leading to passed exams is primarily driven by increased exam-taking in subjects with higher historical pass rate but lower exam participation. Additionally, we estimate that the gains were approximately twice as large for minority and economically disadvantaged students, leading to a significant reduction in the racial and socioeconomic gaps in AP exam participation and performance. A back-of-the-envelope cost-benefit analysis suggests that the implied tuition savings alone exceed the cost of subsidizing AP exams for these historically underperforming groups.
 <br><button class="button" style="vertical-align: middle" onclick="window.location.href='mailto:mrahman24@gsu.edu'">Request Draft</button>
 </p>
 </details>
