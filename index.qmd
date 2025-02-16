@@ -129,8 +129,8 @@ We study the effects of piece-rate teacher bonus program on student outcomes. Be
 
 **Instructor of Record**, Georgia State University<br>
 <ul>
-<li>ECON2105: Principles of Macroeconomics (Fall 2024)[<a href='assets/econ2105.pdf'>Syllabus</a>]</li> 
-<li>ECON8220: Human Resources and Labor Markets (Spring 2025)[<a href='assets/econ8220.pdf'>Syllabus</a>]</li>
+<li>ECON2105: Principles of Macroeconomics (Fall 2024)[<a href='https://github.com/tofurahman/tofurahman.github.io/blob/main/assets/econ2105.pdf'>Syllabus</a>]</li> 
+<li>ECON8220: Human Resources and Labor Markets (Spring 2025)[<a href='https://github.com/tofurahman/tofurahman.github.io/blob/main/assets/econ8220.pdf'>Syllabus</a>]</li>
 </ul> 
 
 **Teaching Assistant**, East West University, Bangladesh<br><em>Mathematics for Business and Economics I & II, Business Finance (2011-2013)</em>
