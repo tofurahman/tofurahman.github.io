@@ -118,6 +118,13 @@ We study the effects of piece-rate teacher bonus program on student outcomes. Be
 <p class="fulljustify">
 </p>
 </details>
+
+<details>
+<summary>R Package: propWeights</summary>
+<p class="fulljustify">
+Implements Proportional Weight Allocation (PWA) to distribute trade volumes in classification concordances.
+</p>
+</details>
 ```
 <br>
 
