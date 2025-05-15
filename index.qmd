@@ -150,6 +150,7 @@ Implements Proportional Weight Allocation (PWA) to distribute trade volumes in c
 <ul>
 <li>ECON 2105: Principles of Macroeconomics (Fall 2024)[<a href='https://github.com/tofurahman/tofurahman.github.io/blob/main/assets/econ2105.pdf'>Syllabus</a>]</li> 
 <li>ECON 8220: Human Resources and Labor Markets (Spring 2025)[<a href='https://github.com/tofurahman/tofurahman.github.io/blob/main/assets/econ8220.pdf'>Syllabus</a>]</li>
+<li><a href='https://github.com/tofurahman/tofurahman.github.io/blob/main/assets/Teaching_Evlauation.pdf'>Teaching Evaluations</a></li>
 </ul>
 
 **Graduate Teaching Assistant**, Georgia State University <br>
