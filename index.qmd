@@ -176,8 +176,8 @@ Implements Proportional Weight Allocation (PWA) to distribute trade volumes in c
 <hr style="border:2px solid gray">
 
 **Georgia State University** \| Atlanta, GA<br><em>Ph.D. in Economics</em> (2025, <i>Expected</i>)
-<p style="font-family:'Courier New'">
+<p>
 <u>Dissertation Title</u>: Essays on Health and Education Policies <br>
-<u>Dissertation Committee</u>: <a href='https://www.dkreisman.com/'>Daniel Kreisman</a> (Chair), <a href='https://sites.google.com/site/jonathansmithphd/'>Jonathan Smith</a>, <a href='https://sites.google.com/site/kteltser'>Keith Teltser</a>, and <a href='https://hemelt.web.unc.edu/'>Steven W. Hemelt</a>.
+<u>Dissertation Committee</u>:Daniel Kreisman (Chair), Jonathan Smith, Keith Teltser, and Steven W. Hemelt.
 </p>
 
