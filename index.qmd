@@ -59,11 +59,12 @@ I am on the 2024-25 job market.
 ```{=html}
 <details>
 
-<summary>Effects of Losing Medicaid on Body Weight and Health Behaviors<font color="#000FF"; size="2"> [Job Market Paper]</font> <br><font size="2"><i>(Under Review)</i> </font></summary>
+<summary>
+From Coverage to Consequences: BMI and Health Behaviors after Medicaid Contraction<font color="#000FF"; size="2"> [Job Market Paper]</font> <br><font size="2"><i>(Under Review)</i> </font></summary>
 
 <p class="fulljustify">
 
-Tennessee’s 2005 Medicaid reform terminated public health insurance coverage for approximately 170,000 childless adults. Leveraging this policy-induced variation, I study the impact of losing public health insurance on body weight and related health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate comparative case study models that compare Tennessee’s outcomes before and after the reform with those of data-driven control groups. The preferred synthetic difference-in-differences estimates suggest that the reform increased Body Mass Index by 0.37 points and the overweight or obesity prevalence (BMI≥25) by 4% among Tennessean childless adults. Examining health behaviors, I find evidence supporting weight gain through reduction in moderate physical activity participation (e.g., brisk walking, gardening) and vegetable consumption.
+Leveraging Tennessee’s 2005 Medicaid contraction, I study the impact of losing public health insurance on body weight and relevant health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate comparative case study models with data-driven control groups. The preferred synthetic difference-in-differences estimates suggest that the reform increased Body Mass Index by 0.38 points and the overweight or obesity prevalence (BMI≥25) by ∼4% among Tennessean childless adults. My findings—a 21% increase in the share of childless adults reporting poor health, declines in Medicaid-supported use of pain and antiinflammatory medications, and reduced participation in moderate physical activities— suggest that worsening unmanaged health conditions may be a key pathway through which coverage loss affected physical activity and weight gain. Additionally, my analysis offers practical guidance for analyzing single treated clusters using comparative case study methods, highlighting the advantages of placebo-based standard errors for valid inference.
 <br>
 <button class="button" style="vertical-align: middle" onclick="typeWriter()">tl;dr</button>
 
