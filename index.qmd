@@ -161,16 +161,6 @@ Implements Proportional Weight Allocation (PWA) to distribute trade volumes in c
 
 </ul>
 
-**Teaching Assistant**, East West University, Bangladesh<br>
-
-<ul>
-
-<li>MAT 100 & 110: Mathematics for Business and Economics I & II (2011-2012)</li>
-
-<li>FIN 201: Business Finance (2013)</li>
-
-</ul>
-
 <br>
 
 ::: {style="text-align: left;"}
