@@ -160,15 +160,3 @@ Implements Proportional Weight Allocation (PWA) to distribute trade volumes in c
 <li>ECON 9230: Topics in Advanced Labor Economics (Spring 2025)</li>
 
 </ul>
-
-<br>
-
-::: {style="text-align: left;"}
-### Education
-:::
-
-<hr style="border:2px solid gray">
-
-**Georgia State University** \| Atlanta, GA<br><em>Ph.D. in Economics</em> (2025, <i>Expected</i>)
-
-<p><u>Dissertation Title</u>: Essays on Health and Education Policies <br> <u>Dissertation Committee</u>:Daniel Kreisman (Chair), Jonathan Smith, Keith Teltser, and Steven W. Hemelt.</p>
