@@ -25,7 +25,7 @@
   <section id="research" class="page-section">
     <div class="content-wrapper">
       <h2>Research</h2>
-      <h4>Working Papers</h4>
+      <h4>Working Papers:</h4>
       
 <div class="paper-entry">
         <div class="paper-header">
@@ -86,7 +86,7 @@
   </div>
     </div>
     
-    <h3>Work in Progress</h3>
+    <h3>Work in Progress:</h3>
 
 <div class="wip-entry">
   <span class="wip-title">The Effect of Gentrification on College Tuition</span>

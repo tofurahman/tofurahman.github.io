@@ -17,15 +17,13 @@ website:
         text: Teaching
       - href: cv.qmd
         text: CV
-      - href: resources.qmd
-        text: Resources
       - icon: github
         href: https://github.com/tofurahman/tofurahman.github.io
 
 format:
   html:
     theme:
-      light: litera
+      light: flatly
       dark: slate
     css: styles.css
     toc: false
