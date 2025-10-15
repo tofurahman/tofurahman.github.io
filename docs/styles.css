@@ -74,6 +74,61 @@ a:hover { text-decoration: underline; }
 .paper-tag.jmp { color: var(--accent-color); }
 .paper-tag.status { color: var(--bs-secondary-color); }
 .paper-links { margin-top: 1rem; }
-.paper-button { background-color: var(--accent-color); color: white; padding: 0.5em 1em; border-radius: 5px; font-weight: 600; font-size: 0.9em; display: inline-block; transition: background-color 0.2s ease; border: none; }
-.paper-button:hover { background-color: color-mix(in srgb, var(--accent-color) 80%, black); color: white; text-decoration: none; }
+.paper-button {
+  /* Use the theme's main accent color for the border and text */
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  
+  /* Make the background transparent */
+  background-color: transparent;
+
+  /* Keep the other styles */
+  padding: 0.4em 0.9em;
+  border-radius: 16px; /* More rounded corners for a softer look */
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.85em;
+  display: inline-block;
+  text-decoration: none; /* Ensure no underline on the button text */
+  transition: all 0.2s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.paper-button:hover {
+  /* Fill the button with the accent color on hover */
+  background-color: var(--accent-color);
+  
+  /* Make the text white for contrast */
+  color: white; 
+  
+  text-decoration: none;
+}
 .teaching-entry { margin-bottom: 1.5rem; }
+
+.teaching-entry ul, .teaching-entry li {
+  font-family: var(--bs-body-font-family);
+}
+
+/* In styles.css */
+
+.abstract-toggle {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.arrow {
+  display: inline-block; /* Allows the transform to work */
+  margin-right: 8px;
+  transition: transform 0.2s ease-in-out; /* Smooth rotation animation */
+}
+
+/* This class will be added by JavaScript when the abstract is open */
+.arrow.expanded {
+  transform: rotate(90deg); /* Rotates the arrow to point down */
+}
+
+.abstract-content {
+  display: none; /* Keeps abstract hidden by default */
+}

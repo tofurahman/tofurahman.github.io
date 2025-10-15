@@ -4770,9 +4770,52 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 .paper-tag.jmp { color: var(--accent-color); }
 .paper-tag.status { color: var(--bs-secondary-color); }
 .paper-links { margin-top: 1rem; }
-.paper-button { background-color: var(--accent-color); color: white; padding: 0.5em 1em; border-radius: 5px; font-weight: 600; font-size: 0.9em; display: inline-block; transition: background-color 0.2s ease; border: none; }
-.paper-button:hover { background-color: color-mix(in srgb, var(--accent-color) 80%, black); color: white; text-decoration: none; }
-.teaching-entry { margin-bottom: 1.5rem; }</style>
+.paper-button {
+
+border: 1px solid var(--accent-color);
+color: var(--accent-color);
+
+background-color: transparent;
+
+padding: 0.4em 0.9em;
+border-radius: 16px; 
+font-weight: 600;
+font-family: 'Open Sans', sans-serif;
+font-size: 0.85em;
+display: inline-block;
+text-decoration: none; 
+transition: all 0.2s ease-in-out; 
+}
+.paper-button:hover {
+
+background-color: var(--accent-color);
+
+color: white; text-decoration: none;
+}
+.teaching-entry { margin-bottom: 1.5rem; }
+.teaching-entry ul, .teaching-entry li {
+font-family: var(--bs-body-font-family);
+}
+
+.abstract-toggle {
+display: inline-block;
+margin-bottom: 1rem;
+font-weight: 600;
+font-size: 0.9em;
+cursor: pointer;
+}
+.arrow {
+display: inline-block; 
+margin-right: 8px;
+transition: transform 0.2s ease-in-out; 
+}
+
+.arrow.expanded {
+transform: rotate(90deg); 
+}
+.abstract-content {
+display: none; 
+}</style>
 </head>
 
 <body class="nav-fixed">

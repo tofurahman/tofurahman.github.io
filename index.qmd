@@ -25,39 +25,63 @@
   <section id="research" class="page-section">
     <div class="content-wrapper">
       <h2>Research</h2>
-      <h3>Working Papers</h3>
+      <h4>Working Papers</h4>
       
-      <div class="paper-entry">
+<div class="paper-entry">
         <div class="paper-header">
           <span class="paper-title">The Anatomy of a Piece-rate Teacher Bonus Program</span>
-          <span class="paper-tag jmp">Job Market Paper</span>
         </div>
         <p class="paper-authors">with Ian Callen</p>
+        <a href="#" class="abstract-toggle">
+    <span class="arrow">►</span> Abstract
+  </a>
+  <div class="abstract-content">
         <p class="paper-abstract">We study a statewide, piece-rate teacher bonus program that rewards Advanced Placement (AP) teachers for each student in their class achieving a passing score in the standardized AP exams. Using student-course level administrative data from North Carolina, we estimate the effect of the program by exploiting within-teacher variation over time, while controlling for student composition and sorting using a comprehensive set of student, grade, and subject fixed effects. We complement this approach with a difference-in-differences strategy, where teachers unincentivized by the program, due to a bonus cap, make up a credible control group. We find that the bonus program increased an AP enrollee's exam passing probability by 2.5 percentage points, an effect driven by broad-based improvement in achievement rather than bunching at the passing threshold. Decomposing this effect, we find that the bonus's impact was concentrated in a specific subset of academic subjects and was stronger where the incentive strength was higher.</p>
+        
+      </div>
+      <div class="paper-links">
+          <a href="mailto:mrahman24@student.gsu.edu" class="paper-button">Request Draft</a>
+        </div>
       </div>
 
-      <div class="paper-entry">
-        <div class="paper-header">
-          <span class="paper-title">From Coverage to Consequences: BMI and Health Behaviors after Medicaid Contraction</span>
-          <span class="paper-tag status">Under Review</span>
-        </div>
-        <p class="paper-abstract">Leveraging Tennessee's 2005 Medicaid contraction, I study the impact of losing public health insurance on body weight and relevant health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate synthetic difference-in-differences models. The estimates suggest that the reform increased Body Mass Index by 0.38 points and the overweight or obesity prevalence (BMI$\geq$25) by ~4% among Tennessean childless adults. My findings---a 21% increase in the share of childless adults reporting ``poor'' health status (the lowest level on the five-point scale), a reduction in Medicaid-reimbursed utilization of pain and anti-inflammatory medications, and a reduction in participation in moderate physical activities---suggest that worsening unmanaged health conditions may be a key pathway through which coverage loss affected weight gain. Additionally, my analysis offers practical guidance for conducting robust inference in single treated cluster settings with limited pre-treatment data.</p>
-        <div class="paper-links">
-          <a href="https://www.dropbox.com/scl/fi/ggskshcy4m582pzm4tsqx/BMI_sep2024.pdf?rlkey=rslmrppi5jffd19vce2f6fc4c&st=ru31v465&dl=0" class="paper-button">PDF</a>
-        </div>
-      </div>
+
+    <div class="paper-entry">
+  <div class="paper-header">
+    <span class="paper-title">From Coverage to Consequences: BMI and Health Behaviors after Medicaid Contraction</span>
+    <span class="paper-tag status">Under Review</span>
+  </div>
+  
+  <a href="#" class="abstract-toggle">
+    <span class="arrow">►</span> Abstract
+  </a>
+  
+  <div class="abstract-content">
+    <p class="paper-abstract">
+      Leveraging Tennessee’s 2005 Medicaid contraction, I study the impact of losing public health insurance on body weight and relevant health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate comparative case study models with data-driven control groups...
+    </p>
+  </div>
+  
+  <div class="paper-links">
+    <a href="https://your-link-to-the-pdf.pdf" class="paper-button">PDF</a>
+  </div>
+</div>
 
       <div class="paper-entry">
         <div class="paper-header">
           <span class="paper-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</span>
         </div>
         <p class="paper-authors">with Cade Lawson</p>
+        <a href="#" class="abstract-toggle">
+    <span class="arrow">►</span> Abstract
+  </a>
+  
+  <div class="abstract-content">
         <p class="paper-abstract">Do policies that broaden educational access also foster success? We study this question in the context of North Carolina’s universal Advanced Placement (AP) exam fee waiver policy, analyzing its effects on the likelihood of exam participation and achieving a passing score (>=3 out of 5). Using administrative data and exploiting within-student variation, we find that fee waivers boost AP exam participation but not the overall pass rate among AP-enrolled students. This, however, masks a robust 3 percentage point increase in the pass rates among low-SES students. We also find imprecise but suggestive evidence of gains among underrepresented minorities (non-Asian and non-White) and underutilized AP courses, defined by below median exam participation rate in the pre-waiver period. A complementary analysis, leveraging the full sample of AP courses, shows that fee waivers had the greatest impact in courses where predicted financial barriers were highest, and that the policy's benefits far exceed its cost. Finally, our results help reconcile the seemingly disparate findings from prior work on AP exam funding.</p>
+        
+        </div>
         <div class="paper-links">
           <a href="mailto:mrahman24@student.gsu.edu" class="paper-button">Request Draft</a>
         </div>
-      </div>
-
     </div>
   </section>
 
@@ -82,4 +106,31 @@
   </section>
 
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggles = document.querySelectorAll('.abstract-toggle');
+
+    toggles.forEach(toggle => {
+      toggle.addEventListener('click', (event) => {
+        event.preventDefault(); // Prevents page from jumping
+        
+        const abstract = toggle.nextElementSibling;
+        const arrow = toggle.querySelector('.arrow'); // Find the arrow inside the link
+
+        if (abstract && abstract.classList.contains('abstract-content')) {
+          const isVisible = abstract.style.display === 'block';
+          abstract.style.display = isVisible ? 'none' : 'block';
+          
+          // Add or remove the 'expanded' class to trigger the CSS rotation
+          if (isVisible) {
+            arrow.classList.remove('expanded');
+          } else {
+            arrow.classList.add('expanded');
+          }
+        }
+      });
+    });
+  });
+</script>
 ```
