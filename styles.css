@@ -29,6 +29,7 @@ hr {
   border: 1px solid #e9ecef;
 }
 
+
 /* ==========================================================================
    2. HEADER & ABOUT SECTION
    ========================================================================== */
@@ -40,6 +41,24 @@ hr {
 .navbar-brand img {
   max-height: 50px;
   width: auto;
+}
+
+/* This targets the main container for your "About" section */
+#quarto-about-trestles {
+  margin-top: 2.5rem; /* Adds more breathing room above your photo */
+}
+
+/* --- ADD THIS NEW RULE --- */
+/* This targets your big bold name */
+.about-entity .about-title {
+  margin-bottom: 0.25rem; /* Reduces the space below your name */
+}
+
+/* --- ADD THIS NEW RULE --- */
+/* This targets the line "Hi, I'm Toufiq..." and your bio */
+.about-entity .about-bio {
+  line-height: 1.6; /* Slightly tightens the line spacing for a cleaner look */
+  margin-bottom: 1rem; /* Adds a bit more space below the bio */
 }
 
 /* ==========================================================================
@@ -82,9 +101,9 @@ hr {
 }
 
 .paper-abstract {
-  font-size: 0.95em;
+  font-size: 0.9em; /* MODIFIED: Was 0.95em, this is slightly smaller */
   color: #495057;
-  text-align: left; /* Justified text can be hard to read online */
+  text-align: left;
 }
 
 /* --- Paper Tags (JMP, Status) --- */
