@@ -132,3 +132,145 @@ a:hover { text-decoration: underline; }
 .abstract-content {
   display: none; /* Keeps abstract hidden by default */
 }
+
+
+/* ==========================================================================
+   4. WORK IN PROGRESS STYLES
+   ========================================================================== */
+
+.wip-entry {
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  border: 1px dashed var(--bs-border-color); /* Dashed border for WIP */
+  border-radius: 8px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.wip-entry:hover {
+  border-color: var(--accent-color); /* Highlight border on hover */
+}
+
+.wip-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; /* Slightly less bold than paper titles */
+  font-size: 1.1em;
+  color: var(--bs-heading-color, var(--bs-body-color));
+}
+
+.wip-authors {
+  font-style: italic;
+  color: var(--bs-secondary-color);
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+  font-size: 0.9em;
+}
+
+Of course. We can adjust the font sizes for the headings and titles in the research section to make them more compact.
+
+The "too high" font size is likely coming from the theme's default sizes for the <h2> ("Research") and <h3> ("Working Papers") headings, as well as the custom size we set for the paper titles.
+
+The CSS Fix
+Add this new block of code to the bottom of your styles.css file. It will override the theme's defaults and reduce the size of the titles.
+
+CSS
+
+/* ==========================================================================
+   5. FONT SIZE ADJUSTMENTS
+   ========================================================================== */
+.page-section h2 {
+  font-size: 1.75rem;
+  width: 100%;
+  
+  /* The !important tag forces this style to apply */
+  border-bottom: 4px solid var(--bs-border-color) !important;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  
+  /* Remove the old left-border style */
+  border-left: none;
+  padding-left: 0;
+}
+
+/* Reduce the size of subheadings like "Working Papers" */
+.page-section h3 {
+  font-size: 1.4rem;
+}
+
+/* Reduce the size of individual paper titles */
+.paper-title {
+  font-size: 1.15em;
+}
+
+/* Reduce the size of "Work in Progress" titles */
+.wip-title {
+  font-size: 1.05em;
+}
+
+
+/* ==========================================================================
+   6. TEACHING SECTION STYLES
+   ========================================================================== */
+
+.teaching-role {
+  margin-top: 2.5rem; /* Adds space ABOVE each role block */
+  margin-bottom: 2.5rem;
+}
+
+/* This targets the first role block to remove extra space at the top */
+.teaching-role:first-of-type {
+  margin-top: 0;
+}
+
+.teaching-role h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.1rem;
+}
+
+.teaching-institution {
+  font-style: italic;
+  color: var(--bs-secondary-color);
+  margin-bottom: 1.5rem;
+}
+
+.course-entry {
+  display: grid;
+  grid-template-columns: 1fr auto auto; /* Title | Term | Link */
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--bs-border-color);
+}
+
+.course-entry:first-of-type {
+    border-top: 1px solid var(--bs-border-color);
+}
+
+.course-title {
+  font-weight: 600;
+  color: var(--bs-body-color);
+}
+
+.course-term {
+  font-size: 0.9em;
+  color: var(--bs-secondary-color);
+}
+
+.course-link {
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.3em 0.8em;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.course-link:hover {
+  background-color: var(--bs-tertiary-bg);
+  text-decoration: none;
+}
+
+.teaching-evals-link {
+    margin-top: 2rem;
+    text-align: center;
+}
