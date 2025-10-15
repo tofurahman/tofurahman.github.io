@@ -1,23 +1,5 @@
 ---
 title: "Toufiq Rahman"
-
-about:
-  id: about
-  template: trestles
-  image: headshot2nobg2.jpg
-  image-shape: rounded
-  image-width: 12em
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/tofuiba/
-    - text: CV
-      href: assets/CV.pdf
-    - text: JMP
-      href: https://www.dropbox.com/scl/fi/ggskshcy4m582pzm4tsqx/BMI_sep2024.pdf?rlkey=rslmrppi5jffd19vce2f6fc4c&st=ru31v465&dl=0
-    - icon: envelope
-      text: Email
-      href: mailto:mrahman24@student.gsu.edu
 ---
 
 ```{=html}

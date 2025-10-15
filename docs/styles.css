@@ -44,13 +44,6 @@ a:hover { text-decoration: underline; }
   border-top: 1px solid var(--border-color); /* Separator line between sections */
 }
 
-/* Make the Quarto 'about' section full height as well */
-#about {
-  min-height: calc(100vh - var(--nav-height));
-  display: flex;
-  align-items: center;
-}
-
 .content-wrapper {
   max-width: 800px;
   width: 100%;

@@ -34,6 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -128,7 +129,23 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Toufiq Rahman</h1>
+</div>
 
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <nav class="page-nav">
@@ -139,35 +156,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="page-content">
 
-  <div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="headshot2nobg2.jpg" class="about-image
-  rounded " style="width: 12em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Toufiq Rahman</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://www.linkedin.com/in/tofuiba/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="/assets/CV.pdf" class="about-link" rel="" target="">
-     <span class="about-link-text">CV</span>
-  </a>
-  <a href="https://www.dropbox.com/scl/fi/ggskshcy4m582pzm4tsqx/BMI_sep2024.pdf?rlkey=rslmrppi5jffd19vce2f6fc4c&amp;st=ru31v465&amp;dl=0" class="about-link" rel="" target="">
-     <span class="about-link-text">JMP</span>
-  </a>
-  <a href="mailto:mrahman24@student.gsu.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><section id="about" class="page-section">
+  <section id="about" class="page-section">
     <div class="about-container">
       <div class="about-image">
         <img src="headshot2nobg2.jpg" alt="Md Twfiqur Rahman">
@@ -183,14 +172,12 @@ ul.task-list li input[type="checkbox"] {
         </div>
       </div>
     </div>
-  </section></div>
-</div>
-
+  </section>
 
   <section id="research" class="page-section">
     <div class="content-wrapper">
-      <h2>Research</h2>
-      <h3>Working Papers</h3>
+      <h2 class="anchored">Research</h2>
+      <h3 class="anchored">Working Papers</h3>
       
       <div class="paper-entry">
         <div class="paper-header">
@@ -228,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 
   <section id="teaching" class="page-section">
     <div class="content-wrapper">
-      <h2>Teaching</h2>
+      <h2 class="anchored">Teaching</h2>
       <div class="teaching-entry">
         <p><strong>Instructor of Record, Georgia State University</strong></p>
         <ul>
@@ -247,7 +234,6 @@ ul.task-list li input[type="checkbox"] {
   </section>
 
 </div>
-
 
 
 
@@ -272,6 +258,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

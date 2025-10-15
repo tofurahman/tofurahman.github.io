@@ -1,5 +1,4 @@
 # _quarto.yml
-
 project:
   type: website
   output-dir: docs
@@ -12,14 +11,12 @@ website:
     logo: assets/logo-transparent-png.png
     logo-alt: "Md Twfiqur Rahman"
     right: 
-      # These are your new on-page scroll links
       - href: "#about"
         text: About
       - href: "#research"
         text: Research
       - href: "#teaching"
         text: Teaching
-      # These are your other site pages
       - href: cv.qmd
         text: CV
       - href: resources.qmd
@@ -31,6 +28,4 @@ format:
   html:
     theme: default
     css: styles.css
-    toc: false # TOC is not needed for this layout
-
-editor: visual
+    toc: false
