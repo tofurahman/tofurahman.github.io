@@ -102,7 +102,6 @@
 
 <div class="wip-entry">
   <span class="wip-title">Gentrification and the Price of Higher Education</span> 
-  <p class="wip-authors">(with Cade Lawson)</p>
 </div>
 
 <div class="wip-entry">
