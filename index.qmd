@@ -90,7 +90,7 @@
         
         </div>
         <div class="paper-links">
-    <a href="https://www.dropbox.com/scl/fi/n5gf87a9w8cdkooah1gb3/AP_fee_waivers.pdf?rlkey=hnj296mn2oczg1grwg970a1jy&st=fyfk6wv4&dl=0" class="paper-button small">PDF</a>
+    <a href="https://www.dropbox.com/scl/fi/u7eqhk6xm807ke6eusxw7/AP_fee_waivers.pdf?rlkey=ympqee3b792cn6tlhhpaii2uv&st=gptfkr26&dl=0" class="paper-button small">PDF</a>
   </div>
     </div>
     
