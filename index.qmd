@@ -25,7 +25,7 @@
   <section id="research" class="page-section">
     <div class="content-wrapper">
       <h2>Research</h2>
-      <h4>Working Papers:</h4>
+      <h3>Working Papers:</h3>
       
 <div class="paper-entry">
         <div class="paper-header">
