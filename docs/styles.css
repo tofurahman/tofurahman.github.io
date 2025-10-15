@@ -50,6 +50,12 @@ a:hover { text-decoration: underline; }
   padding: 0 1rem;
 }
 
+/* Add this new rule for the first section */
+.page-section:first-of-type {
+  min-height: calc(100vh - var(--nav-height));
+  justify-content: center; /* This vertically centers the content */
+}
+
 /* ==========================================================================
    3. RESEARCH & TEACHING STYLES
    ========================================================================== */

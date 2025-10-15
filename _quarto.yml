@@ -4,12 +4,11 @@ project:
   output-dir: docs
 
 website:
-  title: "Md Twfiqur Rahman"
+  title: "Md Twfiqur Rahman" # This will now appear in the navbar
   favicon: assets/logo-transparent-png.png
   navbar:
-    title: false
-    logo: assets/logo-transparent-png.png
-    logo-alt: "Md Twfiqur Rahman"
+    title: "Md Twfiqur Rahman" # Use the title field for your name
+    # We remove the logo keys since your name is the title now
     right: 
       - href: "#about"
         text: About

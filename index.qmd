@@ -17,7 +17,6 @@
         <img src="headshot2nobg2.jpg" alt="Md Twfiqur Rahman" />
       </div>
       <div class="about-text">
-        <h1>Md Twfiqur Rahman</h1>
         <p><b>Hi, I'm Toufiq.</b> I am an applied microeconomist leveraging modern econometric tools to address questions in health, education, and labor policy.</p>
         <p>I recently completed my Ph.D. in Economics from Georgia State University and will be joining the Johns Hopkins Carey Business School as a Postdoctoral Fellow this fall.</p>
         <div class="about-links">
