@@ -42,100 +42,85 @@ I recently completed Ph.D. in Economics from Georgia State University and will b
 
 <br>
 
-::: {style="text-align: left;"}
-### Research
-:::
-
-<hr style="border:2px solid gray">
-
-###### **Working Papers:**
-
 ```{=html}
-<details>
-
-<summary>Do Incentives Shape Teacher Effort? Lessons from a Piece-rate Bonus Program<font color="#000FF"; size="2"> [Job Market Paper]</font> <font size="2"> <br>(with Ian Callen)</font></summary>
-<p class="fulljustify">
-We study the effects of a novel piece-rate teacher bonus program on student outcomes. We propose a model implying that the piece-rate and the cap generate higher incentives for teachers with relatively lower baseline student number and aptitude. The model further predicts that the bonus program does not effectively incentivize teachers with a high baseline number of students passing the AP exams, since they are likely to automatically qualify for the maximum reward without exerting additional effort. Leveraging course-level student-teacher linked data and using both teacher fixed effects and difference-in-differences models, we provide evidence supporting the model implications. We find that the bonus program increased the probability of a course leading to a passed exam by approximately 2 percentage points. We also document an approximately 2-2.5 percentage point increase in the pass rates among students instructed by teachers for whom the bonus cap was non-binding, relative to those instructed by teachers earning near-maximum bonus amount before the program implementation.
-</p>
-</details>
-
-<details>
-
-<summary>
-From Coverage to Consequences: BMI and Health Behaviors after Medicaid Contraction<br><font size="2">[Under review]</font></summary>
-
-<p class="fulljustify">
-
-Leveraging Tennessee’s 2005 Medicaid contraction, I study the impact of losing public health insurance on body weight and relevant health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate comparative case study models with data-driven control groups. The preferred synthetic difference-in-differences estimates suggest that the reform increased Body Mass Index by 0.38 points and the overweight or obesity prevalence (BMI≥25) by ∼4% among Tennessean childless adults. My findings—a 21% increase in the share of childless adults reporting poor health, declines in Medicaid-supported use of pain and antiinflammatory medications, and reduced participation in moderate physical activities— suggest that worsening unmanaged health conditions may be a key pathway through which coverage loss affected physical activity and weight gain. Additionally, my analysis offers practical guidance for analyzing single treated clusters using comparative case study methods, highlighting the advantages of placebo-based standard errors for valid inference.
-<br>
-<button class="button" style="vertical-align: middle" onclick="window.location.href='https://www.dropbox.com/scl/fi/ggskshcy4m582pzm4tsqx/BMI_sep2024.pdf?rlkey=rslmrppi5jffd19vce2f6fc4c&st=ru31v465&dl=0'">PDF</button>
-</p>
-</details>
-
-<details>
-  
-<summary>Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work<font size="2"> <br>(with Cade Lawson)</font></summary>
-<p class="fulljustify">
-Do policies that broaden educational access also foster success? We study this question in the context of North Carolina’s universal Advanced Placement (AP) exam fee waiver policy, analyzing its effects on the likelihood of exam participation and achieving a passing score (>=3 out of 5). Using administrative data and exploiting within-student variation, we find that fee waivers significantly increased AP exam participation but had no effect on overall pass rate among AP-enrolled students. This, however, masks a robust 3 percentage point increase in the pass rates among low-SES students. We also find imprecise but suggestive evidence of gains among underrepresented minorities (non-Asian and non-White) and underutilized AP courses, defined by below median exam participation rate in the pre-waiver period. A complementary analysis, leveraging the full sample of AP courses, shows that fee waivers had the greatest impact in courses where predicted financial barriers were highest. Finally, our results help reconcile the seemingly disparate findings from prior work on AP exam funding.
-<br><button class="button" style="vertical-align: middle" onclick="window.location.href='mailto:mrahman24@gsu.edu'">Request Draft</button>
-</p>
-</details>
+<style>
+hr {
+  border: none; /* Removes the default border */
+  border-top: 2px solid gray; /* Sets a 2px solid gray top border */
+}
+</style>
 ```
 
-<hr style="border:1px solid white">
+### Research 
 
-###### **Select Work in Progress:**
+<hr>
 
 ```{=html}
-<details>
+<div class="paper-entry">
+  <div class="paper-header">
+    <span class="paper-title">Do Incentives Shape Teacher Effort? Lessons from a Piece-rate Bonus Program</span>
+    <span class="paper-tag jmp">Job Market Paper</span>
+  </div>
+  <p class="paper-authors">with Ian Callen</p>
+  <p class="paper-abstract">
+  We study the effects of a novel piece-rate teacher bonus program on student outcomes. We propose a model implying that the piece-rate and the cap generate higher incentives for teachers with relatively lower baseline student number and aptitude. The model further predicts that the bonus program does not effectively incentivize teachers with a high baseline number of students passing the AP exams, since they are likely to automatically qualify for the maximum reward without exerting additional effort...
+  </p>
+</div>
 
-<summary>The Effect of Gentrification on College Tuition</summary>
-<p class="fulljustify">
-</p>
-</details>
+<div class="paper-entry">
+  <div class="paper-header">
+    <span class="paper-title">From Coverage to Consequences: BMI and Health Behaviors after Medicaid Contraction</span>
+    <span class="paper-tag status">Under Review</span>
+  </div>
+  <p class="paper-abstract">
+  Leveraging Tennessee’s 2005 Medicaid contraction, I study the impact of losing public health insurance on body weight and relevant health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate comparative case study models with data-driven control groups. The preferred synthetic difference-in-differences estimates suggest that the reform increased Body Mass Index by 0.38 points and the overweight or obesity prevalence (BMI≥25) by ∼4% among Tennessean childless adults...
+  </p>
+  <div class="paper-links">
+    <a href="https://www.dropbox.com/scl/fi/ggskshcy4m582pzm4tsqx/BMI_sep2024.pdf?rlkey=rslmrppi5jffd19vce2f6fc4c&st=ru31v465&dl=0" class="paper-button">PDF</a>
+  </div>
+</div>
 
-
-<details>
-
-<summary>The Contribution of Firms to Voting Behavior<br><font size="2">(with Michael Luca, Daniel Kreisman, and Jonathan Smith)</font></summary>
-<p class="fulljustify">
-</p>
-</details>
-
-
-
-<details>
-<summary>R Package: propWeights</summary>
-<p class="fulljustify">
-Implements Proportional Weight Allocation (PWA) to distribute trade volumes in classification concordances.
-</p>
-</details>
+<div class="paper-entry">
+  <div class="paper-header">
+    <span class="paper-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</span>
+  </div>
+  <p class="paper-authors">with Cade Lawson</p>
+  <p class="paper-abstract">
+  Do policies that broaden educational access also foster success? We study this question in the context of North Carolina’s universal Advanced Placement (AP) exam fee waiver policy, analyzing its effects on the likelihood of exam participation and achieving a passing score (>=3 out of 5). Using administrative data and exploiting within-student variation, we find that fee waivers significantly increased AP exam participation but had no effect on overall pass rate among AP-enrolled students...
+  </p>
+  <div class="paper-links">
+    <a href="mailto:mrahman24@student.gsu.edu" class="paper-button">Request Draft</a>
+  </div>
+</div>
 ```
+
+#### Select Work in Progress:
+
+-   The Effect of Gentrification on College Tuition
+-   The Contribution of Firms to Voting Behavior (with Michael Luca, Daniel Kreisman, and Jonathan Smith)
+-   R Package: `propWeights`
 
 <br>
 
-::: {style="text-align: left;"}
 ### Teaching
-:::
 
-<hr style="border:2px solid gray">
+<hr>
 
-**Instructor of Record**, Georgia State University<br>
+```{=html}
+<div class="teaching-entry">
+  <p><strong>Instructor of Record, Georgia State University</strong></p>
+  <ul>
+    <li>ECON 2105: Principles of Macroeconomics (Fall 2024) [<a href='assets/econ2105.pdf'>Syllabus</a>]</li>
+    <li>ECON 8220: Human Resources and Labor Markets (Spring 2025) [<a href='assets/econ8220.pdf'>Syllabus</a>]</li>
+  </ul>
+</div>
 
-<ul>
+<div class="teaching-entry">
+  <p><strong>Graduate Teaching Assistant, Georgia State University</strong></p>
+  <ul>
+    <li>ECON 9230: Topics in Advanced Labor Economics (Spring 2025)</li>
+  </ul>
+</div>
 
-<li>ECON 2105: Principles of Macroeconomics (Fall 2024)\[<a href='https://github.com/tofurahman/tofurahman.github.io/blob/main/assets/econ2105.pdf'>Syllabus</a>\]</li>
-
-<li>ECON 8220: Human Resources and Labor Markets (Spring 2025)\[<a href='https://github.com/tofurahman/tofurahman.github.io/blob/main/assets/econ8220.pdf'>Syllabus</a>\]</li>
-
-<li><a href='https://github.com/tofurahman/tofurahman.github.io/blob/main/assets/Teaching_Evaluation.pdf'>Teaching Evaluations</a></li>
-
-</ul>
-
-**Graduate Teaching Assistant**, Georgia State University <br>
-
-<ul>
-
-<li>ECON 9230: Topics in Advanced Labor Economics (Spring 2025)</li>
-
-</ul>
+<a href='assets/Teaching_Evaluation.pdf'>View my complete teaching evaluations.</a>
+```

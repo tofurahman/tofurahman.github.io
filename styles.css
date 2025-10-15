@@ -1,106 +1,148 @@
-@media (min-width: 1020px) {
-.navbar-brand-container {
-  margin-right: 1em;
-}
-}
+/* ==========================================================================
+   1. GLOBAL STYLES & TYPOGRAPHY
+   ========================================================================== */
 
+/* Import a clean, professional font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
-
-@media (max-width: 1060px) and (min-width: 991.98px) {
-
-#navbarCollapse ul:last-of-type a.nav-link {
-  padding-left: .25em;
-  padding-right: .25em;
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333; /* Dark gray for text is easier on the eyes than pure black */
+  line-height: 1.7;
 }
 
-.navbar #quarto-search {
-  margin-left: .1em;
+h1, h2, h3, h4, h5, h6 {
+  color: #1a1a1a; /* A darker shade for headings */
 }
 
-.navbar .bi-twitter,
-.navbar .bi-github,
-.navbar .bi-rss
- {
-  font-size: .8em;
-}
-}
-
-/* css styles */
-details>summary {
-  list-style-type: none;
-  outline: none;
-  cursor: pointer;
-  border: 1px solid #eee;
-  padding: 5px;
-  border-radius: 5px;
-  color: black;
-  font-size: 16px;
-  background-color: #F5F5F5;
-}
-
-details>summary::-webkit-details-marker {
-  display: none;
-}
-
-details>summary::before {
-  content: '+ ';
-}
-
-details[open]>summary::before {
-  content: '- ';
-}
-
-details[open]>summary {
-  margin-bottom: 0.5rem;
-}
-
-
-/* justify */
-.fulljustify {
-  text-align: justify;
-  display: table-row;
-  text-align-last: left;
-  font-size: 14px;
-}
-
-/*Buttons */
-.button {
-  background-color: white; /* Green */
-  border: 1px solid #000000;
-  border-radius: 4px;
-  color: #000000;
-  padding: 2px 8px;
-  text-align: center;
+a {
+  color: #0056b3; /* A professional, accessible blue */
   text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 4px 2px;
-  transition: all 0.4s;
-  cursor: pointer;
 }
 
-.button:hover {
-  background-color: white;
-  border: 1px solid #1F51FF;
-  color: #1F51FF;
+a:hover {
+  text-decoration: underline;
 }
 
-
-# Align right section title
-div.a {
-  text-align: center;
+/* Page break line style */
+hr {
+  border: 1px solid #e9ecef;
 }
 
+/* ==========================================================================
+   2. HEADER & ABOUT SECTION
+   ========================================================================== */
+.cv-link {
+  font-weight: bold;
+}
 
-/* Logo size */
-.navbar-brand img { 
-  max-height: 45px;
+/* Make your profile image slightly larger */
+.navbar-brand img {
+  max-height: 50px;
   width: auto;
 }
 
+/* ==========================================================================
+   3. RESEARCH & WORKING PAPERS SECTION
+   ========================================================================== */
+.paper-entry {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: box-shadow 0.2s ease-in-out;
+}
 
-/* Dialogue Box animation */
-#demo {
-  white-space: pre-wrap;
-  color: #1F51FF;
+.paper-entry:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.paper-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Allows tags to wrap on small screens */
+  margin-bottom: 0.25rem;
+}
+
+.paper-title {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-right: 1rem; /* Space between title and tag */
+  flex-basis: 70%; /* Give title more space */
+}
+
+.paper-authors {
+  font-style: italic;
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.paper-abstract {
+  font-size: 0.95em;
+  color: #495057;
+  text-align: left; /* Justified text can be hard to read online */
+}
+
+/* --- Paper Tags (JMP, Status) --- */
+.paper-tag {
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 0.25em 0.75em;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap; /* Prevent tag from breaking into two lines */
+}
+
+.paper-tag.jmp {
+  background-color: #e6f0ff; /* Light blue */
+  color: #0056b3;
+}
+
+.paper-tag.status {
+  background-color: #f0f0f0; /* Light gray */
+  color: #555;
+}
+
+/* --- Paper Links (PDF, Draft Buttons) --- */
+.paper-links {
+  margin-top: 1rem;
+}
+
+.paper-button {
+  background-color: #0056b3;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.9em;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.paper-button:hover {
+  background-color: #004494; /* A darker blue on hover */
+  color: white;
+  text-decoration: none;
+}
+
+
+/* ==========================================================================
+   4. TEACHING SECTION
+   ========================================================================== */
+.teaching-entry {
+  margin-bottom: 1.5rem;
+}
+
+.teaching-entry p {
+  margin-bottom: 0.5rem;
+}
+
+.teaching-entry ul {
+  list-style-position: inside;
+  padding-left: 0;
 }
