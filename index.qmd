@@ -1,9 +1,5 @@
 ---
 title: "Toufiq Rahman"
-repo-actions: false
-code-annotations: hover
-embed-resources: true
-toc: true
 
 about:
   id: about
@@ -24,103 +20,91 @@ about:
       href: mailto:mrahman24@student.gsu.edu
 ---
 
-::: {#about}
 ```{=html}
-<br> 
+<nav class="page-nav">
+  <a href="#about">About</a>
+  <a href="#research">Research</a>
+  <a href="#teaching">Teaching</a>
+</nav>
 
-<b>Hi, I'm Toufiq.</b>
-```
+<div class="page-content">
 
-<br>I am an applied microeconomist. My research leverages modern econometric tools to address questions relevant to health, education, and labor policies.
+  <section id="about" class="page-section">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="headshot2nobg2.jpg" alt="Md Twfiqur Rahman" />
+      </div>
+      <div class="about-text">
+        <h1>Md Twfiqur Rahman</h1>
+        <p><b>Hi, I'm Toufiq.</b> I am an applied microeconomist leveraging modern econometric tools to address questions in health, education, and labor policy.</p>
+        <p>I recently completed my Ph.D. in Economics from Georgia State University and will be joining the Johns Hopkins Carey Business School as a Postdoctoral Fellow this fall.</p>
+        <div class="about-links">
+          <a href="https://www.linkedin.com/in/tofuiba/" class="paper-button">LinkedIn</a>
+          <a href="assets/CV.pdf" class="paper-button">CV</a>
+          <a href="https://www.dropbox.com/scl/fi/ggskshcy4m582pzm4tsqx/BMI_sep2024.pdf?rlkey=rslmrppi5jffd19vce2f6fc4c&st=ru31v465&dl=0" class="paper-button">JMP</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-I recently completed Ph.D. in Economics from Georgia State University and will be joining Johns Hopkins University Carey Business School as a Postdoc this fall.
+  <section id="research" class="page-section">
+    <div class="content-wrapper">
+      <h2>Research</h2>
+      <h3>Working Papers</h3>
+      
+      <div class="paper-entry">
+        <div class="paper-header">
+          <span class="paper-title">Do Incentives Shape Teacher Effort? Lessons from a Piece-rate Bonus Program</span>
+          <span class="paper-tag jmp">Job Market Paper</span>
+        </div>
+        <p class="paper-authors">with Ian Callen</p>
+        <p class="paper-abstract">We study the effects of a novel piece-rate teacher bonus program on student outcomes...</p>
+      </div>
 
-<a href='assets/CV.pdf'>Click here</a> to view my CV.
-:::
+      <div class="paper-entry">
+        <div class="paper-header">
+          <span class="paper-title">From Coverage to Consequences: BMI and Health Behaviors after Medicaid Contraction</span>
+          <span class="paper-tag status">Under Review</span>
+        </div>
+        <p class="paper-abstract">Leveraging Tennessee’s 2005 Medicaid contraction, I study the impact of losing public health insurance on body weight and relevant health behaviors...</p>
+        <div class="paper-links">
+          <a href="https://www.dropbox.com/scl/fi/ggskshcy4m582pzm4tsqx/BMI_sep2024.pdf?rlkey=rslmrppi5jffd19vce2f6fc4c&st=ru31v465&dl=0" class="paper-button">PDF</a>
+        </div>
+      </div>
 
-{{< pagebreak >}}
+      <div class="paper-entry">
+        <div class="paper-header">
+          <span class="paper-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</span>
+        </div>
+        <p class="paper-authors">with Cade Lawson</p>
+        <p class="paper-abstract">Do policies that broaden educational access also foster success? We study this question in the context of North Carolina’s universal Advanced Placement (AP) exam fee waiver policy...</p>
+        <div class="paper-links">
+          <a href="mailto:mrahman24@student.gsu.edu" class="paper-button">Request Draft</a>
+        </div>
+      </div>
 
-<br>
+    </div>
+  </section>
 
-```{=html}
-<style>
-hr {
-  border: none; /* Removes the default border */
-  border-top: 2px solid gray; /* Sets a 2px solid gray top border */
-}
-</style>
-```
+  <section id="teaching" class="page-section">
+    <div class="content-wrapper">
+      <h2>Teaching</h2>
+      <div class="teaching-entry">
+        <p><strong>Instructor of Record, Georgia State University</strong></p>
+        <ul>
+          <li>ECON 2105: Principles of Macroeconomics (Fall 2024) [<a href='assets/econ2105.pdf'>Syllabus</a>]</li>
+          <li>ECON 8220: Human Resources and Labor Markets (Spring 2025) [<a href='assets/econ8220.pdf'>Syllabus</a>]</li>
+        </ul>
+      </div>
+      <div class="teaching-entry">
+        <p><strong>Graduate Teaching Assistant, Georgia State University</strong></p>
+        <ul>
+          <li>ECON 9230: Topics in Advanced Labor Economics (Spring 2025)</li>
+        </ul>
+      </div>
+      <a href='assets/Teaching_Evaluation.pdf'>View my complete teaching evaluations.</a>
+    </div>
+  </section>
 
-### Research 
-
-<hr>
-
-```{=html}
-<div class="paper-entry">
-  <div class="paper-header">
-    <span class="paper-title">Do Incentives Shape Teacher Effort? Lessons from a Piece-rate Bonus Program</span>
-    <span class="paper-tag jmp">Job Market Paper</span>
-  </div>
-  <p class="paper-authors">with Ian Callen</p>
-  <p class="paper-abstract">
-  We study the effects of a novel piece-rate teacher bonus program on student outcomes. We propose a model implying that the piece-rate and the cap generate higher incentives for teachers with relatively lower baseline student number and aptitude. The model further predicts that the bonus program does not effectively incentivize teachers with a high baseline number of students passing the AP exams, since they are likely to automatically qualify for the maximum reward without exerting additional effort...
-  </p>
 </div>
-
-<div class="paper-entry">
-  <div class="paper-header">
-    <span class="paper-title">From Coverage to Consequences: BMI and Health Behaviors after Medicaid Contraction</span>
-    <span class="paper-tag status">Under Review</span>
-  </div>
-  <p class="paper-abstract">
-  Leveraging Tennessee’s 2005 Medicaid contraction, I study the impact of losing public health insurance on body weight and relevant health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate comparative case study models with data-driven control groups. The preferred synthetic difference-in-differences estimates suggest that the reform increased Body Mass Index by 0.38 points and the overweight or obesity prevalence (BMI≥25) by ∼4% among Tennessean childless adults...
-  </p>
-  <div class="paper-links">
-    <a href="https://www.dropbox.com/scl/fi/ggskshcy4m582pzm4tsqx/BMI_sep2024.pdf?rlkey=rslmrppi5jffd19vce2f6fc4c&st=ru31v465&dl=0" class="paper-button">PDF</a>
-  </div>
-</div>
-
-<div class="paper-entry">
-  <div class="paper-header">
-    <span class="paper-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</span>
-  </div>
-  <p class="paper-authors">with Cade Lawson</p>
-  <p class="paper-abstract">
-  Do policies that broaden educational access also foster success? We study this question in the context of North Carolina’s universal Advanced Placement (AP) exam fee waiver policy, analyzing its effects on the likelihood of exam participation and achieving a passing score (>=3 out of 5). Using administrative data and exploiting within-student variation, we find that fee waivers significantly increased AP exam participation but had no effect on overall pass rate among AP-enrolled students...
-  </p>
-  <div class="paper-links">
-    <a href="mailto:mrahman24@student.gsu.edu" class="paper-button">Request Draft</a>
-  </div>
-</div>
-```
-
-#### Select Work in Progress:
-
--   The Effect of Gentrification on College Tuition
--   The Contribution of Firms to Voting Behavior (with Michael Luca, Daniel Kreisman, and Jonathan Smith)
--   R Package: `propWeights`
-
-<br>
-
-### Teaching
-
-<hr>
-
-```{=html}
-<div class="teaching-entry">
-  <p><strong>Instructor of Record, Georgia State University</strong></p>
-  <ul>
-    <li>ECON 2105: Principles of Macroeconomics (Fall 2024) [<a href='assets/econ2105.pdf'>Syllabus</a>]</li>
-    <li>ECON 8220: Human Resources and Labor Markets (Spring 2025) [<a href='assets/econ8220.pdf'>Syllabus</a>]</li>
-  </ul>
-</div>
-
-<div class="teaching-entry">
-  <p><strong>Graduate Teaching Assistant, Georgia State University</strong></p>
-  <ul>
-    <li>ECON 9230: Topics in Advanced Labor Economics (Spring 2025)</li>
-  </ul>
-</div>
-
-<a href='assets/Teaching_Evaluation.pdf'>View my complete teaching evaluations.</a>
 ```
