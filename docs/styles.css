@@ -67,10 +67,15 @@ a:hover { text-decoration: underline; }
 .paper-entry {
   padding: 1.5rem;
   margin-bottom: 2rem;
-  border: 1px solid var(--bs-border-color); /* Use theme's border color */
+  border: 1px solid var(--bs-border-color);
   border-radius: 8px;
-  background-color: var(--bs-secondary-bg); /* Use theme's secondary background for contrast */
+  background-color: var(--bs-tertiary-bg); /* CHANGED THIS LINE */
   transition: box-shadow 0.2s ease-in-out;
+}
+
+/* This adds a slightly different border color specifically for dark mode */
+[data-bs-theme="dark"] .paper-entry {
+    border-color: var(--bs-gray-700);
 }
 .paper-entry:hover { box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
 .paper-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; margin-bottom: 0.25rem; }

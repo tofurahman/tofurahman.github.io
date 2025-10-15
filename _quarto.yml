@@ -1,5 +1,4 @@
 # _quarto.yml
-
 project:
   type: website
   output-dir: docs
@@ -29,4 +28,7 @@ format:
       light: cosmo
       dark: darkly
     css: styles.css
-    toc: false # This is the master switch for the whole site.
+    toc: true
+    toc-location: right
+    toc-title: "On this page"
+    toc-depth: 3
