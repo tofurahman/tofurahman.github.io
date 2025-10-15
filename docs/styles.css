@@ -219,6 +219,20 @@ a:hover { text-decoration: underline; }
   color: var(--bs-body-bg);
 }
 
+.paper-meta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.paper-meta .paper-authors {
+  margin: 0;
+}
+
+/* This more specific rule will force the tag to the right */
+.paper-meta > .paper-tag {
+  margin-left: auto !important;
+}
 
 /* ==========================================================================
    4. WORK IN PROGRESS STYLES
