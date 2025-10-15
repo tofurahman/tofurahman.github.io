@@ -1,10 +1,8 @@
 /* ==========================================================================
-   1. CORE LAYOUT & THEME AWARE STYLES
+   1. CORE LAYOUT & SCROLLING BEHAVIOR
    ========================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
-
 :root {
-  /* We now tie our accent color to the theme's primary color variable */
+  /* We still tie our accent color to the theme's primary color */
   --accent-color: var(--bs-primary);
   --nav-height: 56px;
 }
@@ -15,25 +13,20 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  /* Use the theme's body text and background colors */
-  color: var(--bs-body-color);
-  background-color: var(--bs-body-bg);
+  /* Font and color will now come from the Litera theme */
   line-height: 1.6;
 }
 
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
-  /* Use a slightly darker version of the theme's text color for headings */
-  color: var(--bs-heading-color, var(--bs-body-color));
+a { 
+  /* The theme will color links, but we ensure our buttons use the primary color */
+  color: var(--accent-color);
+  text-decoration: none;
 }
-
-a { color: var(--accent-color); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 
 /* ==========================================================================
-   2. PAGE SECTIONS & ABOUT LAYOUT
+   2. PAGE SECTIONS & ABOUT LAYOUT (Structural styles)
    ========================================================================== */
 .page-section {
   min-height: 100vh;
@@ -43,51 +36,44 @@ a:hover { text-decoration: underline; }
   align-items: center;
   padding: 4rem 1rem;
   box-sizing: border-box;
-  border-top: 1px solid var(--bs-border-color); /* Use theme's border color */
+  border-top: 1px solid var(--bs-border-color);
 }
 
-/* Specific rule for the first section to feel more like a landing page */
 .page-section:first-of-type {
   min-height: calc(100vh - var(--nav-height));
-  border-top: none; /* No border above the first section */
+  border-top: none;
 }
 
 .content-wrapper { max-width: 800px; width: 100%; padding: 0 1rem; }
-
 .about-container { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 2rem; max-width: 850px; padding: 1rem; }
 .about-image img { width: 12em; height: 12em; border-radius: 50%; object-fit: cover; }
 .about-text { flex-basis: 450px; flex-grow: 1; }
-.about-text h1 { margin-top: 0; }
 .about-links { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
 
 
 /* ==========================================================================
-   3. THEME-AWARE RESEARCH & TEACHING STYLES
+   3. RESEARCH & TEACHING STYLES (Now simpler)
    ========================================================================== */
 .paper-entry {
   padding: 1.5rem;
   margin-bottom: 2rem;
   border: 1px solid var(--bs-border-color);
   border-radius: 8px;
-  background-color: var(--bs-tertiary-bg); /* CHANGED THIS LINE */
+  background-color: var(--bs-tertiary-bg);
   transition: box-shadow 0.2s ease-in-out;
 }
 
-/* This adds a slightly different border color specifically for dark mode */
-[data-bs-theme="dark"] .paper-entry {
-    border-color: var(--bs-gray-700);
+.paper-entry:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-.paper-entry:hover { box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
-.paper-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; margin-bottom: 0.25rem; }
-.paper-title { font-family: 'Montserrat', sans-serif; font-size: 1.25em; font-weight: 700; margin-right: 1rem; flex-basis: 70%; }
-.paper-authors { font-style: italic; color: var(--bs-secondary-color); margin-top: 0; margin-bottom: 1rem; } /* Use theme's secondary text color */
-.paper-abstract { font-size: 0.9em; color: var(--bs-body-color); text-align: left; }
-.paper-tag { font-family: 'Open Sans', sans-serif; font-size: 0.75em; font-weight: 600; padding: 0.25em 0.75em; border-radius: 12px; text-transform: uppercase; letter-spacing: 0.5px; white-space: nowrap; }
-.paper-tag.jmp { background-color: var(--bs-tertiary-bg); color: var(--accent-color); }
-.paper-tag.status { background-color: var(--bs-tertiary-bg); color: var(--bs-secondary-color); }
+
+.paper-title { font-weight: 700; font-size: 1.25em; } /* Let theme handle font family */
+.paper-authors { font-style: italic; color: var(--bs-secondary-color); }
+.paper-abstract { font-size: 0.9em; }
+.paper-tag { font-size: 0.75em; font-weight: 600; padding: 0.25em 0.75em; border-radius: 12px; text-transform: uppercase; letter-spacing: 0.5px; background-color: var(--bs-tertiary-bg); }
+.paper-tag.jmp { color: var(--accent-color); }
+.paper-tag.status { color: var(--bs-secondary-color); }
 .paper-links { margin-top: 1rem; }
-.paper-button { background-color: var(--accent-color); color: white; padding: 0.5em 1em; border-radius: 5px; font-weight: 600; font-family: 'Open Sans', sans-serif; font-size: 0.9em; display: inline-block; transition: background-color 0.2s ease; border: none; }
+.paper-button { background-color: var(--accent-color); color: white; padding: 0.5em 1em; border-radius: 5px; font-weight: 600; font-size: 0.9em; display: inline-block; transition: background-color 0.2s ease; border: none; }
 .paper-button:hover { background-color: color-mix(in srgb, var(--accent-color) 80%, black); color: white; text-decoration: none; }
 .teaching-entry { margin-bottom: 1.5rem; }
-.teaching-entry p { margin-bottom: 0.5rem; }
-.teaching-entry ul { list-style-position: inside; padding-left: 0; }
