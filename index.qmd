@@ -1,8 +1,5 @@
 ---
-repo-actions: false
-code-annotations: hover
-embed-resources: true
-toc: false
+# None
 ---
 
 ```{=html}

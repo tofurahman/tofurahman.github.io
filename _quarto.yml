@@ -1,14 +1,14 @@
 # _quarto.yml
+
 project:
   type: website
   output-dir: docs
 
 website:
-  title: "Md Twfiqur Rahman" # This will now appear in the navbar
+  title: "Md Twfiqur Rahman"
   favicon: assets/logo-transparent-png.png
   navbar:
-    title: "Md Twfiqur Rahman" # Use the title field for your name
-    # We remove the logo keys since your name is the title now
+    title: "Md Twfiqur Rahman"
     right: 
       - href: "#about"
         text: About
@@ -29,4 +29,4 @@ format:
       light: cosmo
       dark: darkly
     css: styles.css
-    toc: false
+    toc: false # This is the master switch for the whole site.
