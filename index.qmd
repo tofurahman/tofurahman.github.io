@@ -13,7 +13,7 @@
 
     <div class="about-text">
   <p class="greeting"><b>Hi, I'm Toufiq.</b></p>
-  <p>I am an applied microeconomist specializing in health, education, and labor economics. My research employs modern econometric and machine learning methods to analyze the real-world impacts of policy interventions, such as the effects of teacher incentives on student outcomes and the consequences of Medicaid changes on public health.</p>
+  <p>I am an applied microeconomist with interest in health, education, and labor economics. My research primarily employs modern econometric and machine learning methods to analyze the real-world impacts of policy interventions, such as the effects of teacher incentives on student outcomes and the consequences of Medicaid changes on public health.</p>
   <p>I am currently a Postdoc at the Johns Hopkins Carey Business School. I received my Ph.D. in Economics from Georgia State University.</p>
 </div>
 
