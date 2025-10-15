@@ -8,6 +8,7 @@ website:
   favicon: assets/logo-transparent-png.png
   navbar:
     title: "Md Twfiqur Rahman"
+    background: dark
     right: 
       - href: "#about"
         text: About
@@ -23,7 +24,8 @@ website:
 format:
   html:
     theme:
-      light: flatly
-      dark: slate
+      light: Yeti
+      dark: solar
+    navbar: secondary
     css: styles.css
     toc: false

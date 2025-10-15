@@ -34,82 +34,110 @@ a:hover { text-decoration: underline; }
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4rem 1rem;
+  padding: 2rem 1rem;
   box-sizing: border-box;
-  border-top: 1px solid var(--bs-border-color);
+  border-top: none;
 }
 
 .page-section:first-of-type {
   min-height: calc(100vh - var(--nav-height));
   border-top: none;
+  padding-top: 1rem; /* REDUCED: This moves the content up */
 }
 
 .content-wrapper { max-width: 800px; width: 100%; padding: 0 1rem; }
-.about-container { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 2rem; max-width: 850px; padding: 1rem; }
-.about-image img { width: 12em; height: 12em; border-radius: 50%; object-fit: cover; }
-.about-text { flex-basis: 450px; flex-grow: 1; }
-.about-links { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.about-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;    /* Center items horizontally */
+  max-width: 650px;       /* A comfortable width for reading text */
+  padding: 1rem;
+  text-align: center;     /* Center the text within the container */
+}
 
+.about-image img {
+  width: 10em;      /* A smaller size for the photo */
+  height: 10em;     /* Keep it square to make a perfect circle */
+  object-fit: cover;
+  border-radius: 50%; /* This makes the image a circle */
+  margin-bottom: 1.5rem; /* Adds space between the photo and the bio text */
+}
+/* Center the greeting and give it emphasis */
+.about-text .greeting {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* Justify the main paragraph text */
+.about-text p {
+  text-align: justify;
+}
+.about-links {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center; /* Add this line */
+}
 
 /* ==========================================================================
-   3. RESEARCH & TEACHING STYLES (Now simpler)
+   3. THEME-AWARE RESEARCH & TEACHING STYLES
    ========================================================================== */
+
+/* This forces the research section content to align to the top */
+#research {
+  justify-content: flex-start;
+}
+
+/* New list-style look for paper entries */
 .paper-entry {
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  border: 1px solid var(--bs-border-color);
-  border-radius: 8px;
-  background-color: var(--bs-tertiary-bg);
-  transition: box-shadow 0.2s ease-in-out;
-}
-
-.paper-entry:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.paper-title { font-weight: 700; font-size: 1.25em; } /* Let theme handle font family */
-.paper-authors { font-style: italic; color: var(--bs-secondary-color); }
-.paper-abstract { font-size: 0.9em; }
-.paper-tag { font-size: 0.75em; font-weight: 600; padding: 0.25em 0.75em; border-radius: 12px; text-transform: uppercase; letter-spacing: 0.5px; background-color: var(--bs-tertiary-bg); }
-.paper-tag.jmp { color: var(--accent-color); }
-.paper-tag.status { color: var(--bs-secondary-color); }
-.paper-links { margin-top: 1rem; }
-.paper-button {
-  /* Use the theme's main accent color for the border and text */
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
-  
-  /* Make the background transparent */
   background-color: transparent;
-
-  /* Keep the other styles */
-  padding: 0.4em 0.9em;
-  border-radius: 16px; /* More rounded corners for a softer look */
-  font-weight: 600;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.85em;
-  display: inline-block;
-  text-decoration: none; /* Ensure no underline on the button text */
-  transition: all 0.2s ease-in-out; /* Smooth transition for hover effects */
+  border: none;
+  border-bottom: 1px solid var(--bs-border-color); /* The list divider */
+  padding: 1.5rem 0; /* Vertical padding, no side padding */
+  margin-bottom: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.paper-entry:hover {
+  box-shadow: none;
+}
+/* Add a top border to the very first paper to cap the list */
+.paper-entry:first-of-type {
+    border-top: 1px solid var(--bs-border-color);
 }
 
-.paper-button:hover {
-  /* Fill the button with the accent color on hover */
-  background-color: var(--accent-color);
-  
-  /* Make the text white for contrast */
-  color: white; 
-  
-  text-decoration: none;
-}
-.teaching-entry { margin-bottom: 1.5rem; }
-
-.teaching-entry ul, .teaching-entry li {
-  font-family: var(--bs-body-font-family);
+.paper-header {
+  margin-bottom: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-/* In styles.css */
+/* Reduced font sizes for a more compact list */
+.paper-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+.paper-authors {
+  font-style: italic;
+  font-size: 0.9em;
+  color: var(--bs-secondary-color, var(--bs-body-color));
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.paper-abstract {
+  font-size: 0.9em;
+  color: var(--bs-body-color);
+  text-align: left;
+}
 
+/* Styles for the expandable abstract functionality */
 .abstract-toggle {
   display: inline-block;
   margin-bottom: 1rem;
@@ -119,18 +147,76 @@ a:hover { text-decoration: underline; }
 }
 
 .arrow {
-  display: inline-block; /* Allows the transform to work */
+  display: inline-block;
   margin-right: 8px;
-  transition: transform 0.2s ease-in-out; /* Smooth rotation animation */
+  transition: transform 0.2s ease-in-out;
 }
 
-/* This class will be added by JavaScript when the abstract is open */
 .arrow.expanded {
-  transform: rotate(90deg); /* Rotates the arrow to point down */
+  transform: rotate(90deg);
 }
 
 .abstract-content {
-  display: none; /* Keeps abstract hidden by default */
+  display: none; /* This is the key rule that hides abstracts by default */
+  margin-top: 1rem;
+}
+
+.paper-tag {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  padding: 0.25em 0.75em;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  background-color: var(--bs-tertiary-bg);
+}
+.paper-tag.jmp { color: var(--accent-color); }
+.paper-tag.status { color: var(--bs-secondary-color); }
+.paper-links { margin-top: 1rem; }
+
+/* This is the base style, which works for the light theme */
+.paper-button {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  background-color: transparent;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.paper-button:hover {
+  background-color: var(--accent-color);
+  color: white; /* Text becomes white on hover */
+  text-decoration: none;
+}
+
+/* This is the smaller version of the button */
+.paper-button.small {
+  font-size: 0.8em;
+  padding: 0.4em 0.8em;
+}
+
+
+/* --- DARK MODE OVERRIDE --- */
+/* This block makes the buttons "light" when the dark theme is active */
+[data-bs-theme="dark"] .paper-button {
+  /* Use the theme's subtle light gray border color */
+  border-color: var(--bs-border-color);
+  color: var(--bs-border-color);
+}
+
+[data-bs-theme="dark"] .paper-button:hover {
+  /* Fill with that same light gray color on hover */
+  background-color: var(--bs-border-color);
+  /* Use the theme's main dark background color for the text for high contrast */
+  color: var(--bs-body-bg);
 }
 
 
@@ -210,7 +296,7 @@ CSS
 /* ==========================================================================
    6. TEACHING SECTION STYLES
    ========================================================================== */
-
+.teaching-entry { margin-bottom: 1.5rem; }
 .teaching-role {
   margin-top: 2.5rem; /* Adds space ABOVE each role block */
   margin-bottom: 2.5rem;
