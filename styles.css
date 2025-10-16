@@ -1,376 +1,97 @@
 /* ==========================================================================
-   1. CORE LAYOUT & SCROLLING BEHAVIOR
+   1. CORE LAYOUT & CENTERED PANE
    ========================================================================== */
-:root {
-  /* We still tie our accent color to the theme's primary color */
-  --accent-color: var(--bs-primary);
-  --nav-height: 56px;
-}
-
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: var(--nav-height);
-}
-
 body {
-  /* Font and color will now come from the Litera theme */
-  line-height: 1.6;
+  background-color: #f1f3f5; /* Light gray background for the whole page */
+  font-family: var(--bs-body-font-family);
 }
 
-a { 
-  /* The theme will color links, but we ensure our buttons use the primary color */
-  color: var(--accent-color);
-  text-decoration: none;
-}
-a:hover { text-decoration: underline; }
-
-
-/* ==========================================================================
-   2. PAGE SECTIONS & ABOUT LAYOUT (Structural styles)
-   ========================================================================== */
-.page-section {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 1rem;
-  box-sizing: border-box;
-  border-top: none;
-}
-
-.page-section:first-of-type {
-  min-height: calc(100vh - var(--nav-height));
-  border-top: none;
-  padding-top: 1rem; /* REDUCED: This moves the content up */
-}
-
-.content-wrapper { max-width: 800px; width: 100%; padding: 0 1rem; }
-.about-container {
-  display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center;    /* Center items horizontally */
-  max-width: 650px;       /* A comfortable width for reading text */
-  padding: 1rem;
-  text-align: center;     /* Center the text within the container */
-}
-
-.about-image img {
-  width: 10em;      /* A smaller size for the photo */
-  height: 10em;     /* Keep it square to make a perfect circle */
-  object-fit: cover;
-  border-radius: 50%; /* This makes the image a circle */
-  margin-bottom: 1.5rem; /* Adds space between the photo and the bio text */
-}
-/* Center the greeting and give it emphasis */
-.about-text .greeting {
-  text-align: center;
-  font-size: 1.2em;
-  font-weight: 600;
-  margin-bottom: 1.5rem;
-}
-
-/* Justify the main paragraph text */
-.about-text p {
-  text-align: justify;
-}
-.about-links {
-  margin-top: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  justify-content: center; /* Add this line */
-}
-
-/* ==========================================================================
-   3. THEME-AWARE RESEARCH & TEACHING STYLES
-   ========================================================================== */
-
-/* This forces the research section content to align to the top */
-#research {
-  justify-content: flex-start;
-}
-
-/* New list-style look for paper entries */
-.paper-entry {
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid var(--bs-border-color); /* The list divider */
-  padding: 1.5rem 0; /* Vertical padding, no side padding */
-  margin-bottom: 0;
-  border-radius: 0;
-  box-shadow: none;
-}
-.paper-entry:hover {
-  box-shadow: none;
-}
-/* Add a top border to the very first paper to cap the list */
-.paper-entry:first-of-type {
-    border-top: 1px solid var(--bs-border-color);
-}
-
-.paper-header {
-  margin-bottom: 0.25rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-/* Reduced font sizes for a more compact list */
-.paper-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.1em;
-  font-weight: 700;
-  margin-right: 1rem;
-}
-.paper-authors {
-  font-style: italic;
-  font-size: 0.9em;
-  color: var(--bs-secondary-color, var(--bs-body-color));
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-.paper-abstract {
-  font-size: 0.9em;
-  color: var(--bs-body-color);
-  text-align: left;
-}
-
-/* Styles for the expandable abstract functionality */
-.abstract-toggle {
-  display: inline-block;
-  margin-bottom: 1rem;
-  font-weight: 600;
-  font-size: 0.9em;
-  cursor: pointer;
-}
-
-.arrow {
-  display: inline-block;
-  margin-right: 8px;
-  transition: transform 0.2s ease-in-out;
-}
-
-.arrow.expanded {
-  transform: rotate(90deg);
-}
-
-.abstract-content {
-  display: none; /* This is the key rule that hides abstracts by default */
-  margin-top: 1rem;
-}
-
-.paper-tag {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.7em;
-  font-weight: 600;
-  padding: 0.25em 0.75em;
-  border-radius: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  white-space: nowrap;
-  background-color: var(--bs-tertiary-bg);
-}
-.paper-tag.jmp { color: var(--accent-color); }
-.paper-tag.status { color: var(--bs-secondary-color); }
-.paper-links { margin-top: 1rem; }
-
-/* This is the base style, which works for the light theme */
-.paper-button {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
-  background-color: transparent;
-  padding: 0.5em 1em;
-  border-radius: 5px;
-  font-weight: 600;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.9em;
-  display: inline-block;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-}
-
-.paper-button:hover {
-  background-color: var(--accent-color);
-  color: white; /* Text becomes white on hover */
-  text-decoration: none;
-}
-
-/* This is the smaller version of the button */
-.paper-button.small {
-  font-size: 0.8em;
-  padding: 0.4em 0.8em;
-}
-
-
-/* --- DARK MODE OVERRIDE --- */
-/* This block makes the buttons "light" when the dark theme is active */
-[data-bs-theme="dark"] .paper-button {
-  /* Use the theme's subtle light gray border color */
-  border-color: var(--bs-border-color);
-  color: var(--bs-border-color);
-}
-
-[data-bs-theme="dark"] .paper-button:hover {
-  /* Fill with that same light gray color on hover */
-  background-color: var(--bs-border-color);
-  /* Use the theme's main dark background color for the text for high contrast */
-  color: var(--bs-body-bg);
-}
-
-.paper-meta {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
-.paper-meta .paper-authors {
-  margin: 0;
-}
-
-/* This more specific rule will force the tag to the right */
-.paper-meta > .paper-tag {
-  margin-left: auto !important;
-}
-
-/* ==========================================================================
-   4. WORK IN PROGRESS STYLES
-   ========================================================================== */
-
-.wip-entry {
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1rem;
-  border: 1px dashed var(--bs-border-color); /* Dashed border for WIP */
+.page-container {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 2rem 3rem;
+  background-color: var(--bs-body-bg);
   border-radius: 8px;
-  transition: border-color 0.2s ease-in-out;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
 }
 
-.wip-entry:hover {
-  border-color: var(--accent-color); /* Highlight border on hover */
+/* Dark mode adjustments for the pane */
+[data-bs-theme="dark"] body {
+  background-color: #121212;
 }
-
-.wip-title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600; /* Slightly less bold than paper titles */
-  font-size: 1.1em;
-  color: var(--bs-heading-color, var(--bs-body-color));
-}
-
-.wip-authors {
-  font-style: italic;
-  color: var(--bs-secondary-color);
-  margin-top: 0.25rem;
-  margin-bottom: 0;
-  font-size: 0.9em;
-}
-
-Of course. We can adjust the font sizes for the headings and titles in the research section to make them more compact.
-
-The "too high" font size is likely coming from the theme's default sizes for the <h2> ("Research") and <h3> ("Working Papers") headings, as well as the custom size we set for the paper titles.
-
-The CSS Fix
-Add this new block of code to the bottom of your styles.css file. It will override the theme's defaults and reduce the size of the titles.
-
-CSS
 
 /* ==========================================================================
-   5. FONT SIZE ADJUSTMENTS
+   2. ELEGANT HEADER & NAVIGATION
    ========================================================================== */
-.page-section h2 {
-  font-size: 1.75rem;
-  width: 100%;
-  
-  /* The !important tag forces this style to apply */
-  border-bottom: 4px solid var(--bs-border-color) !important;
-  padding-bottom: 0.5rem;
-  margin-bottom: 2rem;
-  
-  /* Remove the old left-border style */
-  border-left: none;
-  padding-left: 0;
-}
-
-/* Reduce the size of subheadings like "Working Papers" */
-.page-section h3 {
-  font-size: 1.4rem;
-}
-
-/* Reduce the size of individual paper titles */
-.paper-title {
-  font-size: 1.15em;
-}
-
-/* Reduce the size of "Work in Progress" titles */
-.wip-title {
-  font-size: 1.05em;
-}
-
-
-/* ==========================================================================
-   6. TEACHING SECTION STYLES
-   ========================================================================== */
-.teaching-entry { margin-bottom: 1.5rem; }
-.teaching-role {
-  margin-top: 2.5rem; /* Adds space ABOVE each role block */
-  margin-bottom: 2.5rem;
-}
-
-/* This targets the first role block to remove extra space at the top */
-.teaching-role:first-of-type {
-  margin-top: 0;
-}
-
-.teaching-role h4 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
-  margin-bottom: 0.1rem;
-}
-
-.teaching-institution {
-  font-style: italic;
-  color: var(--bs-secondary-color);
-  margin-bottom: 1.5rem;
-}
-
-.course-entry {
-  display: grid;
-  grid-template-columns: 1fr auto auto; /* Title | Term | Link */
-  gap: 1.5rem;
+header {
+  display: flex;
+  justify-content: flex-end; /* Pushes the nav menu to the right */
   align-items: center;
-  padding: 1rem;
-  border-bottom: 1px solid var(--bs-border-color);
+  border-bottom: none;       /* NO BORDER on the header */
+  padding-bottom: 0.5rem;    /* Reduced space below nav */
+  margin-bottom: 2rem;
 }
 
-.course-entry:first-of-type {
-    border-top: 1px solid var(--bs-border-color);
+header nav {
+  display: flex;
+  gap: 1.5rem;
 }
 
-.course-title {
+header nav a {
   font-weight: 600;
+  font-size: 0.9em;
+  color: var(--bs-secondary-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+header nav a:hover {
   color: var(--bs-body-color);
 }
 
-.course-term {
-  font-size: 0.9em;
-  color: var(--bs-secondary-color);
+/* ==========================================================================
+   3. PAGE-SPECIFIC STYLES
+   ========================================================================== */
+
+/* Normal font sizes for headings */
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
+
+/* ABOUT PAGE */
+.about-container-new { display: grid; grid-template-columns: 1fr 3fr; align-items: start; gap: 2rem; }
+.about-image-new img { width: 100%; border-radius: 5px; }
+.about-text-new p { text-align: justify; margin-bottom: 1rem; }
+.about-text-new .greeting { text-align: left; font-size: 1.2em; }
+
+/* Stacking on mobile */
+@media (max-width: 768px) {
+  .page-container { margin: 1rem; padding: 1rem 1.5rem; }
+  header { flex-direction: column; align-items: flex-start; gap: 1rem; }
+  .about-container-new { grid-template-columns: 1fr; }
 }
 
-.course-link {
-  font-size: 0.85em;
-  font-weight: 600;
-  padding: 0.3em 0.8em;
-  border: 1px solid var(--bs-border-color);
-  border-radius: 12px;
-  white-space: nowrap;
+/* RESEARCH & TEACHING PAGES */
+.paper-entry-new, .teaching-entry {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--bs-border-color);
+  border-top: none; /* NO TOP BORDER */
 }
 
-.course-link:hover {
-  background-color: var(--bs-tertiary-bg);
-  text-decoration: none;
-}
+.paper-header-new { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; }
+.paper-title-new { margin: 0; }
+.paper-tag-new { font-size: 0.8em; font-weight: 600; color: var(--bs-secondary-color); white-space: nowrap; margin-top: 0.25rem; }
+.paper-authors-new { font-size: 0.95em; color: var(--bs-secondary-color); margin-bottom: 1rem; }
+.paper-links-new { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
 
-.teaching-evals-link {
-    margin-top: 2rem;
-    text-align: center;
-}
+/* Styles for the expandable abstract */
+.abstract-toggle { display: inline-block; margin-bottom: 1rem; font-weight: 600; font-size: 0.9em; cursor: pointer; color: var(--bs-body-color); }
+.abstract-toggle .arrow { display: inline-block; margin-right: 8px; transition: transform 0.2s ease-in-out; }
+.abstract-toggle .arrow.expanded { transform: rotate(90deg); }
+.abstract-content { display: none; font-size: 0.95em; padding-left: 1rem; border-left: 2px solid var(--bs-border-color); }
+
+/* Teaching Styles */
+.teaching-institution { color: var(--bs-secondary-color); font-weight: 600; margin-top: -0.5rem; }
+.teaching-entry { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.course-title-new { font-weight: 600; }
+.course-meta-new { display: flex; align-items: center; gap: 1rem; white-space: nowrap; color: var(--bs-secondary-color); }
+.teaching-evals-link-new { margin-top: 2rem; }

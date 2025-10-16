@@ -1,4 +1,5 @@
 # _quarto.yml
+
 project:
   type: website
   output-dir: docs
@@ -6,26 +7,15 @@ project:
 website:
   title: "Md Twfiqur Rahman"
   favicon: assets/logo-transparent-png.png
-  navbar:
-    title: "Md Twfiqur Rahman"
-    background: dark
-    right: 
-      - href: "#about"
-        text: About
-      - href: "#research"
-        text: Research
-      - href: "#teaching"
-        text: Teaching
-      - href: cv.qmd
-        text: CV
-      - icon: github
-        href: https://github.com/tofurahman/tofurahman.github.io
+  
+# The navbar: section has been completely removed.
 
 format:
   html:
     theme:
-      light: Yeti
-      dark: solar
-    navbar: secondary
+      light: sandstone
+      dark: darkly
     css: styles.css
-    toc: false
+    mainfont: "Lato"
+    sansfont: "Lato"
+    template: _layout.html

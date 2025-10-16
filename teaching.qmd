@@ -1,0 +1,44 @@
+---
+# title: "Teaching"
+---
+
+#### Instructor of Record
+
+```{=html}
+<p class="teaching-institution">Georgia State University</p>
+
+<div class="teaching-entry">
+  <span class="course-title-new">ECON 2105: Principles of Macroeconomics</span>
+  <span class="course-meta-new">
+    <span>Fall 2024</span>
+    <a href="assets/econ2105.pdf" class="btn btn-outline-primary btn-sm">Syllabus</a>
+  </span>
+</div>
+
+<div class="teaching-entry">
+  <span class="course-title-new">ECON 8220: Human Resources and Labor Markets</span>
+  <span class="course-meta-new">
+    <span>Spring 2025</span>
+    <a href="assets/econ8220.pdf" class="btn btn-outline-primary btn-sm">Syllabus</a>
+  </span>
+</div>
+
+<br>
+```
+
+#### Graduate Teaching Assistant
+
+```{=html}
+<p class="teaching-institution">Georgia State University</p>
+
+<div class="teaching-entry">
+  <span class="course-title-new">ECON 9230: Topics in Advanced Labor Economics</span>
+  <span class="course-meta-new">
+    <span>Spring 2025</span>
+  </span>
+</div>
+
+<div class="teaching-evals-link-new">
+  <a href="assets/Teaching_Evaluation.pdf" class="btn btn-secondary">View All Teaching Evaluations</a>
+</div>
+```

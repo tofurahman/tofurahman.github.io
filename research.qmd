@@ -1,0 +1,58 @@
+---
+# title: "Research"
+---
+
+#### Working Papers:
+
+```{=html}
+<div class="paper-entry-new">
+  <div class="paper-header-new">
+    <h6 class="paper-title-new">Do Incentives Shape Teacher Effort? Lessons from a Piece-rate Bonus Program</h4>
+    <span class="paper-tag-new">Job Market Paper</span>
+  </div>
+  <p class="paper-authors-new"><em>with Ian Callen</em></p>
+  <a href="#" class="abstract-toggle"><span class="arrow">►</span> Abstract</a>
+  <div class="abstract-content">
+    <p>We study the effects of a novel piece-rate teacher bonus program on student outcomes...</p>
+  </div>
+</div>
+
+<div class="paper-entry-new">
+  <div class="paper-header-new">
+    <h6 class="paper-title-new">From Coverage to Consequences: BMI and Health Behaviors after Medicaid Contraction</h6>
+    <span class="paper-tag-new">Under Review</span>
+  </div>
+  <div class="paper-links-new">
+    <a href="..." class="btn btn-outline-primary btn-sm">PDF</a>
+    <a href="..." class="btn btn-outline-secondary btn-sm">arXiv</a>
+  </div>
+  <a href="#" class="abstract-toggle"><span class="arrow">►</span> Abstract</a>
+  <div class="abstract-content">
+    <p>Leveraging Tennessee’s 2005 Medicaid contraction, I study the impact of losing public health insurance...</p>
+  </div>
+</div>
+
+<div class="paper-entry-new">
+  <div class="paper-header-new">
+    <h6 class="paper-title-new">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</h6>
+  </div>
+  <p class="paper-authors-new"><em>with Cade Lawson</em></p>
+  <div class="paper-links-new">
+      <a href="mailto:..." class="btn btn-outline-primary btn-sm">Request Draft</a>
+  </div>
+  <a href="#" class="abstract-toggle"><span class="arrow">►</span> Abstract</a>
+  <div class="abstract-content">
+    <p>Do policies that broaden educational access also foster success? We study this question...</p>
+  </div>
+</div>
+
+<br>
+```
+
+#### Work in Progress:
+
+-   The Effect of Gentrification on College Tuition
+
+-   The Contribution of Firms to Voting Behavior \*(with Michael Luca, Daniel Kreisman, and Jonathan Smith)\*
+
+-   R package: \`propWeights'
