@@ -23,7 +23,7 @@
     <i class="bi bi-file-earmark-text"></i>
     <span>CV</span>
   </a>
-  <a href="https://www.dropbox.com/scl/fi/ggskshcy4m582pzm4tsqx/BMI_sep2024.pdf?rlkey=rslmrppi5jffd19vce2f6fc4c&st=ru31v465&dl=0" class="icon-link">
+  <a href="https://www.dropbox.com/scl/fi/11a4fe4ua86q54o3jdx2r/tenncare_bmi_final.pdf?rlkey=6zk5hv0ib7kuhil96c5aci2mi&st=9cmgf0ag&dl=0" class="icon-link">
     <i class="bi bi-journal-text"></i>
     <span>JMP</span>
   </a>
