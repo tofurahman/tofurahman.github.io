@@ -1,15 +1,15 @@
 /* ==========================================================================
-   1. CORE LAYOUT & UPGRADED TYPOGRAPHY
+   1. CORE LAYOUT & SERIF TYPOGRAPHY
    ========================================================================== */
-/* Import a professional font pairing from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0;700;1,400&family=Lato:wght@400;700&display=swap');
+/* Import a professional serif font pairing from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Serif+Pro:wght@400;700&display=swap');
 
 body {
   background-color: #f1f3f5;
-  font-family: 'Lato', sans-serif; /* Use Lato for all body text */
+  font-family: 'Source Serif Pro', serif; /* Use Source Serif Pro for body text */
 }
 
-/* Apply the serif font to all headings for a classic look */
+/* Apply the Lora font to all headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lora', serif;
 }
@@ -35,16 +35,12 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  border-bottom: 2px solid var(--bs-border-color);
   padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
 
-/* The page title is no longer in the header, so this is not needed */
-/* header h1 { ... } */
-
 /* ==========================================================================
-   3. ELEGANT NAVIGATION MENU
+   3. ELEGANT NAVIGATION & PAGE-SPECIFIC STYLES
    ========================================================================== */
 header nav {
   display: flex;
@@ -52,40 +48,31 @@ header nav {
 }
 
 header nav a {
-  font-family: 'Lato', sans-serif; /* Ensure nav uses the body font */
-  font-weight: 700; /* Bolder font for more presence */
+  font-family: 'Source Serif Pro', serif; /* Use the new font */
+  font-weight: 700;
   font-size: 0.9em;
   color: var(--bs-secondary-color);
   text-decoration: none;
-  transition: color 0.2s ease;
-  padding-bottom: 2px; /* Add space for the hover underline */
-  border-bottom: 2px solid transparent; /* Transparent border for smooth effect */
+  padding-bottom: 3px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
 }
 
-/* Style for the link of the currently active page */
-header nav a.active {
-  color: var(--bs-body-color); /* Make it darker */
-}
-
-/* Subtle underline on hover */
-header nav a:hover {
+header nav a:hover, header nav a.active {
   color: var(--bs-body-color);
   border-bottom-color: var(--accent-color, var(--bs-primary));
 }
 
-/* ==========================================================================
-   4. REFINED PAGE-SPECIFIC STYLES
-   ========================================================================== */
-
-/* Add more space below headings for better separation */
-h3, h4 {
-  margin-bottom: 1rem;
+main h3 {
+  border-bottom: 1px solid var(--bs-border-color);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* --- ABOUT PAGE --- */
 .about-container-new { display: grid; grid-template-columns: 1fr 3fr; align-items: start; gap: 2rem; }
 .about-image-new img { width: 100%; border-radius: 5px; }
-.about-text-new p { text-align: justify; margin-bottom: 1.25rem; } /* More space between paragraphs */
+.about-text-new p { text-align: justify; margin-bottom: 1.25rem; }
 .about-text-new .greeting { text-align: left; font-size: 1.2em; font-family: 'Lora', serif; }
 
 @media (max-width: 768px) {
@@ -105,15 +92,19 @@ h3, h4 {
 .paper-authors-new { font-size: 0.95em; color: var(--bs-secondary-color); margin-bottom: 1rem; }
 .paper-links-new { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
 
-/* Styles for the expandable abstract */
 .abstract-toggle { display: inline-block; margin-bottom: 1rem; font-weight: 600; font-size: 0.9em; cursor: pointer; color: var(--bs-body-color); }
 .abstract-toggle .arrow { display: inline-block; margin-right: 8px; transition: transform 0.2s ease-in-out; }
 .abstract-toggle .arrow.expanded { transform: rotate(90deg); }
 .abstract-content { display: none; font-size: 0.95em; padding-left: 1rem; border-left: 2px solid var(--bs-border-color); }
 
-/* Teaching Styles */
 .teaching-institution { color: var(--bs-secondary-color); font-weight: 600; margin-top: -0.5rem; }
 .teaching-entry { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
-.course-title-new { font-weight: 600; }
+.course-title-new { font-weight: normal; } /* Toned-down as requested */
 .course-meta-new { display: flex; align-items: center; gap: 1rem; white-space: nowrap; color: var(--bs-secondary-color); }
 .teaching-evals-link-new { margin-top: 2rem; }
+
+.about-links-new {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.5rem;
+}
