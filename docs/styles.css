@@ -40,22 +40,35 @@ header {
 }
 
 /* ==========================================================================
-   3. ELEGANT NAVIGATION & PAGE-SPECIFIC STYLES
+   ELEGANT NAVIGATION & PAGE-SPECIFIC STYLES
    ========================================================================== */
+
 header nav {
   display: flex;
-  gap: 1.5rem;
+  gap: 0.5rem; /* Reduced gap for a tighter button group look */
 }
 
 header nav a {
-  font-family: 'Source Serif Pro', serif; /* Use the new font */
+  font-family: 'Source Serif Pro', serif;
   font-weight: 700;
   font-size: 0.9em;
   color: var(--bs-secondary-color);
   text-decoration: none;
-  padding-bottom: 3px;
-  border-bottom: 2px solid transparent;
-  transition: all 0.2s ease;
+  
+  /* These properties create the button shape */
+  padding: 0.5em 1em;
+  border-radius: 16px; /* Creates a soft, pill-like shape */
+  border: 2px solid transparent; /* Remove the old underline */
+  
+  /* This animates the background and color change smoothly */
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+header nav a:hover, header nav a.active {
+  /* On hover, change the background to the theme's subtle gray */
+  background-color: var(--bs-tertiary-bg);
+  /* Make the text color darker for emphasis */
+  color: var(--bs-body-color);
 }
 
 header nav a:hover, header nav a.active {
@@ -203,15 +216,16 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 }
 
 .page-container {
-  animation: fadeIn 0.05s ease-out;
+  animation: fadeIn 0.2s ease-out;
 }
 
-/* Subtle "lift" effect when hovering over paper or course entries */
-.paper-entry-new, .teaching-entry {
-  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+/* This rule adds the transition ONLY to the teaching entries */
+.teaching-entry {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-.paper-entry-new:hover, .teaching-entry:hover {
+/* This rule applies the "lift" effect ONLY to the teaching entries on hover */
+.teaching-entry:hover {
   transform: translateY(-3px); /* Lifts the item slightly */
   box-shadow: 0 4px 15px rgba(0,0,0,0.07);
 }
