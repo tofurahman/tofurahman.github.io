@@ -12,7 +12,7 @@ website:
 
 format:
   html:
-    theme: spacelab
+    theme: flatly
     css: styles.css
     mainfont: "Lato"
     sansfont: "Lato"

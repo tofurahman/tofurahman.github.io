@@ -72,7 +72,10 @@ main h3 {
 /* --- ABOUT PAGE --- */
 .about-container-new { display: grid; grid-template-columns: 1fr 3fr; align-items: start; gap: 2rem; }
 .about-image-new img { width: 100%; border-radius: 5px; }
-.about-text-new p { text-align: justify; margin-bottom: 1.25rem; }
+.about-text-new p {
+  text-align: left; /* Change this from 'justify' to 'left' */
+  margin-bottom: 1.25rem;
+}
 .about-text-new .greeting { text-align: left; font-size: 1.2em; font-family: 'Lora', serif; }
 
 @media (max-width: 768px) {
@@ -211,4 +214,44 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 .paper-entry-new:hover, .teaching-entry:hover {
   transform: translateY(-3px); /* Lifts the item slightly */
   box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+}
+
+/* ==========================================================================
+   MINIMALIST ICON LINKS (for About Page)
+   ========================================================================== */
+
+.about-links-new {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap; /* Allows links to wrap on small screens */
+  gap: 1.5rem; /* Increases space between links */
+}
+
+.icon-link {
+  display: inline-flex; /* Aligns icon and text on the same line */
+  align-items: center;
+  gap: 0.5rem; /* Space between icon and text */
+  color: var(--bs-secondary-color);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.icon-link i {
+  font-size: 1.2rem; /* Makes the icon a bit larger */
+}
+
+/* Underline effect for the text part of the link */
+.icon-link span {
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.2s ease-in-out;
+}
+
+.icon-link:hover {
+  color: var(--accent-color, var(--bs-primary)); /* Link turns blue on hover */
+}
+
+.icon-link:hover span {
+  border-bottom-color: var(--accent-color, var(--bs-primary)); /* Underline appears on hover */
 }
