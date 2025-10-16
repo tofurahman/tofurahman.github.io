@@ -12,9 +12,7 @@ website:
 
 format:
   html:
-    theme:
-      light: sandstone
-      dark: darkly
+    theme: spacelab
     css: styles.css
     mainfont: "Lato"
     sansfont: "Lato"

@@ -23,6 +23,12 @@
   </span>
 </div>
 
+<div class="teaching-evals-link-new">
+  <a href="assets/Teaching_Evaluation.pdf" class="gateway-link">
+    View All Teaching Evaluations →
+  </a>
+</div>
+
 <br>
 ```
 
@@ -36,9 +42,5 @@
   <span class="course-meta-new">
     <span>Spring 2025</span>
   </span>
-</div>
-
-<div class="teaching-evals-link-new">
-  <a href="assets/Teaching_Evaluation.pdf" class="btn btn-secondary">View All Teaching Evaluations</a>
 </div>
 ```

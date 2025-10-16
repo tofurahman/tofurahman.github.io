@@ -29,15 +29,19 @@
     </main>
   </div>
   
-  <script>
+ <script>
   document.addEventListener('DOMContentLoaded', () => {
     const toggles = document.querySelectorAll('.abstract-toggle');
     toggles.forEach(toggle => {
       toggle.addEventListener('click', (event) => {
         event.preventDefault();
-        const abstract = toggle.nextElementSibling;
+        
+        // This new selector is more robust
+        const paperEntry = toggle.closest('.paper-entry-new');
+        const abstract = paperEntry.querySelector('.abstract-content');
         const arrow = toggle.querySelector('.arrow');
-        if (abstract && abstract.classList.contains('abstract-content')) {
+        
+        if (abstract) {
           const isVisible = abstract.style.display === 'block';
           abstract.style.display = isVisible ? 'none' : 'block';
           if (isVisible) { arrow.classList.remove('expanded'); } 

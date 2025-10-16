@@ -15,9 +15,9 @@
     <p>I am currently a Postdoc at the Johns Hopkins Carey Business School. I received my Ph.D. in Economics from Georgia State University.</p>
 
     <div class="about-links-new">
-      <a href="https://www.linkedin.com/in/tofuiba/" class="btn btn-outline-primary">LinkedIn</a>
-      <a href="assets/CV.pdf" class="btn btn-outline-primary">CV</a>
-      <a href="https://www.dropbox.com/scl/fi/ggskshcy4m582pzm4tsqx/BMI_sep2024.pdf?rlkey=rslmrppi5jffd19vce2f6fc4c&st=ru31v465&dl=0" class="btn btn-outline-primary">JMP</a>
+      <a href="https://www.linkedin.com/in/tofuiba/" class="btn btn-outline-primary btn-sm">LinkedIn</a>
+      <a href="assets/CV.pdf" class="btn btn-outline-primary btn-sm">CV</a>
+      <a href="mailto:mrahma44@jh.edu" class="btn btn-outline-primary btn-sm">Email</a>
     </div>
   </div>
   
