@@ -1,11 +1,27 @@
 /* ==========================================================================
-   1. CORE LAYOUT & CENTERED PANE
+   1. CORE LAYOUT & UPGRADED TYPOGRAPHY
    ========================================================================== */
+/* Import a professional font pairing from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0;700;1,400&family=Lato:wght@400;700&display=swap');
+
 body {
-  background-color: #f1f3f5; /* Light gray background for the whole page */
-  font-family: var(--bs-body-font-family);
+  background-color: #f1f3f5;
+  font-family: 'Lato', sans-serif; /* Use Lato for all body text */
 }
 
+/* Apply the serif font to all headings for a classic look */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+}
+
+/* Dark mode adjustments */
+[data-bs-theme="dark"] body {
+  background-color: #121212;
+}
+
+/* ==========================================================================
+   2. CENTERED PANE & HEADER
+   ========================================================================== */
 .page-container {
   max-width: 900px;
   margin: 4rem auto;
@@ -15,68 +31,74 @@ body {
   box-shadow: 0 4px 20px rgba(0,0,0,0.05);
 }
 
-/* Dark mode adjustments for the pane */
-[data-bs-theme="dark"] body {
-  background-color: #121212;
-}
-
-/* ==========================================================================
-   2. ELEGANT HEADER & NAVIGATION
-   ========================================================================== */
 header {
   display: flex;
-  justify-content: flex-end; /* Pushes the nav menu to the right */
+  justify-content: flex-end;
   align-items: center;
-  border-bottom: none;       /* NO BORDER on the header */
-  padding-bottom: 0.5rem;    /* Reduced space below nav */
+  border-bottom: 2px solid var(--bs-border-color);
+  padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
 
+/* The page title is no longer in the header, so this is not needed */
+/* header h1 { ... } */
+
+/* ==========================================================================
+   3. ELEGANT NAVIGATION MENU
+   ========================================================================== */
 header nav {
   display: flex;
   gap: 1.5rem;
 }
 
 header nav a {
-  font-weight: 600;
+  font-family: 'Lato', sans-serif; /* Ensure nav uses the body font */
+  font-weight: 700; /* Bolder font for more presence */
   font-size: 0.9em;
   color: var(--bs-secondary-color);
   text-decoration: none;
   transition: color 0.2s ease;
+  padding-bottom: 2px; /* Add space for the hover underline */
+  border-bottom: 2px solid transparent; /* Transparent border for smooth effect */
 }
 
+/* Style for the link of the currently active page */
+header nav a.active {
+  color: var(--bs-body-color); /* Make it darker */
+}
+
+/* Subtle underline on hover */
 header nav a:hover {
   color: var(--bs-body-color);
+  border-bottom-color: var(--accent-color, var(--bs-primary));
 }
 
 /* ==========================================================================
-   3. PAGE-SPECIFIC STYLES
+   4. REFINED PAGE-SPECIFIC STYLES
    ========================================================================== */
 
-/* Normal font sizes for headings */
-h3 { font-size: 1.5rem; }
-h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
+/* Add more space below headings for better separation */
+h3, h4 {
+  margin-bottom: 1rem;
+}
 
-/* ABOUT PAGE */
+/* --- ABOUT PAGE --- */
 .about-container-new { display: grid; grid-template-columns: 1fr 3fr; align-items: start; gap: 2rem; }
 .about-image-new img { width: 100%; border-radius: 5px; }
-.about-text-new p { text-align: justify; margin-bottom: 1rem; }
-.about-text-new .greeting { text-align: left; font-size: 1.2em; }
+.about-text-new p { text-align: justify; margin-bottom: 1.25rem; } /* More space between paragraphs */
+.about-text-new .greeting { text-align: left; font-size: 1.2em; font-family: 'Lora', serif; }
 
-/* Stacking on mobile */
 @media (max-width: 768px) {
   .page-container { margin: 1rem; padding: 1rem 1.5rem; }
   header { flex-direction: column; align-items: flex-start; gap: 1rem; }
   .about-container-new { grid-template-columns: 1fr; }
 }
 
-/* RESEARCH & TEACHING PAGES */
+/* --- RESEARCH & TEACHING PAGES --- */
 .paper-entry-new, .teaching-entry {
   padding: 1.5rem 0;
   border-bottom: 1px solid var(--bs-border-color);
-  border-top: none; /* NO TOP BORDER */
 }
-
 .paper-header-new { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; }
 .paper-title-new { margin: 0; }
 .paper-tag-new { font-size: 0.8em; font-weight: 600; color: var(--bs-secondary-color); white-space: nowrap; margin-top: 0.25rem; }
