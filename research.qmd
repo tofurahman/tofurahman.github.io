@@ -6,7 +6,7 @@
 
 ```{=html}
 <div class="paper-entry-new">
-  <h4 class="paper-title-new">The Anatomy of a Piece-rate Teacher Bonus Program</h4>
+  <h5 class="paper-title-new">The Anatomy of a Piece-rate Teacher Bonus Program</h5>
 
   <div class="paper-grid">
     <div class="paper-details">
@@ -27,7 +27,7 @@
 </div>
 
 <div class="paper-entry-new">
-  <h4 class="paper-title-new">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</h4>
+  <h5 class="paper-title-new">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</h5>
 
   <div class="paper-grid">
     <div class="paper-details">
@@ -49,7 +49,7 @@
 
 
 <div class="paper-entry-new">
-  <h4 class="paper-title-new">From Coverage to Consequences: BMI, Health Behaviors, and Self-rated Health After Medicaid Contraction</h4>
+  <h5 class="paper-title-new">From Coverage to Consequences: BMI, Health Behaviors, and Self-rated Health After Medicaid Contraction</h5>
 
   <div class="paper-grid">
     <div class="paper-details">
