@@ -16,7 +16,7 @@
     <div class="paper-actions">
       <span class="paper-tag-new">Job Market Paper</span>
       <div class="paper-links-new">
-        <a href="https://www.dropbox.com/scl/fi/u7eqhk6xm807ke6eusxw7/AP_fee_waivers.pdf?rlkey=ympqee3b792cn6tlhhpaii2uv&st=usfwivtv&dl=0" class="btn btn-outline-primary btn-sm">Draft</a>
+        <a href="https://www.dropbox.com/scl/fi/f20cq1nmbz3yra3fj1d21/AP_Teacher_Bonus.pdf?rlkey=dw4wa61iq2b48i09c4p8hfz83&st=9cgi8om0&dl=0" class="btn btn-outline-primary btn-sm">Draft</a>
       </div>
     </div>
   </div>
