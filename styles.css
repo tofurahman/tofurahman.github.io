@@ -269,3 +269,5 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 .icon-link:hover span {
   border-bottom-color: var(--accent-color, var(--bs-primary)); /* Underline appears on hover */
 }
+
+
