@@ -27,7 +27,7 @@
     <i class="bi bi-journal-text"></i>
     <span>JMP</span>
   </a>
-  <a href="mailto:mrahman24@gsu.edu" class="icon-link">
+  <a href="mailto:mrahma44@jh.edu" class="icon-link">
     <i class="bi bi-envelope"></i>
     <span>Email</span>
   </a>
