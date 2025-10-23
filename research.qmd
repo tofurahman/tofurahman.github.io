@@ -81,6 +81,4 @@
 
 -   Local Shocks and the Nationalization of US Politics
 
--   Local Information Shocks and Deaths of Despair
-
 -   The Capitalized Cost of Environmental Regulation on Used Car Values: Evidence from a Regression Discontinuity Design *(with Cade Lawson)*

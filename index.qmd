@@ -11,7 +11,10 @@
 
   <div class="about-text-new">
     <p class="greeting"><b>Hi, I'm Toufiq.</b></p>
-    <p>I am an applied microeconomist. My research applies rigorous quasi-experimental and machine learning methods to large datasets to measure the causal effects of economic policies and incentives. My work has examined the impact of performance-based teacher bonuses, the role of AP exam fee waivers on college-credit attainment, and the health consequences of public insurance contractions.</p>
+    <p>I am an applied microeconomist specializing in program evaluation and applied econometrics. My work centers on causal inference, with a primary focus on education policy. My portfolio includes studies on performance-based teacher bonuses and AP exam fee waivers, alongside related work in health economics on public insurance contractions.<br> <br>
+
+Methodologically, my research demonstrates rigor in overcoming the challenges of causal inference. I specialize in designing identification strategies in complex settings, such as using within-student/within-teacher comparisons or exploiting specific program features (like a bonus cap) to build valid counterfactuals. I also focus on the contextual inferential challenges; for example, my BMI paper suggests a finite-sample correction that improves test size for inference in single treated cluster settings with limited pre-period data. My interests are also drawn to political economy, specifically voting behavior and partisan alignment in the US.</p>
+
     <p>I am currently a Research Assistant (Postdoc) at the Johns Hopkins Carey Business School. I received my Ph.D. in Economics from Georgia State University.</p>
 
 <div class="about-links-new">
