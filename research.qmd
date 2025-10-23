@@ -22,7 +22,7 @@
   </div>
 
   <div class="abstract-content">
-    <p>A central tenet of economics is that agents respond to incentives, yet the real-world effects of performance pay in complex jobs remain a puzzle. Simple models predict a direct increase in effort, while critics warn of a narrow targeted effort. This paper provides new evidence on this debate by studying a statewide bonus program that rewards Advanced Placement (AP) teachers a piece-rate for each student in their class passing the standardized test. Using quasi-experimental methods, we first document a significant average effect: the program increased student pass rates by 2.4 percentage points. We then decompose this average effect and report two key insights. First, contrary to the "teaching to the bubble" hypothesis, we find robust evidence of gains concentrated at the top of the AP score distribution. Second, the average effect was not uniform, varying significantly across academic subjects. Our findings suggest that the success of performance pay is jointly determined by the design of the incentive, the nature of the task, and the agent's baseline performance and workload.</p>
+    <p>A central tenet of economics is that agents respond to incentives, yet the real-world effects of performance pay remain a puzzle. Simple models predict a direct increase in effort, while critics warn of a narrow targeted effort. This paper provides new evidence on this debate by studying a statewide bonus program that rewards Advanced Placement (AP) teachers a piece-rate for each student in their class passing the standardized test. We use marginal analysis to show that the bonus induces targeted effort and to explain the mechanisms driving variation in incentive strength, which we test empirically. Using student-course level data linked to teachers and a difference-in-differences design, we first document a significant average effect: the program increased student pass rates by 2.4 percentage points. We then decompose this average effect and report two key insights. First, contrary to the "teaching to the bubble" hypothesis, we find robust evidence of gains concentrated at the top of the AP score distribution. Second, we document heterogeneity across multiple dimensions, suggesting that the success of performance pay is jointly determined by the design of the incentive, the nature of the task, and the agent's baseline performance and workload.</p>
   </div>
 </div>
 
@@ -43,7 +43,7 @@
   </div>
 
   <div class="abstract-content">
-    <p>Do policies that broaden educational access also foster success? We study this question in the context of North Carolina’s universal Advanced Placement (AP) exam fee waiver policy, analyzing its effects on the likelihood of exam participation and achieving a passing score (>=3 out of 5). Using administrative data and exploiting within-student variation, we find that fee waivers boost AP exam participation but not the overall pass rate among AP-enrolled students. This, however, masks a robust 3 percentage point increase in the pass rates among low-SES students. We also find imprecise but suggestive evidence of gains among underrepresented minorities (non-Asian and non-White) and underutilized AP courses, defined by below median exam participation rate in the pre-waiver period. A complementary analysis, leveraging the full sample of AP courses, shows that fee waivers had the greatest impact in courses where predicted financial barriers were highest, and that the policy's benefits far exceed its cost. Finally, our results help reconcile the seemingly disparate findings from prior work on AP exam funding.</p>
+    <p>Do policies that broaden educational access also foster success? We study this question in the context of North Carolina’s universal Advanced Placement (AP) exam fee waiver policy, analyzing its effects on the likelihood of exam participation and achieving a passing score (>=3 out of 5). Using administrative data and exploiting within-student variation, we find that fee waivers boost AP exam participation but not the overall pass rate among AP-enrolled students. This, however, masks a robust 3 percentage point increase in the pass rates among low-SES students. We also find imprecise but suggestive evidence of gains among underrepresented minorities (non-Asian and non-White). A complementary analysis, leveraging the full sample of AP courses, shows that fee waivers had the greatest impact in courses where predicted financial barriers were highest, and that the policy's benefits far exceed its cost. Finally, our results help reconcile the seemingly disparate findings from prior work on AP exam funding.</p>
   </div>
 </div>
 
@@ -78,5 +78,9 @@
 -   The Contribution of Firms to Voting Behavior *(with Michael Luca, Daniel Kreisman, Jonathan Smith)*
 
 -   Gentrification and the Price of Higher Education
+
+-   Local Shocks and the Nationalization of US Politics
+
+-   Local Information Shocks and Deaths of Despair
 
 -   The Capitalized Cost of Environmental Regulation on Used Car Values: Evidence from a Regression Discontinuity Design *(with Cade Lawson)*
