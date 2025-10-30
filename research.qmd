@@ -82,3 +82,10 @@
 -   Local Shocks and the Nationalization of US Politics
 
 -   The Capitalized Cost of Environmental Regulation on Used Car Values: Evidence from a Regression Discontinuity Design *(with Cade Lawson)*
+
+```{=html}
+  <br>
+   <a href="assets/Research_Statement.pdf" class="gateway-link">
+    View my Research Statement →
+  </a>
+```

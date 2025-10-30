@@ -25,7 +25,11 @@
 
 <div class="teaching-evals-link-new">
   <a href="assets/Teaching_Evaluation.pdf" class="gateway-link">
-    View All Teaching Evaluations →
+    View my Teaching Evaluations →
+  </a>
+  <br>
+   <a href="assets/Teaching_Statement.pdf" class="gateway-link">
+    View my Teaching Statement →
   </a>
 </div>
 
