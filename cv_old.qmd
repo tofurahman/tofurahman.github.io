@@ -1,1 +1,1 @@
-##### {{< pdf assets/CV.pdf width=80% height=800 >}}
+##### {{< pdf assets/CV.pdf width=80% height=950 >}}

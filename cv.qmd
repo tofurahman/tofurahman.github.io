@@ -5,4 +5,4 @@ toc: true
 embed-resources: true
 ---
 
-##### {{< pdf assets/CV.pdf width=100% height=960 >}}
+##### {{< pdf assets/CV.pdf width=100% height=950 >}}
