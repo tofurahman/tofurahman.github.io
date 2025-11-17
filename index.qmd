@@ -15,7 +15,7 @@
 
 Methodologically, my research demonstrates rigor in overcoming the challenges of causal inference. I specialize in designing identification strategies in complex settings, such as using within-student/within-teacher comparisons, exploiting specific program features (like a bonus cap), or careful application of machine learning methods to build valid counterfactuals. I also focus on contextual inferential challenges; for example, my BMI paper suggests a finite-sample correction that improves test size for inference in single treated cluster settings with limited pre-period data.</p>
 
-    <p>I am currently a Research Assistant (Postdoc) at the Johns Hopkins Carey Business School. I received my Ph.D. in Economics from Georgia State University. I'm on the 2025-26 job market.</p>
+    <p>I am currently a Research Assistant (Postdoc) at the Johns Hopkins Carey Business School. I received my Ph.D. in Economics from Georgia State University, where I was advised by Daniel Kreisman and worked as a Graduate Research Assistant at Georgia Policy Labs.</p>
 
 <div class="about-links-new">
   <a href="https://www.linkedin.com/in/tofuiba/" class="icon-link">
