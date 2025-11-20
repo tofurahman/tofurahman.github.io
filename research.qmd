@@ -34,7 +34,7 @@
       <a href="#" class="abstract-toggle"><span class="arrow">►</span> Abstract</a>
     </div>
     <div class="paper-actions">
-      <span class="paper-tag-new"></span>
+      <span class="paper-tag-new">Submitted</span>
       <div class="paper-links-new">
         <a href="https://www.dropbox.com/scl/fi/u7eqhk6xm807ke6eusxw7/AP_fee_waivers.pdf?rlkey=ympqee3b792cn6tlhhpaii2uv&st=usfwivtv&dl=0" class="btn btn-outline-primary btn-sm">PDF</a>
       </div>
