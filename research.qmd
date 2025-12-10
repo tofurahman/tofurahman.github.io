@@ -34,7 +34,7 @@
       <a href="#" class="abstract-toggle"><span class="arrow">►</span> Abstract</a>
     </div>
     <div class="paper-actions">
-      <span class="paper-tag-new">Submitted</span>
+      <span class="paper-tag-new">Under Review</span>
       <div class="paper-links-new">
         <a href="https://edworkingpapers.com/ai25-1345" class="btn btn-outline-primary btn-sm">EdWorkingPapers</a>
       </div>
@@ -56,7 +56,7 @@
       <a href="#" class="abstract-toggle"><span class="arrow">►</span> Abstract</a>
     </div>
     <div class="paper-actions">
-      <span class="paper-tag-new">Under Review</span>
+      <span class="paper-tag-new"></span>
       <div class="paper-links-new">
         <a href="https://arxiv.org/pdf/2508.19155" class="btn btn-outline-primary btn-sm">ArXiv</a>
       </div>
