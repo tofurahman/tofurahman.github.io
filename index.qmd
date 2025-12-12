@@ -11,7 +11,8 @@
 
   <div class="about-text-new">
     <p class="greeting"><b>Hi, I'm Toufiq.</b></p>
-    <p>I am an applied microeconomist studying how public policies and incentives shape behavior and human capital. My research agenda focuses on the production and preservation of human capital. I study how teachers produce it (through performance incentives), how financial costs constrain it (via exam fees), and how health shocks destroy it (following insurance loss).</p>
+    <p>I am an applied microeconomist specializing in Labor Economics, Education, and Applied Econometrics.</p>
+    <p>My research agenda focuses on the production and preservation of human capital. I study how teachers produce it (through performance incentives), how financial costs constrain it (via exam fees), and how health shocks destroy it (following insurance loss).</p>
 
 <p>Recently, I have expanded this focus to political economy, examining how local economic shocks and firms shape voting behavior.</p>
 
