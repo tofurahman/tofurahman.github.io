@@ -11,7 +11,7 @@
 
   <div class="about-text-new">
     <p class="greeting"><b>Hi, I'm Toufiq.</b></p>
-    <p>I am an applied microeconomist specializing in Education, Labor, and Public Economics.</p>
+    <p>I am an applied microeconomist specializing in Education, Labor, and Health Economics.</p>
     <p>My research agenda focuses on the production and preservation of human capital. I study how policy levers can facilitate its accumulation—examining the role of teacher incentives and financial subsidies—and whether safety nets protect its value by buffering against health and economic shocks.</p>
     
     <p>Broadly, I am interested in the incentives that govern individual behavior, with additional work exploring political economy and voting.</p>
