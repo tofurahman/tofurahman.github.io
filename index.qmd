@@ -16,7 +16,7 @@
     
     <p>Broadly, I am interested in the incentives that govern individual behavior, with additional work exploring political economy and voting.</p>
 
-    <p>I am currently a Postdoctoral Research Assistant at the Johns Hopkins Carey Business School. I received my Ph.D. in Economics from Georgia State University, where I was advised by Professor Daniel Kreisman and worked as a Graduate Research Assistant at Georgia Policy Labs.</p>
+    <p>I am currently a Postdoc at the Johns Hopkins Carey Business School. I received my Ph.D. in Economics from Georgia State University, where I was advised by Professor Daniel Kreisman and worked as a Graduate Research Assistant at Georgia Policy Labs.</p>
 
 <div class="about-links-new">
   <a href="https://www.linkedin.com/in/tofuiba/" class="icon-link">
