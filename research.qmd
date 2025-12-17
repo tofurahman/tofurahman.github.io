@@ -15,7 +15,7 @@
     <div class="paper-actions">
       <span class="paper-tag-new">Job Market Paper</span>
       <div class="paper-links-new">
-        <a href="https://www.dropbox.com/scl/fi/f20cq1nmbz3yra3fj1d21/AP_Teacher_Bonus.pdf?rlkey=dw4wa61iq2b48i09c4p8hfz83&st=9cgi8om0&dl=0" class="btn btn-outline-primary btn-sm">Draft</a>
+        <a href="https://www.dropbox.com/scl/fi/f20cq1nmbz3yra3fj1d21/AP_Teacher_Bonus.pdf?rlkey=dw4wa61iq2b48i09c4p8hfz83&st=9cgi8om0&dl=0" class="btn btn-outline-primary btn-sm">PDF</a>
       </div>
     </div>
   </div>
@@ -34,9 +34,9 @@
       <a href="#" class="abstract-toggle"><span class="arrow">►</span> Abstract</a>
     </div>
     <div class="paper-actions">
-      <span class="paper-tag-new">Under Review at JHR</span>
+      <span class="paper-tag-new">Under Review at Journal of Human Resources</span>
       <div class="paper-links-new">
-        <a href="https://edworkingpapers.com/ai25-1345" class="btn btn-outline-primary btn-sm">EdWorkingPapers</a>
+        <a href="https://edworkingpapers.com/ai25-1345" class="btn btn-outline-primary btn-sm">PDF</a>
       </div>
     </div>
   </div>
@@ -55,7 +55,7 @@
       <a href="#" class="abstract-toggle"><span class="arrow">►</span> Abstract</a>
     </div>
     <div class="paper-actions">
-      <span class="paper-tag-new">Submitted at Health Economics</span>
+      <span class="paper-tag-new">Submitted to Health Economics</span>
       <div class="paper-links-new">
         <a href="https://www.dropbox.com/scl/fi/11a4fe4ua86q54o3jdx2r/tenncare_bmi_final.pdf?rlkey=6zk5hv0ib7kuhil96c5aci2mi&e=2&st=n56zqfaa&dl=0" class="btn btn-outline-primary btn-sm">PDF</a>
       </div>
