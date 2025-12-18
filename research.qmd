@@ -6,7 +6,7 @@
 <div class="research-list">
   <h3 style="margin-top: 1rem;">Working Papers</h3>
   <div class="publication-entry">
-    <div class="pub-title">The Anatomy of a Piece-rate Teacher Bonus Program</div>
+    <div class="pub-title">The Anatomy of a Piece-rate Teacher Bonus Program*</div>
     <div class="pub-authors">with Ian Callen</div>
     <div class="tag-jmp"><strong>Job Market Paper</strong></div>
     <div class="pub-links">
@@ -20,7 +20,7 @@
   </div>
 
   <div class="publication-entry">
-    <div class="pub-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</div>
+    <div class="pub-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work*</div>
     <div class="pub-authors">with Cade Lawson</div>
     <div class="pub-status">Under Review at <strong>Journal of Human Resources</strong></div>
     <div class="pub-links">
@@ -34,7 +34,7 @@
   </div>
 
   <div class="publication-entry">
-    <div class="pub-title">Medicaid and Health Resilience: Evidence from TennCare Disenrollment</div>
+    <div class="pub-title">Medicaid and Health Resilience: Evidence from TennCare Disenrollment*</div>
     <div class="pub-status">Submitted to <strong>Health Economics</strong></div>
     <div class="pub-links">
       <a href="https://www.dropbox.com/scl/fi/11a4fe4ua86q54o3jdx2r/tenncare_bmi_final.pdf?rlkey=6zk5hv0ib7kuhil96c5aci2mi&e=2&st=n56zqfaa&dl=0" target="_blank">[PDF]</a>
@@ -55,16 +55,19 @@
       (with Michael Luca, Daniel Kreisman, Jonathan Smith)
     </li>
     <li>
-      <span class="wip-title">Gains, Losses, and Stickiness in Public Finance: Evidence from 3,000 School Tax Referenda</span><br>
+      <span class="wip-title">Gains, Losses, and Stickiness in Public Finance: Evidence from 3,000 School Tax Referenda*</span><br>
       (with Cade Lawson)
     </li>
     <li>
-      <span class="wip-title">Fiscal Federalism and the Paradox of Voting: How Local Ballots Solve the Participation Puzzle</span>
+      <span class="wip-title">Fiscal Federalism and the Paradox of Voting: How Local Ballots Solve the Participation Puzzle*</span>
     </li>
   </ul>
 
 </div>
 
+
+<br>
+<small>* indicates first author</small>
 
 <script>
 document.querySelectorAll('.abstract-toggle').forEach(item => {
