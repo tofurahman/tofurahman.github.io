@@ -116,9 +116,9 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 
 /* Section Headings - Smaller and Cleaner */
 .research-list h3 {
-  font-family: 'Lora', serif; /* Or 'Source Serif Pro' if you want it to match body */
+  font-family: 'Source Serif Pro', serif; /* Or 'Source Serif Pro' if you want it to match body */
   font-size: 1rem; /* Reduced from 1.15rem to match body text size */
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.5px; /* Wider spacing makes small text look elegant */
   color: #111;
@@ -135,8 +135,9 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 
 /* 1. Title Line */
 .pub-title {
+  font-family: 'Source Serif Pro', serif;
   font-size: 0.97rem;
-  font-weight: 650;
+  font-weight: 550;
   color: #000;
   margin-bottom: 4px;
   line-height: 1.4;
@@ -144,18 +145,21 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 
 /* 2. Authors Line */
 .pub-authors {
+  font-family: 'Source Serif Pro', serif;
   font-size: 0.9rem;
   color: #555;
   margin-bottom: 4px;
 }
 
 .pub-authors em {
+  font-family: 'Source Serif Pro', serif;
   font-style: italic;
   color: #444;
 }
 
 /* 3. Status/Journal Line */
 .pub-status {
+  font-family: 'Source Serif Pro', serif;
   font-size: 0.9rem;
   font-style: italic;
   color: #666;
@@ -164,6 +168,7 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 
 /* Special Highlighting for JMP */
 .tag-jmp {
+  font-family: 'Source Serif Pro', serif;
   font-size: 0.85rem;
   font-weight: 400;
   color: #0056b3; /* Academic Red/Orange highlight */
@@ -185,6 +190,7 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 }
 
 .pub-links a:hover {
+  font-family: 'Source Serif Pro', serif;
   color: #003d82;
   text-decoration: underline;
 }
@@ -195,6 +201,7 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 
 /* Abstract Content (Hidden by default) */
 .abstract-content {
+  font-family: 'Source Serif Pro', serif;
   display: none; /* JS will toggle this to block */
   margin-top: 10px;
   padding: 15px;
@@ -207,6 +214,7 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 
 /* Work in Progress List styling */
 .wip-list {
+  font-family: 'Source Serif Pro', serif;
   list-style: none;
   padding-left: 0;
 }
@@ -218,6 +226,7 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 }
 
 .wip-title {
+  font-family: 'Source Serif Pro', serif;
   font-weight: 550;
   color: #222;
 }
@@ -261,10 +270,10 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 }
 
 /* Styles for the expandable abstract (mostly unchanged) */
-.abstract-toggle { display: inline-block; font-weight: 600; font-size: 0.85em; cursor: pointer; color: var(--bs-body-color); }
+.abstract-toggle { display: inline-block; font-weight: 600; font-size: 0.9em; cursor: pointer; color: var(--bs-body-color); }
 .abstract-toggle .arrow { display: inline-block; margin-right: 8px; transition: transform 0.2s ease-in-out; }
 .abstract-toggle .arrow.expanded { transform: rotate(90deg); }
-.abstract-content { display: none; font-size: 0.85em; padding-left: 1rem; margin-top: 1rem; border-left: 2px solid var(--bs-border-color); }
+.abstract-content { display: none; font-size: 0.9em; padding-left: 1rem; margin-top: 1rem; border-left: 2px solid var(--bs-border-color); }
 
 /* --- Your teaching styles can remain as they are --- */
 
