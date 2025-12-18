@@ -67,7 +67,7 @@
 
 
 <br>
-<small>* indicates first author</small>
+<small>* indicates first author.</small>
 
 <script>
 document.querySelectorAll('.abstract-toggle').forEach(item => {
