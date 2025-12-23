@@ -137,8 +137,8 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 .pub-title {
   font-family: 'Source Serif Pro', serif;
   font-size: 0.97rem;
-  font-weight: 550;
-  color: #000;
+  font-weight: 505;
+  color: #36454F;
   margin-bottom: 4px;
   line-height: 1.4;
 }
@@ -209,7 +209,7 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
   border-left: 3px solid #0056b3;
   font-size: 0.8rem;
   line-height: 1.6;
-  color: #444;
+  color: #001;
 }
 
 /* Work in Progress List styling */
@@ -228,7 +228,7 @@ h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
 .wip-title {
   font-family: 'Source Serif Pro', serif;
   font-weight: 550;
-  color: #222;
+  color: #36454F;
 }
 
 /******
