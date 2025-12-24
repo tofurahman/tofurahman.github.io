@@ -51,7 +51,7 @@
   
   <ul class="wip-list">
     <li>
-      <span class="wip-title">How Robust are Triple Differences to Few Treated Clusters? The Case of TennCare*</span><br>
+      <span class="wip-title">How Robust are Triple Differences to Few Treated Clusters? Evidence and Application*</span><br>
       (draft coming soon)
     </li>
     <li>
