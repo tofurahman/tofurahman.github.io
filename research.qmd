@@ -55,8 +55,7 @@
     </div>
 
     <div class="abstract-content">
-      <p>I re-evaluate the labor supply effects of the 2005 TennCare disenrollment using data from the Behavioral Risk Factor and Surveillance System (BRFSS). To ensure robust inference, I extend the Ferman and Pinto (2019) heteroskedasticity-correction to the Triple Differences design, documenting its superior test size control via placebo simulations. In contrast to the influential findings from the Current Population Survey (CPS) March Supplement (Garthwaite, Gross, & Notowidigdo, 2014), I find no evidence of employment gains. Instead, I document a substantial labor market exit response in the BRFSS that precisely tracks the timing of the disenrollment. While corroborating the null employment effects found in other large-scale survey datasets, I empirically document the primary margin of adjustment: safety net retrenchment induced exits into retirement
-and disability.</p>
+      <p>I re-evaluate the labor supply effects of the 2005 TennCare disenrollment using data from the Behavioral Risk Factor Surveillance System (BRFSS). To ensure robust inference, I extend the Ferman and Pinto (2019) heteroskedasticity-correction to the Triple Differences design, documenting its superior test size control via placebo simulations. In contrast to the influential findings from the Current Population Survey (CPS) March Supplement (Garthwaite, Gross, & Notowidigdo, 2014), I find no evidence of employment gains. Instead, I document a significant labor market exit into disability and retirement in the BRFSS that tracks the timing of the disenrollment.</p>
     </div>
   </div>
 
