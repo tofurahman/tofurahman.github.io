@@ -58,7 +58,7 @@
       <p>I re-evaluate the labor supply effects of the 2005 TennCare disenrollment. 
   Contrary to the influential finding of an "employment boom" (Garthwaite et al., 2014), 
   I demonstrate that evidence supporting "job lock" release is an artifact of estimator fragility 
-  and invalid inference. Using a heteroskedasticity-corrected bootstrap method that ensures 
+  and invalid inference. Using a heteroskedasticity-corrected bootstrap inference that ensures 
   precise test size control in the Triple Difference framework, I show that employment estimates 
   are statistically insignificant. Instead, I document a bifurcated response: while the Current 
   Population Survey (CPS-ASEC) captures a "scramble"—where labor force participation rose without 
