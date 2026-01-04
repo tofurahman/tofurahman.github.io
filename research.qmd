@@ -48,14 +48,14 @@
   
   
     <div class="publication-entry">
-    <div class="pub-title">Where Did the TennCare Disenrolled Go? Fiscal Contractions and Labor Market Flows*</div>
+    <div class="pub-title">Public Health Insurance and Employment Lock: Resolving the TennCare Puzzle*</div>
     <div class="pub-links">
       <a href="" target="_blank">[Draft coming soon...]</a>
       <a class="abstract-toggle">[Abstract]</a>
     </div>
 
     <div class="abstract-content">
-      <p>Does cutting Medicaid eligibility unlock employment? I revisit the influential study of Garthwaite, Gross, and Notowidigdo (2014) examining the 2005 TennCare disenrollment, which terminated public health insurance coverage for approximately 170,000 childless adults. Using the same dataset (CPS ASEC), I show that their "employment lock" evidence is mechanically driven by a steep employment decline in the control group, consistent with the demand-side fiscal contraction of the reform. I find no statistically detectable increase in new hiring or transition to employer-sponsored insurance among the disenrolled. Instead, the labor supply response reflects a "labor market scramble": gains are concentrated predominantly in informal self-employment within sales occupations. External validation using data from the Behavioral Risk Factor Surveillance System confirms a simultaneous rise in disability-related labor force exits. These findings suggest the policy did not spur formal labor market integration, but rather bifurcated the population into survival-driven gig work and labor force withdrawal.</p>
+      <p>This paper revisits the employment effects of the 2005 TennCare reform, which disenrolled approximately 170,000 Tennessean residents. Previous literature remains divided: while Garthwaite, Gross, and Notowidigdo (2014) find evidence consistent with the "employment lock" hypothesis in the Current Population Survey (CPS-ASEC), Ham and Ueda (2021) document no such effect in the high-powered American Community Survey (ACS). I demonstrate that this discrepancy is driven by conflating the dynamics of self-employment with those of formal employment. Because self-employment dynamics vary significantly across surveys and rarely provide health benefits, aggregate employment serves as a noisy outcome for detecting "employment lock". I show that this noise destabilizes estimates in the smaller CPS-ASEC and masks the signal in the ACS. When I isolate the margin relevant for insurance by restricting the outcome to formal wage employment, the aggregate null result in the ACS is overturned, revealing robust evidence of "employment lock."</p>
     </div>
   </div>
 
