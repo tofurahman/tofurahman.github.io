@@ -5,10 +5,24 @@
 ```{=html}
 <div class="research-list">
   <h3 style="margin-top: 1rem;">Working Papers</h3>
+  
+        <div class="publication-entry">
+    <div class="pub-title">Public Health Insurance and Employment Lock: Resolving the TennCare Puzzle*</div>
+    <div class="pub-links">
+      <a href="https://www.dropbox.com/scl/fi/2wqblkb931rgj06nys72s/tenncare_employment.pdf?rlkey=x296r4h6x0mui7vkpck54jg6r&st=dzhjdr4a&dl=0" target="_blank">[Draft]</a>
+      <a class="abstract-toggle">[Abstract]</a>
+    </div>
+
+    <div class="abstract-content">
+      <p>The employment effects of public health insurance retrenchment remain disputed. Evaluations of the 2005 TennCare disenrollment&mdash;which terminated Medicaid coverage of approximately 200,000 Tennessee residents&mdash;have produced conflicting findings, ranging from large labor supply responses to precise null effects. I demonstrate that this discrepancy is a result of conflating the dynamics of self-employment with that of formal employment. Because self-employment rarely confers health benefits and exhibits inconsistent dynamics across surveys, aggregate employment serves as a noisy outcome for detecting "employment lock." I demonstrate that this noise destabilizes estimates in small-sample survey data and obscures the signal in high-powered survey data. When the analysis isolates formal wage employment&mdash;the margin relevant for insurance access&mdash;the aggregate null result is overturned. I find robust evidence of employment lock, concentrated among older, less-educated adults for whom formal employment represented a binding corner solution to secure coverage.</p>
+    </div>
+  </div>
+  
+  
   <div class="publication-entry">
     <div class="pub-title">The Anatomy of a Piece-rate Teacher Bonus Program*</div>
     <div class="pub-authors">with Ian Callen</div>
-    <div class="tag-jmp"><strong>Job Market Paper 1</strong></div>
+    <div class="tag-jmp"><strong>Job Market Paper</strong></div>
     <div class="pub-links">
       <a href="https://www.dropbox.com/scl/fi/f20cq1nmbz3yra3fj1d21/AP_Teacher_Bonus.pdf?rlkey=dw4wa61iq2b48i09c4p8hfz83&st=9cgi8om0&dl=0" target="_blank">[PDF]</a>
       <a class="abstract-toggle">[Abstract]</a>
@@ -19,18 +33,6 @@
     </div>
   </div>
   
-      <div class="publication-entry">
-    <div class="pub-title">Public Health Insurance and Employment Lock: Resolving the TennCare Puzzle*</div>
-    <div class="tag-jmp"><strong>Job Market Paper 2</strong></div>
-    <div class="pub-links">
-      <a href="https://www.dropbox.com/scl/fi/2wqblkb931rgj06nys72s/tenncare_employment.pdf?rlkey=x296r4h6x0mui7vkpck54jg6r&st=dzhjdr4a&dl=0" target="_blank">[Draft]</a>
-      <a class="abstract-toggle">[Abstract]</a>
-    </div>
-
-    <div class="abstract-content">
-      <p>The employment effects of public health insurance retrenchment remain disputed. Evaluations of the 2005 TennCare disenrollment&mdash;which terminated Medicaid coverage of approximately 200,000 Tennessee residents&mdash;have produced conflicting findings, ranging from large labor supply responses to precise null effects. I demonstrate that this discrepancy is a result of conflating the dynamics of self-employment with that of formal employment. Because self-employment rarely confers health benefits and exhibits inconsistent dynamics across surveys, aggregate employment serves as a noisy outcome for detecting "employment lock." I demonstrate that this noise destabilizes estimates in small-sample survey data and obscures the signal in high-powered survey data. When the analysis isolates formal wage employment&mdash;the margin relevant for insurance access&mdash;the aggregate null result is overturned. I find robust evidence of employment lock, concentrated among older, less-educated adults for whom formal employment represented a binding corner solution to secure coverage.</p>
-    </div>
-  </div>
 
   <div class="publication-entry">
     <div class="pub-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work*</div>
