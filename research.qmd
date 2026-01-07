@@ -10,6 +10,7 @@
     <div class="pub-title">Public Health Insurance and Employment Lock: Resolving the TennCare Puzzle*</div>
     <div class="pub-links">
       <a href="https://www.dropbox.com/scl/fi/2wqblkb931rgj06nys72s/tenncare_employment.pdf?rlkey=x296r4h6x0mui7vkpck54jg6r&st=dzhjdr4a&dl=0" target="_blank">[Draft]</a>
+      <a href="https://www.dropbox.com/scl/fo/ti2cewx305eirp2kz5iux/ABUH7WkNQHE-gpjVv3UnnBI?rlkey=biu83ykj6rlttg7xhct31yz13&st=tgvglrgh&dl=0" target="_blank">[Replication kit]</a>
       <a class="abstract-toggle">[Abstract]</a>
     </div>
 
