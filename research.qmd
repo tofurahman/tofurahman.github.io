@@ -4,7 +4,7 @@
 
 ```{=html}
 <div class="research-list">
-  <h3 style="margin-top: 1rem;">Job Market Papers</h3>
+  <h3 style="margin-top: 1rem;">Job Market Paper</h3>
   
         <div class="publication-entry">
     <div class="pub-title">Public Health Insurance and Employment Lock: Resolving the TennCare Puzzle*</div>
@@ -18,9 +18,12 @@
       <p>The employment effects of public health insurance retrenchment remain disputed. Evaluations of the 2005 TennCare disenrollment&mdash;which terminated Medicaid coverage of approximately 170,000 Tennessee residents&mdash;have produced conflicting findings, ranging from large labor supply responses to precise null effects. I demonstrate that this discrepancy is a result of conflating the dynamics of self-employment with those of formal employment. Because self-employment rarely confers health benefits and exhibits inconsistent dynamics across surveys, aggregate employment serves as a noisy outcome for detecting ''employment lock.'' Isolating formal wage employment&mdash;the margin relevant for insurance access&mdash;I find robust evidence of employment lock, concentrated among older, less-educated adults. This heterogeneity resolves the empirical puzzle, correcting the implausible magnitudes of early studies while explaining recent findings of aggregate null effects. The findings demonstrate that employment lock is not a marginal substitution of leisure for consumption, but a corner solution driven by a binding health necessity.</p>
     </div>
   </div>
-  
-  
-  <div class="publication-entry">
+  </div><br>
+
+
+<div class="research-list">
+  <h3 style="margin-top: 1rem;">Working Papers</h3>
+    <div class="publication-entry">
     <div class="pub-title">The Anatomy of a Piece-rate Teacher Bonus Program*</div>
     <div class="pub-authors">with Ian Callen</div>
     <div class="pub-links">
@@ -32,11 +35,6 @@
       <p>A central tenet of economics is that agents respond to incentives, yet the real-world effects of performance pay remain a puzzle. Simple models predict a direct increase in effort, while critics warn of a narrow targeted effort. This paper provides new evidence on this debate by studying a statewide bonus program that rewards Advanced Placement (AP) teachers a piece-rate for each student in their class passing the standardized test. We use marginal analysis to show that the bonus induces targeted effort and to explain the mechanisms driving variation in incentive strength, which we test empirically. Using student-course level data linked to teachers and a difference-in-differences design, we first document a significant average effect: the program increased student pass rates by 2.4 percentage points. We then decompose this average effect and report two key insights. First, contrary to the "teaching to the bubble" hypothesis, we find robust evidence of gains concentrated at the top of the AP score distribution. Second, we document heterogeneity across multiple dimensions, suggesting that the success of performance pay is jointly determined by the design of the incentive, the nature of the task, and the agent's baseline performance and workload.</p>
     </div>
   </div>
-  </div>
-<br>
-<div class="research-list">
-  <h3 style="margin-top: 1rem;">Working Papers</h3>
-  
 
   <div class="publication-entry">
     <div class="pub-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work*</div>
