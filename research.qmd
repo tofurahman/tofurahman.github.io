@@ -52,7 +52,7 @@
 
   <div class="publication-entry">
     <div class="pub-title">Medicaid and Health Resilience: Evidence from TennCare Disenrollment*</div>
-    <div class="pub-status">Submitted to <strong>Health Economics</strong></div>
+    <div class="pub-status">Submitted</strong></div>
     <div class="pub-links">
       <a href="https://www.dropbox.com/scl/fi/11a4fe4ua86q54o3jdx2r/tenncare_bmi_final.pdf?rlkey=6zk5hv0ib7kuhil96c5aci2mi&e=2&st=n56zqfaa&dl=0" target="_blank">[PDF]</a>
       <a class="abstract-toggle">[Abstract]</a>
