@@ -11,10 +11,7 @@
 
   <div class="about-text-new">
     <p class="greeting"><b>Hi, I'm Toufiq.</b></p>
-    <p>I am an applied microeconomist specializing in Education, Labor, and Public Economics.</p>
-    <p>My research agenda focuses on the production and preservation of human capital. I study how policy levers can facilitate its accumulation—examining the role of teacher incentives and financial subsidies—and whether safety nets protect its value by buffering against health and economic shocks.</p>
-    
-    <p>Broadly, I am interested in the incentives that govern individual behavior, with additional work exploring political economy and voting.</p>
+    <p>I am an applied microeconomist specializing in education, labor, and public economics. My research agenda investigates how public policy design interacts with market frictions to shape human capital and labor market outcomes. I study these dynamics through two lenses: (1) how incentives facilitate human capital accumulation, examining the role of teacher bonuses and educational subsidies; and (2) how safety nets affect labor supply and health capital.</p>
 
     <p>I am currently a Postdoctoral Researcher at the Johns Hopkins Carey Business School. I received my Ph.D. in Economics from Georgia State University, where I was advised by Professor Daniel Kreisman and worked as a Graduate Research Assistant at Georgia Policy Labs.</p>
 
