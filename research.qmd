@@ -41,7 +41,7 @@
   <div class="publication-entry">
     <div class="pub-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work*</div>
     <div class="pub-authors">with Cade Lawson</div>
-    <div class="pub-status">Under Review at <strong>Journal of Human Resources</strong></div>
+    <div class="pub-status">Under Review</div>
     <div class="pub-links">
       <a href="https://edworkingpapers.com/sites/default/files/ai25-1345.pdf" target="_blank">[PDF]</a>
       <a class="abstract-toggle">[Abstract]</a>
@@ -54,7 +54,7 @@
 
   <div class="publication-entry">
     <div class="pub-title">Medicaid and Health Resilience: Evidence from TennCare Disenrollment*</div>
-    <div class="pub-status">Submitted</strong></div>
+    <div class="pub-status">Under Review</strong></div>
     <div class="pub-links">
       <a href="https://www.dropbox.com/scl/fi/11a4fe4ua86q54o3jdx2r/tenncare_bmi_final.pdf?rlkey=6zk5hv0ib7kuhil96c5aci2mi&e=2&st=n56zqfaa&dl=0" target="_blank">[PDF]</a>
       <a class="abstract-toggle">[Abstract]</a>
