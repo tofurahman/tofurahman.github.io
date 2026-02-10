@@ -3,112 +3,97 @@
 ---
 
 ```{=html}
-<div class="research-list">
-  <h3 style="margin-top: 1rem;">Job Market Paper</h3>
+<div class="research-section">
+  <h6 class="research-section-title">Working Papers</h2>
   
-        <div class="publication-entry">
-    <div class="pub-title">Public Health Insurance and Employment Lock: Resolving the TennCare Puzzle</div>
-    <div class="pub-status">Under Review</strong></div>
-    <div class="pub-links">
-      <a href="https://www.dropbox.com/scl/fi/2wqblkb931rgj06nys72s/tenncare_employment.pdf?rlkey=x296r4h6x0mui7vkpck54jg6r&st=dzhjdr4a&dl=0" target="_blank">[Draft]</a>
-      <a href="https://www.dropbox.com/scl/fo/ti2cewx305eirp2kz5iux/ABUH7WkNQHE-gpjVv3UnnBI?rlkey=biu83ykj6rlttg7xhct31yz13&st=tgvglrgh&dl=0" target="_blank">[Replication kit]</a>
-      <a class="abstract-toggle">[Abstract]</a>
+    <div class="research-item">
+    <div class="paper-title">Public Health Insurance and Employment Lock: Resolving the TennCare Puzzle</div>
+    <div class="paper-meta">
+      Job Market Paper <span class="separator">|</span>
+      <a href="https://www.dropbox.com/scl/fi/2wqblkb931rgj06nys72s/tenncare_employment.pdf?rlkey=x296r4h6x0mui7vkpck54jg6r&st=dzhjdr4a&dl=0" target="_blank" class="paper-link">PDF</a>
+      <span class="separator">/</span>
+      <a href="https://www.dropbox.com/scl/fo/ti2cewx305eirp2kz5iux/ABUH7WkNQHE-gpjVv3UnnBI?rlkey=biu83ykj6rlttg7xhct31yz13&st=tgvglrgh&dl=0" target="_blank" class="paper-link">Replication Kit</a>
+      <span class="separator">/</span>
+      <span class="abstract-toggle">ABSTRACT</span>
     </div>
 
     <div class="abstract-content">
-      <p>Evaluations of the 2005 TennCare disenrollment yield conflicting estimates, ranging from large employment increases to precise nulls. I show that conflating self-employment with benefits-eligible jobs drives this discrepancy. Analyzing wage employment&mdash;the margin relevant for insurance access&mdash;I find robust evidence of labor supply expansion, strictly concentrated among the older, less-educated childless adults in Tennessee. The findings demonstrate that the estimated labor supply expansion is not a generalized response to the loss of in-kind transfers, but rather a specific manifestation of employment lock, driven by the interaction of high health risk and binding uninsurability.
-</p>
-    </div>
-  </div>
-  </div><br>
-
-
-<div class="research-list">
-  <h3 style="margin-top: 1rem;">Working Papers</h3>
-    <div class="publication-entry">
-    <div class="pub-title">The Anatomy of a Piece-rate Teacher Bonus Program</div>
-    <div class="pub-authors">with Ian Callen</div>
-    <div class="pub-links">
-      <a href="https://www.dropbox.com/scl/fi/f20cq1nmbz3yra3fj1d21/AP_Teacher_Bonus.pdf?rlkey=dw4wa61iq2b48i09c4p8hfz83&st=9cgi8om0&dl=0" target="_blank">[PDF]</a>
-      <a class="abstract-toggle">[Abstract]</a>
-    </div>
-    
-    <div class="abstract-content">
-      <p>A central tenet of economics is that agents respond to incentives, yet the real-world effects of performance pay remain a puzzle. Simple models predict a direct increase in effort, while critics warn of a narrow targeted effort. This paper provides new evidence on this debate by studying a statewide bonus program that rewards Advanced Placement (AP) teachers a piece-rate for each student in their class passing the standardized test. We use marginal analysis to show that the bonus induces targeted effort and to explain the mechanisms driving variation in incentive strength, which we test empirically. Using student-course level data linked to teachers and a difference-in-differences design, we first document a significant average effect: the program increased student pass rates by 2.4 percentage points. We then decompose this average effect and report two key insights. First, contrary to the "teaching to the bubble" hypothesis, we find robust evidence of gains concentrated at the top of the AP score distribution. Second, we document heterogeneity across multiple dimensions, suggesting that the success of performance pay is jointly determined by the design of the incentive, the nature of the task, and the agent's baseline performance and workload.</p>
+      Evaluations of the 2005 TennCare disenrollment yield conflicting estimates, ranging from large employment increases to precise nulls. I show that conflating self-employment with benefits-eligible jobs drives this discrepancy. Analyzing wage employment&mdash;the margin relevant for insurance access&mdash;I find robust evidence of labor supply expansion, strictly concentrated among the older, less-educated childless adults in Tennessee. The findings demonstrate that the estimated labor supply expansion is not a generalized response to the loss of in-kind transfers, but rather a specific manifestation of employment lock, driven by the interaction of high health risk and binding uninsurability.
     </div>
   </div>
 
-  <div class="publication-entry">
-    <div class="pub-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</div>
-    <div class="pub-authors">with Cade Lawson</div>
-    <div class="pub-status">Under Review</div>
-    <div class="pub-links">
-      <a href="https://edworkingpapers.com/sites/default/files/ai25-1345.pdf" target="_blank">[PDF]</a>
-      <a class="abstract-toggle">[Abstract]</a>
-      <span style="font-size: 0.85em;">
-        [Coverage: <a href="https://fordhaminstitute.org/national/commentary/should-states-cover-ap-exam-costs-all-students" target="_blank">Fordham Institute</a>]
+  <div class="research-item">
+    <div class="paper-title">The Anatomy of a Piece-rate Teacher Bonus Program</div>
+    <div class="paper-meta">
+      with Ian Callen <span class="separator">|</span>
+      <a href="https://www.dropbox.com/scl/fi/f20cq1nmbz3yra3fj1d21/AP_Teacher_Bonus.pdf?rlkey=dw4wa61iq2b48i09c4p8hfz83&st=9cgi8om0&dl=0" target="_blank" class="paper-link">PDF</a>
+      <span class="separator">/</span>
+      <span class="abstract-toggle">ABSTRACT</span>
+    </div>
+    <div class="abstract-content">A central tenet of economics is that agents respond to incentives, yet the real-world effects of performance pay remain a puzzle. Simple models predict a direct increase in effort, while critics warn of a narrow targeted effort. This paper provides new evidence on this debate by studying a statewide bonus program that rewards Advanced Placement (AP) teachers a piece-rate for each student in their class passing the standardized test. We use marginal analysis to show that the bonus induces targeted effort and to explain the mechanisms driving variation in incentive strength, which we test empirically. Using student-course level data linked to teachers and a difference-in-differences design, we first document a significant average effect: the program increased student pass rates by 2.4 percentage points. We then decompose this average effect and report two key insights. First, contrary to the "teaching to the bubble" hypothesis, we find robust evidence of gains concentrated at the top of the AP score distribution. Second, we document heterogeneity across multiple dimensions, suggesting that the success of performance pay is jointly determined by the design of the incentive, the nature of the task, and the agent's baseline performance and workload.
+    </div>
+  </div>
+
+  <div class="research-item">
+    <div class="paper-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</div>
+    <div class="paper-meta">
+      with Cade Lawson <span class="separator">|</span>
+      <em>Under Review</em> <span class="separator">|</span>
+      <a href="https://edworkingpapers.com/sites/default/files/ai25-1345.pdf" target="_blank" class="paper-link">PDF</a>
+      <span class="separator">/</span>
+      <span class="abstract-toggle">ABSTRACT</span>
+      
+      <span class="media-list">
+        <span class="media-label">Policy Coverage:</span>
+        <a href="https://fordhaminstitute.org/national/commentary/should-states-cover-ap-exam-costs-all-students" target="_blank" class="paper-link">Fordham Institute</a>
       </span>
     </div>
 
-    <div class="abstract-content">
-      <p>Do policies that broaden educational access also foster success? We study this question by analyzing North Carolina’s universal Advanced Placement (AP) exam fee waiver policy. Using student-course level administrative data, we exploit within-student variation on a sample of students who took multiple AP courses to estimate the policy's effect on exam participation (access) and pass rates (success). We find that the fee waivers significantly increased exam participation but had no overall effect on the pass rate for these enrollees. This, however, masks a robust 3 percentage point increase in the pass rates among low-SES students. We also find imprecise but suggestive evidence of gains among underrepresented minorities (non-Asian and non-White). A complementary analysis, leveraging the full sample of AP courses, shows that fee waivers had the greatest impact in courses where predicted financial barriers to exam participation were highest, and that the policy's benefits far exceed its cost. Finally, our results help reconcile the seemingly disparate findings from prior work on AP exam funding.</p>
-    </div>
-  </div>
-
-  <div class="publication-entry">
-    <div class="pub-title">Medicaid and Health Resilience: Evidence from TennCare Disenrollment</div>
-    <div class="pub-status">Under Review</strong></div>
-    <div class="pub-links">
-      <a href="https://www.dropbox.com/scl/fi/11a4fe4ua86q54o3jdx2r/tenncare_bmi_final.pdf?rlkey=6zk5hv0ib7kuhil96c5aci2mi&e=2&st=n56zqfaa&dl=0" target="_blank">[PDF]</a>
-      <a class="abstract-toggle">[Abstract]</a>
-    </div>
-
-    <div class="abstract-content">
-      <p>Does public health insurance mitigate the functional consequences of adverse health shocks? I investigate this question by exploiting variation induced by Tennessee's 2005 Medicaid disenrollment, which abruptly terminated coverage for approximately 170,000 childless adults. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010 and a difference-in-differences design, I estimate Intent-to-Treat effects. I first document that the reform significantly increased the uninsured rate and led to a deterioration in observable health capital, marked by a 15% rise in severe obesity prevalence and the share of respondents reporting 'poor' health status. I then document a puzzle: while reported days of functional incapacitation increased by 27%, the underlying frequency of physical and mental symptom days remained statistically unchanged. I reconcile this divergence by showing that the "incapacitation ratio"&mdash;the probability that a symptom day leads to incapacitation&mdash;increased by 17%. These findings suggest that public health insurance functions as a technological buffer, enhancing resilience and preventing adverse health symptoms from disrupting daily functioning.</p>
-    </div>
+    <div class="abstract-content">Do policies that broaden educational access also foster success? We study this question by analyzing North Carolina’s universal Advanced Placement (AP) exam fee waiver policy. Using student-course level administrative data, we exploit within-student variation on a sample of students who took multiple AP courses to estimate the policy's effect on exam participation (access) and pass rates (success). We find that the fee waivers significantly increased exam participation but had no overall effect on the pass rate for these enrollees. This, however, masks a robust 3 percentage point increase in the pass rates among low-SES students. We also find imprecise but suggestive evidence of gains among underrepresented minorities (non-Asian and non-White). A complementary analysis, leveraging the full sample of AP courses, shows that fee waivers had the greatest impact in courses where predicted financial barriers to exam participation were highest, and that the policy's benefits far exceed its cost. Finally, our results help reconcile the seemingly disparate findings from prior work on AP exam funding.</div>
   </div>
   
+    <div class="research-item">
+    <div class="paper-title">Medicaid and Health Resilience: Evidence from TennCare Disenrollment</div>
+    <div class="paper-meta">
+      <em>Under Review</em> <span class="separator">|</span>
+      <a href="https://www.dropbox.com/scl/fi/11a4fe4ua86q54o3jdx2r/tenncare_bmi_final.pdf?rlkey=6zk5hv0ib7kuhil96c5aci2mi&e=2&st=n56zqfaa&dl=0" target="_blank" class="paper-link">PDF</a>
+      <span class="separator">/</span>
+      <span class="abstract-toggle">ABSTRACT</span>
+        
+    </div>
 
-  <h3>Selected Work in Progress</h3>
+    <div class="abstract-content">Does public health insurance mitigate the functional consequences of adverse health shocks? I investigate this question by exploiting variation induced by Tennessee's 2005 Medicaid disenrollment, which abruptly terminated coverage for approximately 170,000 childless adults. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010 and a difference-in-differences design, I estimate Intent-to-Treat effects. I first document that the reform significantly increased the uninsured rate and led to a deterioration in observable health capital, marked by a 15% rise in severe obesity prevalence and the share of respondents reporting 'poor' health status. I then document a puzzle: while reported days of functional incapacitation increased by 27%, the underlying frequency of physical and mental symptom days remained statistically unchanged. I reconcile this divergence by showing that the "incapacitation ratio"&mdash;the probability that a symptom day leads to incapacitation&mdash;increased by 17%. These findings suggest that public health insurance functions as a technological buffer, enhancing resilience and preventing adverse health symptoms from disrupting daily functioning.</div>
+  </div>
   
-  <ul class="wip-list">
-      <li>
-      <span class="wip-title">The Gig Safety Net: Platform Labor and Eviction</span>
-    </li>
-    <li>
-    <li>
-      <span class="wip-title">The Contribution of Firms to Voting Behavior</span><br>
-      (with Michael Luca, Daniel Kreisman, Jonathan Smith)
-    </li>
-    <li>
-      <span class="wip-title">Gains, Losses, and Stickiness in Public Finance: Evidence from 3,000 School Tax Referenda</span><br>
-      (with Cade Lawson)
-    </li>
-    <li>
-      <span class="wip-title">Fiscal Federalism and the Paradox of Voting: How Local Ballots Solve the Participation Puzzle</span>
-    </li>
-  </ul>
-
+  
 </div>
 
-
-
+<div class="research-section">
+  <h6 class="research-section-title">Work in Progress</h2>
+  <ul class="wip-list">
+    <li>The Gig Safety Net: Platform Labor and Eviction</li>
+    <li>
+      The Contribution of Firms to Voting Behavior
+      <span class="wip-coauthors">(with Michael Luca, Daniel Kreisman, Jonathan Smith)</span>
+    </li>
+    <li>
+      Gains, Losses, and Stickiness in Public Finance: Evidence from 3,000 School Tax Referenda
+      <span class="wip-coauthors">(with Cade Lawson)</span>
+    </li>
+  </ul>
+</div>
 
 <script>
-document.querySelectorAll('.abstract-toggle').forEach(item => {
-  item.addEventListener('click', event => {
-    event.preventDefault(); // Prevent jump to top
-    const content = item.parentElement.nextElementSibling; // Adjust based on HTML structure
-    // If using the structure above where content is a sibling of the parent container:
-    // We need to traverse up to .publication-entry then find .abstract-content
-    const entry = item.closest('.publication-entry');
-    const abstract = entry.querySelector('.abstract-content');
-    
-    if (abstract.style.display === "block") {
-      abstract.style.display = "none";
-    } else {
-      abstract.style.display = "block";
-    }
+document.addEventListener("DOMContentLoaded", function() {
+  const toggles = document.querySelectorAll('.abstract-toggle');
+  toggles.forEach(toggle => {
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      this.classList.toggle('expanded');
+      const entry = this.closest('.research-item');
+      const abstract = entry.querySelector('.abstract-content');
+      abstract.style.display = abstract.style.display === "block" ? "none" : "block";
+    });
   });
 });
 </script>

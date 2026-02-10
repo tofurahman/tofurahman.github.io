@@ -1,0 +1,211 @@
+/* ==========================================================================
+   1. CORE TYPOGRAPHY & HIGH CONTRAST RESET
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap');
+
+body {
+  /* A clean, "cool" white. Not dirty gray, not blinding white. */
+  background-color: #f5f7fa; 
+  font-family: 'Source Serif Pro', serif !important;
+  color: #222; /* High contrast dark gray (almost black) */
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Force Headers to be Pitch Black and Thin */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Serif Pro', serif !important;
+  font-weight: 400 !important;
+  color: #000000 !important; /* Maximum Contrast */
+  margin-top: 2rem;
+  letter-spacing: -0.01em;
+}
+
+/* Links: Deep Navy Blue (More premium than standard blue) */
+a {
+  text-decoration: none;
+  color: #0044cc; 
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #002a80;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ==========================================================================
+   2. THE CARD CONTAINER (SHARPER DEFINITION)
+   ========================================================================== */
+.page-container {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 3rem 4rem;
+  background-color: #ffffff;
+  border-radius: 2px; /* Sharper corners = more professional */
+  /* A cleaner, crisp shadow to pop against the background */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+  border: 1px solid #eaeaea; /* Subtle border for extra definition */
+}
+
+@media (max-width: 768px) {
+  .page-container { margin: 1rem; padding: 1.5rem; }
+}
+
+/* ==========================================================================
+   3. NAVIGATION (CLEAN & HIGH CONTRAST)
+   ========================================================================== */
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 1.5rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #eee; /* Adds structure */
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav a {
+  font-size: 1rem;
+  font-weight: 600; /* Navigation needs weight to stand out */
+  color: #555;      /* Dark gray */
+  padding: 0.5em 0.8em;
+  border-radius: 4px;
+}
+
+header nav a:hover, header nav a.active {
+  color: #000; /* Black on hover */
+  background-color: #f0f0f0;
+}
+
+/* ==========================================================================
+   4. RESEARCH & TEACHING LISTS (CRISP & LEGIBLE)
+   ========================================================================== */
+
+/* Section Headings */
+.section-title {
+  font-size: 1.35rem !important;
+  border-bottom: 2px solid #222; /* Thicker, darker line for contrast */
+  padding-bottom: 0.4rem;
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+  color: #000;
+}
+
+/* Item Container */
+.research-item, .teaching-item, .list-item {
+  margin-bottom: 2.25rem;
+  display: block;
+}
+
+/* Main Title (Paper Name) */
+.item-title, .item-header {
+  font-size: 1.15rem;
+  color: #000000; /* Pitch Black */
+  margin-bottom: 0.3rem;
+  line-height: 1.35;
+  display: block;
+}
+
+/* Meta Data (Authors, Status) */
+.item-meta {
+  font-size: 1rem;
+  color: #444; /* Darker Gray (was #555) for readability */
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/* Separators */
+.separator {
+  color: #bbb; /* Lighter gray to not distract */
+  margin: 0 0.5rem;
+}
+
+/* Abstract Toggle */
+.abstract-toggle {
+  cursor: pointer;
+  color: #0044cc;
+  font-weight: 400;
+}
+
+.abstract-toggle::before {
+  content: "[+] ";
+  font-family: monospace;
+  color: #777;
+  font-size: 0.9em;
+}
+
+.abstract-toggle.expanded::before {
+  content: "[-] ";
+}
+
+.abstract-content {
+  display: none;
+  margin-top: 0.75rem;
+  padding: 1rem;
+  background-color: #f9f9f9; /* Slight contrast from white card */
+  border-left: 3px solid #0044cc; /* Navy bar */
+  font-size: 0.95rem;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   5. WORK IN PROGRESS
+   ========================================================================== */
+.wip-list {
+  padding-left: 1.2rem;
+  margin-top: 1rem;
+}
+
+.wip-list li {
+  margin-bottom: 0.8rem;
+  font-size: 1.05rem;
+  color: #111; /* Almost Black */
+  list-style-type: circle;
+}
+
+.wip-coauthors {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   6. ABOUT PAGE GRID FIX
+   ========================================================================== */
+.about-container-new {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 3rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.about-image-new img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Sharper shadow */
+}
+
+.about-text-new p {
+  color: #222; /* Ensure body text is dark/readable */
+}
+
+@media (max-width: 768px) {
+  .about-container-new { grid-template-columns: 1fr; gap: 2rem; }
+  .about-image-new { display: flex; justify-content: center; }
+}
+
+.about-links-new {
+  display: flex; gap: 1.5rem; margin-top: 2rem; flex-wrap: wrap;
+}
+
+.icon-link {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  font-size: 1rem; color: #444; font-weight: 600;
+}
+.icon-link:hover { color: #0044cc; }

@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Learning Resources",
+    "section": "",
+    "text": "Learning Stata (+Mata) Programming\n  \n    A Guided Series by David M. Drukker\n    Output Stata’s ttest results with esttab including means of each group\n    Publication style tables: Combining hdfe/reg commands with macros (Coming soon)\n    Add the Number of specific (inidiivudal/firm/other) Fixed Effects\n    Add Pre-period/control mean and percent change\n    Add whatever stat you'd like!\n    \n     Programming together and keeping a history of changes: Stata Projects and Git (Coming soon)\n    \n    Resources I wish I found Earlier!\n    \n      The Hidden Curriculumn (Podcast)\n      Doing Economics (Book)\n      Writing and Presentation Advice"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Toufiq Rahman",
+    "section": "",
+    "text": "---\ntitle-block-banner: images/red.jpg\n---\n\n\n\nEffects of Losing Medicaid on Body Weight and Health Behaviors (Job Market Paper)\n\nApproximately 170,000 childless adults abruptly lost Medicaid coverage as a result of Tennessee’s 2005 Medicaid reform. Leveraging this policy-induced variation in health insurance coverage, I investigate the impact of large-scale Medicaid disenrollment on body weight and health behaviors. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010, I estimate synthetic difference-in-differences models that compare Tennessee’s outcomes before and after the reform with those of a data-driven, synthetic Tennessee. The findings indicate that the reform increased Body Mass Index (BMI) among Tennessean childless adults by 0.37 points, contributing to roughly 4% rise in the prevalence of overweight or obese individuals (BMI≥25). The effects are strong among young (aged 20-39) as well as female childless adults, who likely experienced disproportionately large coverage loss due to the reform. Examining potential mechanisms, I find that decreased participation in moderate physical activity (e.g., cycling, swimming) and dietary changes partially explain the weight gain.\n\n\n\nThe Effects of AP Exam Fee Waivers: Evidence from North Carolina (with Cade Lawsom and Salma Ali)\n\nTo be updated soon.\n\n\n\nWORK IN PROGRESS\n\n\n\nIncentive Strength and Teacher Effort: New Evidence from Piece-rate Bonus Scheme\n\n\n\n\nEviction in the Gig Economy: The Uber Effect"
+  },
+  {
+    "objectID": "cv_old.html",
+    "href": "cv_old.html",
+    "title": "Toufiq Rahman",
+    "section": "",
+    "text": "Download PDF file."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Toufiq Rahman",
+    "section": "",
+    "text": "Instructor of Record\n\n  \n    The Global Economy (Undergraduate)\n    \n      Georgia State University |\n      Fall 2021, Spring 2022 |\n      Syllabus\n      /\n      Evaluations (4.8/5.0)\n    \n  \n\n\n\n  Teaching Assistant\n  \n  \n    Econometrics I (Ph.D. Core)\n    \n      Georgia State University |\n      Fall 2023 |\n      Instructor: Prof. H. Spencer Banzhaf\n    \n  \n\n\nGraduate Teaching Assistant\nGeorgia State University\n\n\n  ECON 9230: Topics in Advanced Labor Economics\n  \n    Spring 2025"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Toufiq Rahman",
+    "section": "",
+    "text": "Job Market Paper\n\n  \n    Public Health Insurance and Employment Lock: Resolving the TennCare Puzzle\n    \n      Job Market Paper |\n      Draft\n      /\n      Replication Kit\n      /\n      Abstract\n    \n\n    \n      Evaluations of the 2005 TennCare disenrollment yield conflicting estimates, ranging from large employment increases to precise nulls. I show that conflating self-employment with benefits-eligible jobs drives this discrepancy. Analyzing wage employment—the margin relevant for insurance access—I find robust evidence of labor supply expansion, strictly concentrated among the older, less-educated childless adults in Tennessee. The findings demonstrate that the estimated labor supply expansion is not a generalized response to the loss of in-kind transfers, but rather a specific manifestation of employment lock, driven by the interaction of high health risk and binding uninsurability.\n    \n  \n\n\n\n  Working Papers\n\n  \n    The Anatomy of a Piece-rate Teacher Bonus Program\n    \n      with Ian Callen |\n      PDF\n      /\n      Abstract\n    \n\n    \n      A central tenet of economics is that agents respond to incentives, yet the real-world effects of performance pay remain a puzzle. Simple models predict a direct increase in effort, while critics warn of a narrow targeted effort. This paper provides new evidence on this debate by studying a statewide bonus program...\n    \n  \n\n  \n    Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work\n    \n      with Cade Lawson |\n      Under Review |\n      PDF\n      /\n      Abstract\n      \n      \n        Coverage:\n        Fordham Institute, \n        Education Week\n      \n    \n\n    \n      Do policies that broaden educational access also foster success? We study this question by analyzing North Carolina’s universal Advanced Placement (AP) exam fee waiver policy...\n    \n  \n\n\n\n  Selected Work in Progress\n  \n    The Gig Safety Net: Platform Labor and Eviction\n    \n      The Contribution of Firms to Voting Behavior\n      (with Michael Luca, Daniel Kreisman, Jonathan Smith)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Toufiq Rahman",
+    "section": "",
+    "text": "Hi, I'm Toufiq.\n    I am an applied microeconomist specializing in education, labor, and public economics. My research agenda investigates how public policy design interacts with market frictions to shape human capital and labor market outcomes. I study these dynamics through two lenses: (1) how incentives facilitate human capital accumulation, examining the role of teacher bonuses and educational subsidies; and (2) how safety nets affect labor supply and health capital.\n\n    I am currently a Postdoctoral Researcher at the Johns Hopkins Carey Business School. I received my Ph.D. in Economics from Georgia State University, where I was advised by Professor Daniel Kreisman and worked as a Graduate Research Assistant at Georgia Policy Labs.\n\n\n  \n    \n    LinkedIn\n  \n  \n    \n    CV\n  \n  \n    \n    JMP\n  \n  \n    \n    Email"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download PDF file."
+  }
+]

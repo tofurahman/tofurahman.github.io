@@ -1,389 +1,261 @@
 /* ==========================================================================
-   1. CORE LAYOUT & SERIF TYPOGRAPHY
+   1. CORE TYPOGRAPHY (Roboto + Century Schoolbook)
    ========================================================================== */
-/* Import a professional serif font pairing from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Serif+Pro:wght@400;700&display=swap');
+/* Import Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
   background-color: #f1f3f5;
-  font-family: 'Source Serif Pro', serif; /* Use Source Serif Pro for body text */
+  font-family: "Century Schoolbook", "New Century Schoolbook", "Georgia", serif;
+  color: #333;
+  line-height: 1.6;
+  font-size: 1.05rem; 
 }
 
-/* Apply the Lora font to all headings */
+/* HEADERS: Regular Shape (Not Huge) */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #111;
+  letter-spacing: -0.01em;
+  margin-top: 1.5rem;
+  margin-bottom: 0.85rem;
+  line-height: 1.3;
 }
 
-/* Dark mode adjustments */
-[data-bs-theme="dark"] body {
-  background-color: #121212;
+/* Force standard sizes */
+h1 { font-size: 1.6rem !important; }
+h2 { font-size: 1.35rem !important; }
+h3 { font-size: 1.2rem !important; }
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #0056b3;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #003d82;
 }
 
 /* ==========================================================================
-   2. CENTERED PANE & HEADER
+   2. CARD LAYOUT
    ========================================================================== */
 .page-container {
   max-width: 900px;
-  margin: 4rem auto;
-  padding: 2rem 3rem;
-  background-color: var(--bs-body-bg);
+  margin: 3rem auto;
+  padding: 3rem 4rem;
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.05);
 }
 
+@media (max-width: 768px) {
+  .page-container { margin: 1rem; padding: 1.5rem; }
+}
+
+/* ==========================================================================
+   3. NAVIGATION (No Gray Lines)
+   ========================================================================== */
 header {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   margin-bottom: 2rem;
+  border-bottom: none !important;
 }
-
-/* ==========================================================================
-   ELEGANT NAVIGATION & PAGE-SPECIFIC STYLES
-   ========================================================================== */
 
 header nav {
   display: flex;
-  gap: 0.5rem; /* Reduced gap for a tighter button group look */
+  gap: 0.5rem;
 }
 
 header nav a {
-  font-family: 'Source Serif Pro', serif;
-  font-weight: 700;
-  font-size: 0.9em;
-  color: var(--bs-secondary-color);
-  text-decoration: none;
-  
-  /* These properties create the button shape */
-  padding: 0.5em 1em;
-  border-radius: 16px; /* Creates a soft, pill-like shape */
-  border: 2px solid transparent; /* Remove the old underline */
-  
-  /* This animates the background and color change smoothly */
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-
-header nav a:hover, header nav a.active {
-  /* On hover, change the background to the theme's subtle gray */
-  background-color: var(--bs-tertiary-bg);
-  /* Make the text color darker for emphasis */
-  color: var(--bs-body-color);
-}
-
-header nav a:hover, header nav a.active {
-  color: var(--bs-body-color);
-  border-bottom-color: var(--accent-color, var(--bs-primary));
-}
-
-main h3 {
-  border-bottom: 1px solid var(--bs-border-color);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
-}
-
-/* --- ABOUT PAGE --- */
-.about-container-new { display: grid; grid-template-columns: 1fr 3fr; align-items: start; gap: 2rem; }
-.about-image-new img { width: 100%; border-radius: 5px; }
-.about-text-new p {
-  text-align: left; /* Change this from 'justify' to 'left' */
-  margin-bottom: 1.25rem;
-}
-.about-text-new .greeting { text-align: left; font-size: 1.2em; font-family: 'Lora', serif; }
-
-@media (max-width: 768px) {
-  .page-container { margin: 1rem; padding: 1rem 1.5rem; }
-  header { flex-direction: column; align-items: flex-start; gap: 1rem; }
-  .about-container-new { grid-template-columns: 1fr; }
-}
-
-/* --- RESEARCH & TEACHING PAGES --- */
-/* ==========================================================================
-   NEW RESEARCH & TEACHING PAGE STYLES
-   ========================================================================== */
-
-/* Normal font sizes for headings */
-h3 { font-size: 1.5rem; }
-h4 { font-size: 1.2rem; margin-bottom: 0.25rem; }
-/*****
-/* Container for the whole list */
-.research-list {
-  max-width: 800px;
-  margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  color: #333;
-}
-
-/* Section Headings - Smaller and Cleaner */
-.research-list h3 {
-  font-family: 'Source Serif Pro', serif; /* Or 'Source Serif Pro' if you want it to match body */
-  font-size: 1rem; /* Reduced from 1.15rem to match body text size */
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1.5px; /* Wider spacing makes small text look elegant */
-  color: #111;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
-  margin-top: 2.5rem;
-  margin-bottom: 1.5rem;
-}
-
-/* Individual Paper Container */
-.publication-entry {
-  margin-bottom: 25px;
-}
-
-/* 1. Title Line */
-.pub-title {
-  font-family: 'Source Serif Pro', serif;
-  font-size: 0.97rem;
-  font-weight: 505;
-  color: #36454F;
-  margin-bottom: 4px;
-  line-height: 1.4;
-}
-
-/* 2. Authors Line */
-.pub-authors {
-  font-family: 'Source Serif Pro', serif;
-  font-size: 0.9rem;
-  color: #555;
-  margin-bottom: 4px;
-}
-
-.pub-authors em {
-  font-family: 'Source Serif Pro', serif;
-  font-style: italic;
-  color: #444;
-}
-
-/* 3. Status/Journal Line */
-.pub-status {
-  font-family: 'Source Serif Pro', serif;
-  font-size: 0.9rem;
-  font-style: italic;
-  color: #666;
-  margin-bottom: 6px;
-}
-
-/* Special Highlighting for JMP */
-.tag-jmp {
-  font-family: 'Source Serif Pro', serif;
-  font-size: 0.85rem;
-  font-weight: 400;
-  color: #0056b3; /* Academic Red/Orange highlight */
-}ƒ
-
-/* 4. Links Row ([PDF] [Abstract]) */
-.pub-links {
-  font-size: 0.8rem;
-  margin-top: 2px;
-}
-
-.pub-links a {
-  text-decoration: none;
-  color: #0056b3; /* Classic Link Blue */
-  font-size: 0.8rem;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  margin-right: 10px;
-  transition: color 0.2s;
+  font-size: 0.9em;
+  color: #6c757d;
+  padding: 0.5em 1em;
+  border-radius: 16px;
 }
 
-.pub-links a:hover {
-  font-family: 'Source Serif Pro', serif;
-  color: #003d82;
-  text-decoration: underline;
+header nav a:hover, header nav a.active {
+  background-color: #e9ecef;
+  color: #000;
 }
 
-.pub-links .abstract-toggle {
-  cursor: pointer;
+/* ==========================================================================
+   4. ABOUT PAGE (BULLETPROOF FIX)
+   ========================================================================== */
+.about-container-new { 
+  display: grid; 
+  grid-template-columns: 250px 1fr; /* Strict 250px column */
+  align-items: start; 
+  gap: 2.5rem; 
+  margin-top: 1rem;
 }
 
-/* Abstract Content (Hidden by default) */
-.abstract-content {
-  font-family: 'Source Serif Pro', serif;
-  display: none; /* JS will toggle this to block */
-  margin-top: 10px;
-  padding: 15px;
-  background-color: #f9f9f9;
-  border-left: 3px solid #0056b3;
-  font-size: 0.8rem;
-  line-height: 1.6;
-  color: #001;
+.about-image-new {
+  width: 100%;
+  max-width: 250px; /* FAIL-SAFE: Container cannot exceed 250px */
 }
 
-/* Work in Progress List styling */
-.wip-list {
-  font-family: 'Source Serif Pro', serif;
-  list-style: none;
-  padding-left: 0;
+.about-image-new img { 
+  width: 100%; 
+  max-width: 250px !important; /* DOUBLE FAIL-SAFE: Image cannot exceed 250px */
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+  display: block;
 }
 
-.wip-list li {
-  margin-bottom: 15px;
-  font-size: 0.9rem;
-  line-height: 1.5;
+/* Mobile: Stack vertical, center image */
+@media (max-width: 768px) {
+  .about-container-new { grid-template-columns: 1fr; }
+  .about-image-new { margin: 0 auto; } /* Center the container */
 }
 
-.wip-title {
-  font-family: 'Source Serif Pro', serif;
-  font-weight: 550;
-  color: #36454F;
-}
-
-/******
-/* The new two-column grid layout */
-.paper-grid {
-  display: grid;
-  grid-template-columns: 3fr 1fr; /* 3 parts for details, 1 part for actions */
-  gap: 1.5rem;
-}
-
-/* Right column for tags and buttons */
-.paper-actions {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; /* Aligns items to the right */
-  text-align: right;
-}
-
-.paper-tag-new {
-  font-size: 0.8em;
-  font-weight: 600;
-  color: var(--bs-secondary-color);
-  white-space: nowrap;
-}
-
-/* Container for the vertically stacked buttons */
-.paper-links-new {
-  margin-top: 0.5rem;
-  display: flex;
-  flex-direction: column; /* Stacks the buttons vertically */
-  align-items: flex-end;   /* Right-aligns the buttons */
-  gap: 0.5rem;
-}
-
-.paper-authors-new {
-  font-size: 0.95em;
-  color: var(--bs-secondary-color);
+/* About Text */
+.about-text-new p {
+  text-align: left;
   margin-bottom: 1rem;
 }
 
-/* Styles for the expandable abstract (mostly unchanged) */
-.abstract-toggle { display: inline-block; font-weight: 600; font-size: 0.9em; cursor: pointer; color: var(--bs-body-color); }
-.abstract-toggle .arrow { display: inline-block; margin-right: 8px; transition: transform 0.2s ease-in-out; }
-.abstract-toggle .arrow.expanded { transform: rotate(90deg); }
-.abstract-content { display: none; font-size: 0.9em; padding-left: 1rem; margin-top: 1rem; border-left: 2px solid var(--bs-border-color); }
-
-/* --- Your teaching styles can remain as they are --- */
-
-.teaching-institution { color: var(--bs-secondary-color); font-weight: 600; margin-top: -0.5rem; }
-.teaching-entry { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
-.course-title-new { font-weight: normal; } /* Toned-down as requested */
-.course-meta-new { display: flex; align-items: center; gap: 1rem; white-space: nowrap; color: var(--bs-secondary-color); }
-.teaching-evals-link-new { margin-top: 2rem; }
+.about-text-new .greeting { 
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem; 
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
 
 .about-links-new {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   display: flex;
-  gap: 0.5rem;
-}
-
-
-/* Override theme's button capitalization */
-.btn {
-  font-family: 'Source Serif Pro', serif; /* Use the main body font for consistency */
-  font-style: normal; /* The key stylistic change */
-  font-weight: 600; /* A readable semi-bold weight */
-  letter-spacing: 0.5px; /* Adds a bit of breathing room */
-  text-transform: none !important; /* Keeps the de-capitalization */
-  transition: all 0.2s ease-in-out;
-}
-
-/* More dynamic color for outline buttons */
-.btn-outline-primary {
-  transition: all 0.2s ease-in-out;
-}
-
-.btn-outline-primary:hover {
-  color: white; /* Ensures text is readable on the filled background */
-}
-
-.gateway-link {
-  display: inline-block;
-  font-weight: 700;
-  color: var(--bs-body-color);
-  text-decoration: none;
-  border-bottom: 2px solid var(--bs-border-color);
-  padding-bottom: 3px;
-  transition: all 0.05s ease-in-out;
-}
-
-.gateway-link:hover {
-  color: var(--accent-color, var(--bs-primary));
-  border-bottom-color: var(--accent-color, var(--bs-primary));
-  padding-left: 5px; /* This creates the subtle slide effect */
-}
-
-/* Fade-in animation for the main content pane on page load */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-.page-container {
-  animation: fadeIn 0.2s ease-out;
-}
-
-/* This rule adds the transition ONLY to the teaching entries */
-.teaching-entry {
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-/* This rule applies the "lift" effect ONLY to the teaching entries on hover */
-.teaching-entry:hover {
-  transform: translateY(-3px); /* Lifts the item slightly */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.07);
-}
-
-/* ==========================================================================
-   MINIMALIST ICON LINKS (for About Page)
-   ========================================================================== */
-
-.about-links-new {
-  margin-top: 2rem;
-  display: flex;
-  flex-wrap: wrap; /* Allows links to wrap on small screens */
-  gap: 1.5rem; /* Increases space between links */
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
 .icon-link {
-  display: inline-flex; /* Aligns icon and text on the same line */
+  display: inline-flex;
   align-items: center;
-  gap: 0.5rem; /* Space between icon and text */
-  color: var(--bs-secondary-color);
+  gap: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+  color: #6c757d;
+  font-weight: 500;
+}
+.icon-link:hover { color: #0056b3; }
+
+/* Reduce font size specifically for About page text */
+.about-text-new p {
+  font-size: 0.95rem; /* Slightly smaller than the standard 1.05rem */
+  line-height: 1.6;   /* Keeps it readable */
+}
+
+/* Optional: If the greeting "Hi, I'm..." also needs to be smaller */
+.about-text-new .greeting {
+  font-size: 1.25rem; /* Adjusted down from 1.4rem */
+}
+
+/* ==========================================================================
+   5. RESEARCH & TEACHING (CLEAN & MODERN)
+   ========================================================================== */
+
+/* Remove lines from all headers */
+.research-section-title, .section-title, h1, h2, h3 {
+  border-bottom: none !important;
+}
+
+.research-section-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.15rem;
   font-weight: 600;
-  text-decoration: none;
-  transition: color 0.2s ease-in-out;
+  letter-spacing: 0.05em;
+  color: #000;
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
 }
 
-.icon-link i {
-  font-size: 1.2rem; /* Makes the icon a bit larger */
+.research-item {
+  margin-bottom: 1.75rem;
+  display: block;
 }
 
-/* Underline effect for the text part of the link */
-.icon-link span {
-  padding-bottom: 2px;
-  border-bottom: 1px solid transparent;
-  transition: border-bottom-color 0.2s ease-in-out;
+/* Paper Title */
+.paper-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 0.2rem;
+  line-height: 1.4;
+  display: block;
 }
 
-.icon-link:hover {
-  color: var(--accent-color, var(--bs-primary)); /* Link turns blue on hover */
+/* Meta Data */
+.paper-meta {
+  font-family: "Century Schoolbook", "Georgia", serif;
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.5;
 }
 
-.icon-link:hover span {
-  border-bottom-color: var(--accent-color, var(--bs-primary)); /* Underline appears on hover */
+.separator { color: #ccc; margin: 0 0.4rem; }
+
+/* Abstract Toggle */
+.abstract-toggle {
+  cursor: pointer;
+  color: #0056b3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+.abstract-toggle:hover { text-decoration: underline; }
+.abstract-toggle::before { content: "[+] "; font-family: monospace; color: #999; }
+.abstract-toggle.expanded::before { content: "[-] "; }
+
+/* Abstract Content */
+.abstract-content {
+  display: none;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  background-color: #fcfcfc;
+  border-left: 3px solid #0056b3;
+  font-size: 0.85rem;
+  color: #333;
 }
 
+/* Media Coverage */
+.media-list { display: block; margin-top: 0.25rem; font-size: 0.85rem; color: #555; }
+.media-label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  color: #777;
+  margin-right: 5px;
+}
 
+/* ==========================================================================
+   6. WIP LISTS (Century Schoolbook)
+   ========================================================================== */
+.wip-list {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.wip-list li {
+  margin-bottom: 0.6rem;
+  font-size: 0.9rem;
+  color: #222;
+  /* Matches your main body font */
+  font-family: "Century Schoolbook", "New Century Schoolbook", "Georgia", serif;
+}
+
+.wip-coauthors {
+  color: #666;
+  font-style: italic;
+  font-size: 0.85rem;
+  font-family: "Century Schoolbook", "New Century Schoolbook", "Georgia", serif;
+}
