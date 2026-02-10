@@ -16,7 +16,7 @@
     </div>
 
     <div class="abstract-content">
-      <p>Evaluations of the 2005 TennCare disenrollment yield conflicting estimates, ranging from large employment increases to precise nulls. I show that conflating self-employment with benefits-eligible jobs drives this discrepancy. Analyzing wage employment&mdash;the margin relevant for insurance access&mdash;I find robust evidence of employment lock, strictly concentrated among the older, less-educated childless adults in Tennessee. The findings demonstrate that employment lock is not a generalized response to the loss of in-kind transfers, but a corner solution necessitated by the interaction of high health risk and a binding uninsurability constraint.
+      <p>Evaluations of the 2005 TennCare disenrollment yield conflicting estimates, ranging from large employment increases to precise nulls. I show that conflating self-employment with benefits-eligible jobs drives this discrepancy. Analyzing wage employment&mdash;the margin relevant for insurance access&mdash;I find robust evidence of labor supply expansion, strictly concentrated among the older, less-educated childless adults in Tennessee. The findings demonstrate that the estimated labor supply expansion is not a generalized response to the loss of in-kind transfers, but rather a specific manifestation of employment lock, driven by the interaction of high health risk and binding uninsurability.
 </p>
     </div>
   </div>
@@ -46,7 +46,7 @@
       <a href="https://edworkingpapers.com/sites/default/files/ai25-1345.pdf" target="_blank">[PDF]</a>
       <a class="abstract-toggle">[Abstract]</a>
       <span style="font-size: 0.85em;">
-        [Coverage: <a href="https://fordhaminstitute.org/national/commentary/should-states-cover-ap-exam-costs-all-students" target="_blank">Thomas B. Fordham Institute</a>]
+        [Coverage: <a href="https://fordhaminstitute.org/national/commentary/should-states-cover-ap-exam-costs-all-students" target="_blank">Fordham Institute</a>]
       </span>
     </div>
 
