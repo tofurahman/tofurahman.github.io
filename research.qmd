@@ -73,6 +73,7 @@
   <h6 class="research-section-title">Work in Progress</h2>
   <ul class="wip-list">
     <li>The Gig Safety Net: Platform Labor and Eviction</li>
+    <li>Uber Penetration and Community College Enrollment: Evidence from Administrative Data</li>
     <li>
       The Contribution of Firms to Voting Behavior
       <span class="wip-coauthors">(with Michael Luca, Daniel Kreisman, Jonathan Smith)</span>
