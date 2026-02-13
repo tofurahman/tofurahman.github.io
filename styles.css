@@ -1,12 +1,12 @@
 /* ==========================================================================
    1. CORE TYPOGRAPHY (Roboto + Century Schoolbook)
    ========================================================================== */
-/* Import Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/* Import Roboto and PT Serif */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
   background-color: #f1f3f5;
-  font-family: "Century Schoolbook", "New Century Schoolbook", "Georgia", serif;
+  font-family: 'PT Serif', serif;
   color: #333;
   line-height: 1.6;
   font-size: 1.05rem; 
@@ -196,7 +196,7 @@ header nav a:hover, header nav a.active {
 
 /* Meta Data */
 .paper-meta {
-  font-family: "Century Schoolbook", "Georgia", serif;
+  font-family: 'PT Serif', serif;
   font-size: 0.85rem;
   color: #555;
   line-height: 1.5;
@@ -250,12 +250,12 @@ header nav a:hover, header nav a.active {
   font-size: 0.9rem;
   color: #222;
   /* Matches your main body font */
-  font-family: "Century Schoolbook", "New Century Schoolbook", "Georgia", serif;
+  font-family: 'PT Serif', serif;
 }
 
 .wip-coauthors {
   color: #666;
   font-style: italic;
   font-size: 0.85rem;
-  font-family: "Century Schoolbook", "New Century Schoolbook", "Georgia", serif;
+  font-family: 'PT Serif', serif;
 }
