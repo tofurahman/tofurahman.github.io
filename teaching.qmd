@@ -12,8 +12,8 @@
       Georgia State University <span class="separator">|</span>
       Spring 2025 <span class="separator">|</span>
       <a href="assets/econ8220.pdf" target="_blank" class="paper-link">Syllabus</a>
-     <!-- <span class="separator">/</span>
-      <a href="#" target="_blank" class="paper-link">Evaluations (4.95/5)</a> -->
+     <span class="separator">/</span>
+      <a href="assets/Teaching_Evaluation.pdf" target="_blank" class="paper-link">Student Evaluations</a> 
     </div>
   </div>
 
@@ -21,10 +21,10 @@
     <div class="paper-title">Principles of Macroeconomics (Undergraduate)</div>
     <div class="paper-meta">
       Georgia State University <span class="separator">|</span>
-      Spring 2024 <span class="separator">|</span>
+      Fall 2024 <span class="separator">|</span>
       <a href="assets/econ2105.pdf" target="_blank" class="paper-link">Syllabus</a>
-       <!-- <span class="separator">/</span> 
-      <a href="#" target="_blank" class="paper-link">Evaluations (4.31/5)</a> -->
+       <span class="separator">/</span> 
+      <a href="assets/Teaching_Evaluation.pdf" target="_blank" class="paper-link">Student Evaluations</a>
     </div>
   </div>
 </div>
