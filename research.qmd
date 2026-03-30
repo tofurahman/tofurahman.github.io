@@ -7,14 +7,14 @@
   <h6 class="research-section-title">Working Papers</h2>
   
       <div class="research-item">
-    <div class="paper-title">Paying a Little for College Credits: Evidence from AP Teacher Bonuses</div>
+    <div class="paper-title">The Effects of Capped Piece-Rate Teacher Bonuses: Evidence from Advanced Placement</div>
     <div class="paper-meta">
       JMP-1 <span class="separator">|</span>
       <a href="https://www.dropbox.com/scl/fi/f20cq1nmbz3yra3fj1d21/AP_Teacher_Bonus.pdf?rlkey=dw4wa61iq2b48i09c4p8hfz83&st=9cgi8om0&dl=0" target="_blank" class="paper-link">PDF</a>
       <span class="separator">/</span>
       <span class="abstract-toggle">ABSTRACT</span>
     </div>
-    <div class="abstract-content">This paper evaluates a novel proficiency-based incentive program that rewards Advanced Placement (AP) teachers a piece-rate for each student in their class passing the standardized AP test. Using student-course level data and exploiting both within- and across-teacher variation, I document that the program increased the probability of an AP enrollment to result in a passed exam by 2.4 percentage points (4.6%). I then report three key insights. First, inconsistent with the predictions of educational triage, I find robust evidence of gains concentrated at the top of the AP score distribution. Second, bonuses reduce urban-rural AP achievement gap by approximately one-third. Finally, I document heterogeneity across multiple dimensions, suggesting that the efficacy of performance pay is jointly determined by the incentive strength, the nature of the task, and the agent's baseline performance and workload.
+    <div class="abstract-content">I study a novel proficiency-based incentive program that rewards Advanced Placement (AP) teachers a piece rate for each student in their class earning a score of 3 or higher (out of 5) on the standardized AP exam. Using student-course level data and exploiting both within- and across-teacher variation, I find the program increased the probability that an AP enrollment results in a passing exam score by 2.4 percentage points (4.6%). I then report two key findings. First, contrary to the predictions of educational triage, gains are concentrated at the top of the AP score distribution. Second, responses to the bonus vary systematically across teachers, indicating that the impact of performance pay depends jointly on incentive strength and the nature of the task.
     </div>
   </div>
   
