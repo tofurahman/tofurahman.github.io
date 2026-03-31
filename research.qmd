@@ -10,6 +10,7 @@
     <div class="paper-title">The Effects of Capped Piece-Rate Teacher Bonuses: Evidence from Advanced Placement</div>
     <div class="paper-meta">
       JMP-1 <span class="separator">|</span>
+      <em>Submitted</em><span class="separator">|</span>
       <a href="https://www.dropbox.com/scl/fi/f20cq1nmbz3yra3fj1d21/AP_Teacher_Bonus.pdf?rlkey=dw4wa61iq2b48i09c4p8hfz83&st=9cgi8om0&dl=0" target="_blank" class="paper-link">PDF</a>
       <span class="separator">/</span>
       <span class="abstract-toggle">ABSTRACT</span>
