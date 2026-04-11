@@ -4,10 +4,11 @@
 
 ```{=html}
 <div class="research-section">
-<p style="text-align: right; margin: 0;">
+
+  <h6 class="research-section-title">Working Papers</h6>
+  <p style="text-align: left; margin-top: -20px;">
   <span style="font-size: 0.65em;"><sup>†</sup> solo-authored &nbsp;&nbsp; <sup>∗</sup> first-authored</span>
 </p>
-  <h6 class="research-section-title"; style="margin-top: -20px;">Working Papers</h2>
       <div class="research-item">
     <div class="paper-title">The Effects of Capped Piece-Rate Teacher Bonuses: Evidence from Advanced Placement<sup>†</sup></div>
     <div class="paper-meta">
