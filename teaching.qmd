@@ -13,7 +13,7 @@
       Spring 2025 <span class="separator">|</span>
       <a href="assets/econ8220.pdf" target="_blank" class="paper-link">Syllabus</a>
      <span class="separator">/</span>
-      <a href="assets/Teaching_Evaluation.pdf" target="_blank" class="paper-link">Student Evaluations</a> 
+      <a href="assets/Teaching_Evaluation_econ8220.pdf" target="_blank" class="paper-link">Student Evaluations</a> 
     </div>
   </div>
 
@@ -24,7 +24,7 @@
       Fall 2024 <span class="separator">|</span>
       <a href="assets/econ2105.pdf" target="_blank" class="paper-link">Syllabus</a>
        <span class="separator">/</span> 
-      <a href="assets/Teaching_Evaluation.pdf" target="_blank" class="paper-link">Student Evaluations</a>
+      <a href="assets/Teaching_Evaluation_econ2105.pdf" target="_blank" class="paper-link">Student Evaluations</a>
     </div>
   </div>
 </div>
