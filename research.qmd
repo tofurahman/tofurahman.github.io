@@ -44,7 +44,7 @@
   <div class="research-item">
     <div class="paper-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work<sup>*</sup></div>
     <div class="paper-meta">
-      (with Cade Lawson) <span class="separator">|</span> <em>Revise & Resubmit, <u>Economics of Education Review</u></em> <span class="separator">|</span>
+      (with <a href="https://cadelawson.com/" target="_blank" class="paper-link">Cade Lawson</a>) <span class="separator">|</span> <em>Revise & Resubmit, <u>Economics of Education Review</u></em> <span class="separator">|</span>
       <a href="https://edworkingpapers.com/sites/default/files/ai25-1345.pdf" target="_blank" class="paper-link">PDF</a>
       <span class="separator">/</span>
       <span class="abstract-toggle">ABSTRACT</span>
@@ -77,15 +77,15 @@
 <div class="research-section">
   <h6 class="research-section-title">Work in Progress</h2>
   <ul class="wip-list">
-    <li>The Gig Safety Net: Platform Labor and Eviction<sup>†</sup></li>
+    <li>The Gig Safety Net: Platform Labor and Eviction<sup>*</sup> (with <a href="https://sites.google.com/site/kteltser" target="_blank" class="paper-link">Keith Teltser</a>)</li>
     <li>Uber Penetration and Community College Enrollment: Evidence from Administrative Data<sup>†</sup></li>
     <li>
       The Contribution of Firms to Voting Behavior
-      <span class="wip-coauthors">(with Michael Luca, Daniel Kreisman, Jonathan Smith)</span>
+      (with <a href="https://carey.jhu.edu/faculty/faculty-directory/michael-luca-phd" target="_blank" class="paper-link">Michael Luca</a>, <a href="https://www.dkreisman.com/" target="_blank" class="paper-link">Daniel Kreisman</a>, <a href="https://sites.google.com/site/jonathansmithphd/" target="_blank" class="paper-link">Jonathan Smith</a>)
     </li>
     <li>
       Gains, Losses, and Stickiness in Public Finance: Evidence from 3,000 School Tax Referenda<sup>*</sup>
-      <span class="wip-coauthors">(with Cade Lawson)</span>
+      (with <a href="https://cadelawson.com/" target="_blank" class="paper-link">Cade Lawson</a>)
     </li>
   </ul>
 </div>
