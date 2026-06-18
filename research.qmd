@@ -6,13 +6,9 @@
 <div class="research-section">
 
   <h6 class="research-section-title">Working Papers</h6>
-  <p style="text-align: left; margin-top: -20px;">
-  <span style="font-size: 0.65em;"><sup>†</sup> solo-authored &nbsp;&nbsp; <sup>∗</sup> first-authored</span>
-</p>
       <div class="research-item">
-    <div class="paper-title">The Effects of Capped Piece-Rate Teacher Bonuses: Evidence from Advanced Placement<sup>†</sup></div>
+    <div class="paper-title">The Effects of Capped Piece-Rate Teacher Bonuses: Evidence from Advanced Placement</div>
     <div class="paper-meta">
-      JMP-1 <span class="separator"> | </span>
       <em>Under Review</em><span class="separator"> |</span>
       <a href="https://www.dropbox.com/scl/fi/f20cq1nmbz3yra3fj1d21/AP_Teacher_Bonus.pdf?rlkey=dw4wa61iq2b48i09c4p8hfz83&st=9cgi8om0&dl=0" target="_blank" class="paper-link">PDF</a>
       <span class="separator">/</span>
@@ -24,9 +20,8 @@
   
     
     <div class="research-item">
-    <div class="paper-title">Public Health Insurance and Employment Lock: Resolving the TennCare Puzzle<sup>†</sup></div>
+    <div class="paper-title">Public Health Insurance and Employment Lock: Resolving the TennCare Puzzle<</div>
     <div class="paper-meta">
-      JMP-2 <span class="separator">| </span>
       <em>Under Review</em> <span class="separator">|</span>
       <a href="https://www.dropbox.com/scl/fi/2wqblkb931rgj06nys72s/tenncare_employment.pdf?rlkey=x296r4h6x0mui7vkpck54jg6r&st=dzhjdr4a&dl=0" target="_blank" class="paper-link">PDF</a>
       <span class="separator">/</span>
@@ -42,7 +37,7 @@
 
 
   <div class="research-item">
-    <div class="paper-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work<sup>*</sup></div>
+    <div class="paper-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</div>
     <div class="paper-meta">
       (with <a href="https://cadelawson.com/" target="_blank" class="paper-link">Cade Lawson</a>) <span class="separator">|</span> <em>Revise & Resubmit, <u>Economics of Education Review</u></em> <span class="separator">|</span>
       <a href="https://edworkingpapers.com/sites/default/files/ai25-1345.pdf" target="_blank" class="paper-link">PDF</a>
@@ -50,7 +45,7 @@
       <span class="abstract-toggle">ABSTRACT</span>
       
       <span class="media-list">
-        <span class="media-label">Coverage:</span>
+        <span class="media-label">Media Coverage:</span>
         <a href="https://fordhaminstitute.org/national/commentary/should-states-cover-ap-exam-costs-all-students" target="_blank" class="paper-link">Fordham Institute</a>
       </span>
     </div>
@@ -59,7 +54,7 @@
   </div>
   
     <div class="research-item">
-    <div class="paper-title">Medicaid and Health Resilience: Evidence from TennCare Disenrollment<sup>†</sup></div>
+    <div class="paper-title">Medicaid and Health Resilience: Evidence from TennCare Disenrollment</div>
     <div class="paper-meta">
       <em>Revise & Resubmit, <u>Economics & Human Biology</u></em> <span class="separator">|</span>
       <a href="https://www.dropbox.com/scl/fi/11a4fe4ua86q54o3jdx2r/tenncare_bmi_final.pdf?rlkey=6zk5hv0ib7kuhil96c5aci2mi&e=2&st=n56zqfaa&dl=0" target="_blank" class="paper-link">PDF</a>
@@ -77,14 +72,14 @@
 <div class="research-section">
   <h6 class="research-section-title">Work in Progress</h2>
   <ul class="wip-list">
-    <li>The Gig Safety Net: Platform Labor and Eviction<sup>*</sup> (with <a href="https://sites.google.com/site/kteltser" target="_blank" class="paper-link">Keith Teltser</a>)</li>
-    <li>Uber Penetration and Community College Enrollment: Evidence from Administrative Data<sup>†</sup></li>
+    <li>The Gig Safety Net: Platform Labor and Eviction (with <a href="https://sites.google.com/site/kteltser" target="_blank" class="paper-link">Keith Teltser</a>)</li>
+    <li>Uber Penetration and Community College Enrollment: Evidence from Administrative Data</li>
     <li>
       The Contribution of Firms to Voting Behavior
       (with <a href="https://carey.jhu.edu/faculty/faculty-directory/michael-luca-phd" target="_blank" class="paper-link">Michael Luca</a>, <a href="https://www.dkreisman.com/" target="_blank" class="paper-link">Daniel Kreisman</a>, <a href="https://sites.google.com/site/jonathansmithphd/" target="_blank" class="paper-link">Jonathan Smith</a>)
     </li>
     <li>
-      Gains, Losses, and Stickiness in Public Finance: Evidence from 3,000 School Tax Referenda<sup>*</sup>
+      Gains, Losses, and Stickiness in Public Finance: Evidence from 3,000 School Tax Referenda
       (with <a href="https://cadelawson.com/" target="_blank" class="paper-link">Cade Lawson</a>)
     </li>
   </ul>

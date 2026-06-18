@@ -232,7 +232,6 @@ header nav a:hover, header nav a.active {
 .media-label {
   font-family: 'Roboto', sans-serif;
   font-size: 0.85em;
-  text-transform: uppercase;
   color: #777;
   margin-right: 5px;
 }
