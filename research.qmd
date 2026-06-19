@@ -20,7 +20,7 @@
   
     
     <div class="research-item">
-    <div class="paper-title">Public Health Insurance and Employment Lock: Resolving the TennCare Puzzle<</div>
+    <div class="paper-title">Public Health Insurance and Employment Lock: Resolving the TennCare Puzzle</div>
     <div class="paper-meta">
       <em>Under Review</em> <span class="separator">|</span>
       <a href="https://www.dropbox.com/scl/fi/2wqblkb931rgj06nys72s/tenncare_employment.pdf?rlkey=x296r4h6x0mui7vkpck54jg6r&st=dzhjdr4a&dl=0" target="_blank" class="paper-link">PDF</a>
