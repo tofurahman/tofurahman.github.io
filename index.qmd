@@ -13,7 +13,7 @@
     <p class="greeting"><b>Hi, I'm Toufiq.</b></p>
     <p>I am an applied microeconomist interested in topics within labor economics, economics of education, and applied econometrics. </p>
 
-    <p>I am an incoming Postdoctoral Fellow at the Block Center for Technology and Society at Carnegie Mellon University.</p>
+    <p>I am an incoming Research Scientist at the Block Center for Technology and Society at Carnegie Mellon University.</p>
 
 <div class="about-links-new">
   <a href="https://www.linkedin.com/in/tofuiba/" class="icon-link">
