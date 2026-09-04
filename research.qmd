@@ -11,7 +11,7 @@
     <div class="paper-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</div>
     <div class="paper-meta">
       (with <a href="https://cadelawson.com/" target="_blank" class="paper-link">Cade Lawson</a>) <span class="separator">|</span> <em>Accepted, <u>Economics of Education Review</u></em> <span class="separator">|</span>
-      <a href="https://edworkingpapers.com/sites/default/files/ai25-1345.pdf" target="_blank" class="paper-link">PDF</a>
+      <a href="https://www.dropbox.com/scl/fi/vofglofs3q3xa95t0mpnl/AP_Fee_Waivers_Brown.pdf?rlkey=tdxhi8gz3pq2vkhwlm7fnw38i&st=y4ncanu8&dl=0" target="_blank" class="paper-link">PDF</a>
       <span class="separator">/</span>
       <span class="abstract-toggle">ABSTRACT</span>
       
