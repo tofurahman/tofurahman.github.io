@@ -25,21 +25,56 @@
     "href": "teaching.html",
     "title": "Toufiq Rahman",
     "section": "",
-    "text": "Instructor of Record\n\n  \n    The Global Economy (Undergraduate)\n    \n      Georgia State University |\n      Fall 2021, Spring 2022 |\n      Syllabus\n      /\n      Evaluations (4.8/5.0)\n    \n  \n\n\n\n  Teaching Assistant\n  \n  \n    Econometrics I (Ph.D. Core)\n    \n      Georgia State University |\n      Fall 2023 |\n      Instructor: Prof. H. Spencer Banzhaf\n    \n  \n\n\nGraduate Teaching Assistant\nGeorgia State University\n\n\n  ECON 9230: Topics in Advanced Labor Economics\n  \n    Spring 2025"
+    "text": "Instructor of Record\n\n  \n    Human Resources and Labor Markets (Graduate)\n    \n      Georgia State University |\n      Spring 2025 |\n      Syllabus\n     /\n      Student Evaluations \n    \n  \n\n  \n    Principles of Macroeconomics (Undergraduate)\n    \n      Georgia State University |\n      Fall 2024 |\n      Syllabus\n       / \n      Student Evaluations\n    \n  \n\n\n\n  Teaching Assistant\n\n  \n    Topics in Advanced Labor Economics (Ph.D.)\n    \n      Georgia State University |\n      Spring 2025 |\n      Instructor: Prof. Daniel Kreisman"
   },
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Toufiq Rahman",
+    "title": "Research",
     "section": "",
-    "text": "Job Market Paper\n\n  \n    Public Health Insurance and Employment Lock: Resolving the TennCare Puzzle\n    \n      Job Market Paper |\n      Draft\n      /\n      Replication Kit\n      /\n      Abstract\n    \n\n    \n      Evaluations of the 2005 TennCare disenrollment yield conflicting estimates, ranging from large employment increases to precise nulls. I show that conflating self-employment with benefits-eligible jobs drives this discrepancy. Analyzing wage employment—the margin relevant for insurance access—I find robust evidence of labor supply expansion, strictly concentrated among the older, less-educated childless adults in Tennessee. The findings demonstrate that the estimated labor supply expansion is not a generalized response to the loss of in-kind transfers, but rather a specific manifestation of employment lock, driven by the interaction of high health risk and binding uninsurability.\n    \n  \n\n\n\n  Working Papers\n\n  \n    The Anatomy of a Piece-rate Teacher Bonus Program\n    \n      with Ian Callen |\n      PDF\n      /\n      Abstract\n    \n\n    \n      A central tenet of economics is that agents respond to incentives, yet the real-world effects of performance pay remain a puzzle. Simple models predict a direct increase in effort, while critics warn of a narrow targeted effort. This paper provides new evidence on this debate by studying a statewide bonus program...\n    \n  \n\n  \n    Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work\n    \n      with Cade Lawson |\n      Under Review |\n      PDF\n      /\n      Abstract\n      \n      \n        Coverage:\n        Fordham Institute, \n        Education Week\n      \n    \n\n    \n      Do policies that broaden educational access also foster success? We study this question by analyzing North Carolina’s universal Advanced Placement (AP) exam fee waiver policy...\n    \n  \n\n\n\n  Selected Work in Progress\n  \n    The Gig Safety Net: Platform Labor and Eviction\n    \n      The Contribution of Firms to Voting Behavior\n      (with Michael Luca, Daniel Kreisman, Jonathan Smith)"
+    "text": "Search papers\n\n\n\n&lt;button type=\"button\" class=\"filter\" data-topic-filter=\"all\" aria-pressed=\"true\"&gt;All&lt;/button&gt;\n&lt;button type=\"button\" class=\"filter\" data-topic-filter=\"education\" aria-pressed=\"false\"&gt;Education&lt;/button&gt;\n&lt;button type=\"button\" class=\"filter\" data-topic-filter=\"health\" aria-pressed=\"false\"&gt;Health&lt;/button&gt;\n&lt;button type=\"button\" class=\"filter\" data-topic-filter=\"labor\" aria-pressed=\"false\"&gt;Labor&lt;/button&gt;\n\nKeyword"
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working papers",
+    "text": "Working papers\n\nThe Effects of Capped Piece-Rate Teacher Bonuses: Evidence from Advanced Placement — Paper, EdWorkingPaper 26-1456.\n\n\n\nAbstract\n\n\nI study a North Carolina program that paid AP teachers for each student earning a qualifying exam score, subject to a cap. Using student-course administrative records and within- and across-teacher variation, I find gains in credit-eligible AP scores. The distribution of gains offers little evidence that teachers shifted effort away from high-achieving students. Responses varied with the strength of the incentive and the nature of the teaching task.\n\n\n\n\n\nPublic Health Insurance and Employment Lock: Resolving the TennCare Puzzle — Paper, under review.\n\n\n\nAbstract\n\n\nPrior evaluations of Tennessee’s 2005 Medicaid disenrollment reach conflicting conclusions about employment. I revisit the question by distinguishing jobs that could offer employer-sponsored insurance from self-employment. Wage employment rose among older, less-educated childless adults, the group for whom health risk and loss of insurance were especially salient. The pattern is consistent with employment lock as a labor supply response to coverage loss."
+  },
+  {
+    "objectID": "research.html#publications-and-accepted-papers",
+    "href": "research.html#publications-and-accepted-papers",
+    "title": "Research",
+    "section": "Publications and accepted papers",
+    "text": "Publications and accepted papers\n\nRemoving Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work — Paper, Economics of Education Review (accepted). Media coverage.\n\nwith M. Cade Lawson\n\n\n\n\nAbstract\n\n\nUsing North Carolina student-course administrative records, we estimate how a statewide AP exam fee waiver affected exam participation and scores eligible for college credit. Exam participation rose by 2.1 percentage points. Average gains in credit-eligible scores were small, but the rate increased by about 3 percentage points among low-SES enrollees. A complementary analysis finds the largest responses in courses with the lowest predicted exam-taking propensity before the waiver.\n\n\n\n\n\nMedicaid and Health Resilience: Evidence from TennCare Disenrollment — Journal version, Economics & Human Biology, 2026.\n\n\n\nAbstract\n\n\nI examine whether Medicaid protects people from the functional consequences of adverse health. Tennessee’s 2005 disenrollment provides a setting to compare childless adults before and after coverage loss. Uninsurance and poor self-rated health rose. Days of incapacitation also increased, while the frequency of physical and mental unhealthy days changed little. The findings suggest that access to insurance and affordable care can help preserve health resilience."
+  },
+  {
+    "objectID": "research.html#work-in-progress",
+    "href": "research.html#work-in-progress",
+    "title": "Research",
+    "section": "Work in progress",
+    "text": "Work in progress\n\nThe Gig Safety Net: Platform Labor and Eviction\n\nwith Keith Teltser\n\n\n\nThe Contribution of Firms to Voting Behavior\n\nwith Michael Luca, Daniel Kreisman, and Jonathan Smith\n\n\n\nGains, Losses, and Stickiness in Public Finance: Evidence from 3,000 School Tax Referenda\n\nwith M. Cade Lawson\n\n\n\nNo papers match that search."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Toufiq Rahman",
     "section": "",
-    "text": "Hi, I'm Toufiq.\n    I am an applied microeconomist specializing in education, labor, and public economics. My research agenda investigates how public policy design interacts with market frictions to shape human capital and labor market outcomes. I study these dynamics through two lenses: (1) how incentives facilitate human capital accumulation, examining the role of teacher bonuses and educational subsidies; and (2) how safety nets affect labor supply and health capital.\n\n    I am currently a Postdoctoral Researcher at the Johns Hopkins Carey Business School. I received my Ph.D. in Economics from Georgia State University, where I was advised by Professor Daniel Kreisman and worked as a Graduate Research Assistant at Georgia Policy Labs.\n\n\n  \n    \n    LinkedIn\n  \n  \n    \n    CV\n  \n  \n    \n    JMP\n  \n  \n    \n    Email"
+    "text": "I am Md Twfiqur (Toufiq) Rahman, an applied microeconomist studying education, health insurance, and labor markets.\nPostdoctoral Researcher, Johns Hopkins Carey Business School\nIncoming researcher, Block Center for Technology and Society, Carnegie Mellon University\nCV · Email"
+  },
+  {
+    "objectID": "index.html#working-papers",
+    "href": "index.html#working-papers",
+    "title": "Toufiq Rahman",
+    "section": "Working papers",
+    "text": "Working papers\n\nThe Effects of Capped Piece-Rate Teacher Bonuses: Evidence from Advanced Placement — Paper\n\n\nPublic Health Insurance and Employment Lock: Resolving the TennCare Puzzle — Paper"
+  },
+  {
+    "objectID": "index.html#publications-and-accepted-papers",
+    "href": "index.html#publications-and-accepted-papers",
+    "title": "Toufiq Rahman",
+    "section": "Publications and accepted papers",
+    "text": "Publications and accepted papers\n\nRemoving Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work — Paper, Economics of Education Review (accepted).\n\nwith M. Cade Lawson\n\n\n\nMedicaid and Health Resilience: Evidence from TennCare Disenrollment — Journal version, Economics & Human Biology, 2026.\n\nFull research list"
   },
   {
     "objectID": "cv.html",

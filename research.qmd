@@ -5,48 +5,14 @@
 ```{=html}
 <div class="research-section">
 
-  <h6 class="research-section-title">Published/Accepted Papers</h6>
-  
-  <div class="research-item">
-    <div class="paper-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</div>
-    <div class="paper-meta">
-      (with <a href="https://cadelawson.com/" target="_blank" class="paper-link">Cade Lawson</a>) <span class="separator">|</span> <em>Accepted, <u>Economics of Education Review</u></em> <span class="separator">|</span>
-      <a href="https://www.dropbox.com/scl/fi/vofglofs3q3xa95t0mpnl/AP_Fee_Waivers_Brown.pdf?rlkey=tdxhi8gz3pq2vkhwlm7fnw38i&st=y4ncanu8&dl=0" target="_blank" class="paper-link">PDF</a>
-      <span class="separator">/</span>
-      <span class="abstract-toggle">ABSTRACT</span>
-      
-      <span class="media-list">
-        <span class="media-label">Media Coverage:</span>
-        <a href="https://fordhaminstitute.org/national/commentary/should-states-cover-ap-exam-costs-all-students" target="_blank" class="paper-link">Fordham Institute</a>
-      </span>
-    </div>
-
-    <div class="abstract-content">We study whether universal Advanced Placement (AP) exam fee waivers convert AP course enrollment into exam participation and potential college-credit attainment. Using student-course-level administrative data from North Carolina, we find that fee waivers increased the probability that an AP enrollment resulted in exam participation by 2.1 percentage points but had no average effect on an enrollment's probability of earning a score of 3 or higher among students taking multiple AP courses spanning the pre- and post-waiver periods. This null average effect masks meaningful distributional gains: college-credit-eligible score attainment increased by 3 percentage points among low-SES enrollees, closing the baseline attainment gap by approximately 15 percent. Using the full sample of AP enrollments and a difference-in-differences framework, we further show that the largest gains in both exam participation and college-credit-eligible AP exam score attainment occurred among enrollments with the lowest predicted exam-taking propensity absent the waiver. These findings suggest that universal fee waivers generate the greatest benefits where barriers to AP exam participation are most likely to bind. Under illustrative assumptions, our welfare calculations indicate that the policy's benefits far exceed its costs.</div>
-  </div>
-  
-   <div class="research-item">
-    <div class="paper-title">Medicaid and Health Resilience: Evidence from TennCare Disenrollment</div>
-    <div class="paper-meta">
-      <em><u>Economics & Human Biology</u></em> <span class="separator">|</span>
-      <a href="https://authors.elsevier.com/a/1ndYx,Zjek0v91" target="_blank" class="paper-link">PDF</a>
-      <span class="separator">/</span>
-      <span class="abstract-toggle">ABSTRACT</span>
-        
-    </div>
-
-    <div class="abstract-content">  Does public health insurance mitigate the functional consequences of adverse health shocks? I investigate this question by exploiting variation induced by Tennessee's 2005 Medicaid disenrollment, which abruptly terminated coverage for approximately 170,000 childless adults. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010 and a difference-in-differences design, I estimate Intent-to-Treat effects. I first document that the reform significantly increased the uninsured rate and increased the share of Tennessean childless adults reporting ``poor'' health status. I also find suggestive evidence of an increase in severe obesity prevalence. I then document a puzzle: while reported days of functional incapacitation increased by 27%, the underlying frequency of physical or mental unhealthy days remained statistically unchanged. I reconcile this divergence by documenting suggestive evidence that the ``incapacitation ratio''&mdash;the probability that an unhealthy day results in incapacitation&mdash;increased by 17%. Further evidence suggests that reduced access to care is a plausible mechanism: following the TennCare disenrollment, the share of childless adults unable to see a doctor due to cost increased by 2.5 percentage points (23%), the evolution of which tracks the evolution of incapacitation ratio well. Taken together, the findings suggest that public health insurance may preserve health resilience, likely by mitigating financial barriers to care.</div>
-  </div>
-</div>
-<div class="research-section">
-
   <h6 class="research-section-title">Working Papers</h6>
       <div class="research-item">
     <div class="paper-title">The Effects of Capped Piece-Rate Teacher Bonuses: Evidence from Advanced Placement</div>
     <div class="paper-meta">
-      <em>Under Review</em><span class="separator"> |</span>
+      
       <a href="https://www.dropbox.com/scl/fi/f20cq1nmbz3yra3fj1d21/AP_Teacher_Bonus.pdf?rlkey=dw4wa61iq2b48i09c4p8hfz83&st=9cgi8om0&dl=0" target="_blank" class="paper-link">PDF</a>
       <span class="separator">/</span>
-      <span class="abstract-toggle">ABSTRACT</span>
+      <span class="abstract-toggle">Abstract</span>
     </div>
     <div class="abstract-content">I study a proficiency-based incentive program that rewards Advanced Placement (AP) teachers a piece-rate for each student in their class scoring 3 or higher on the standardized exam. Using student-course-level data and exploiting both within- and across-teacher variation, I find the program increased the probability that an AP enrollment results in a 3 or higher score by 2.4 percentage points. I find no evidence of educational triage, as gains were concentrated at the top of the AP score distribution. Teacher responses also varied systematically, indicating that the effectiveness of performance pay depends jointly on incentive strength and the nature of the task.
     </div>
@@ -56,12 +22,11 @@
     <div class="research-item">
     <div class="paper-title">Estimating Employment Lock using Household Surveys: Revisiting the TennCare Disenrollment</div>
     <div class="paper-meta">
-      <em>Under Review</em> <span class="separator">|</span>
       <a href="https://www.dropbox.com/scl/fi/2wqblkb931rgj06nys72s/tenncare_employment.pdf?rlkey=x296r4h6x0mui7vkpck54jg6r&st=dzhjdr4a&dl=0" target="_blank" class="paper-link">PDF</a>
       <span class="separator">/</span>
       <a href="https://www.dropbox.com/scl/fo/ti2cewx305eirp2kz5iux/ABUH7WkNQHE-gpjVv3UnnBI?rlkey=biu83ykj6rlttg7xhct31yz13&st=tgvglrgh&dl=0" target="_blank" class="paper-link">Replication Kit</a>
       <span class="separator">/</span>
-      <span class="abstract-toggle">ABSTRACT</span>
+      <span class="abstract-toggle">Abstract</span>
     </div>
 
     <div class="abstract-content">
@@ -71,6 +36,43 @@
 
 
   </div>
+  
+  
+  
+  <div class="research-section">
+
+  <h6 class="research-section-title">Published Papers</h6>
+  
+  <div class="research-item">
+    <div class="paper-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work</div>
+    <div class="paper-meta">
+      (with <a href="https://cadelawson.com/" target="_blank" class="paper-link">Cade Lawson</a>) <span class="separator">|</span> <em>Economics of Education Review</em> <span class="separator">|</span>
+      <a href="https://authors.elsevier.com/a/1no4H%7E1QCG6gU" target="_blank" class="paper-link">PDF</a>
+      <span class="separator">/</span>
+      <span class="abstract-toggle">Abstract</span>
+      
+      <span class="media-list">
+        <span class="media-label">Media Coverage:</span>
+        <a href="https://fordhaminstitute.org/national/commentary/should-states-cover-ap-exam-costs-all-students" target="_blank" class="paper-link">Fordham Institute</a>
+      </span>
+    </div>
+
+    <div class="abstract-content">We study the effects of North Carolina’s Advanced Placement (AP) exam fee-waiver policy on exam participation and potential college-credit attainment conditional on AP enrollment. Using student-course level administrative data, we first exploit within-student variation among students enrolled in multiple AP courses during both pre- and post-waiver periods. We find that fee waivers increased exam participation by 2.1 percentage points but did not significantly increase the share of AP enrollments yielding an exam score of 3 or higher, a common threshold for college-credit eligibility. This average null, however, masks a 3-percentage-point increase in the share of low-SES AP enrollments yielding a score of 3 or higher, narrowing the baseline attainment gap by 15 percent. Using the full sample of AP enrollments and a difference-in-differences framework, we then show that enrollments with the lowest predicted exam-taking propensity absent the waiver experienced the largest gains in both exam participation and potential college-credit attainment, suggesting that universal fee waivers generate larger benefits where barriers to AP exam participation are most likely to bind. Under illustrative assumptions, our welfare calculations indicate that the policy’s benefits far exceed its costs.</div>
+  </div>
+  
+   <div class="research-item">
+    <div class="paper-title">Medicaid and Health Resilience: Evidence from TennCare Disenrollment</div>
+    <div class="paper-meta">
+      <em>Economics & Human Biology</em> <span class="separator">|</span>
+      <a href="https://authors.elsevier.com/a/1ndYx,Zjek0v91" target="_blank" class="paper-link">PDF</a>
+      <span class="separator">/</span>
+      <span class="abstract-toggle">Abstract</span>
+        
+    </div>
+
+    <div class="abstract-content">  Does public health insurance mitigate the functional consequences of adverse health shocks? I investigate this question by exploiting variation induced by Tennessee's 2005 Medicaid disenrollment, which abruptly terminated coverage for approximately 170,000 childless adults. Using Behavioral Risk Factor Surveillance System (BRFSS) data from 1997 to 2010 and a difference-in-differences design, I estimate Intent-to-Treat effects. I first document that the reform significantly increased the uninsured rate and increased the share of Tennessean childless adults reporting ``poor'' health status. I also find suggestive evidence of an increase in severe obesity prevalence. I then document a puzzle: while reported days of functional incapacitation increased by 27%, the underlying frequency of physical or mental unhealthy days remained statistically unchanged. I reconcile this divergence by documenting suggestive evidence that the ``incapacitation ratio''&mdash;the probability that an unhealthy day results in incapacitation&mdash;increased by 17%. Further evidence suggests that reduced access to care is a plausible mechanism: following the TennCare disenrollment, the share of childless adults unable to see a doctor due to cost increased by 2.5 percentage points (23%), the evolution of which tracks the evolution of incapacitation ratio well. Taken together, the findings suggest that public health insurance may preserve health resilience, likely by mitigating financial barriers to care.</div>
+  </div>
+</div>
 
 <div class="research-section">
   <h6 class="research-section-title">Work in Progress</h2>
