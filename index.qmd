@@ -87,9 +87,9 @@
 </div>
 
 <div class="research-section">
-  <h6 class="research-section-title">Work in Progress</h2>
+  <h6 class="research-section-title">select work in progress</h2>
   <ul class="wip-list">
-    <li>The Gig Safety Net: Platform Labor and Eviction (with <a href="https://sites.google.com/site/kteltser" target="_blank" class="paper-link">Keith Teltser</a>)</li>
+    <li>Platform Labor and Eviction (with <a href="https://sites.google.com/site/kteltser" target="_blank" class="paper-link">Keith Teltser</a>)</li>
     <li>
       The Contribution of Firms to Voting Behavior
       (with <a href="https://carey.jhu.edu/faculty/faculty-directory/michael-luca-phd" target="_blank" class="paper-link">Michael Luca</a>, <a href="https://www.dkreisman.com/" target="_blank" class="paper-link">Daniel Kreisman</a>, <a href="https://sites.google.com/site/jonathansmithphd/" target="_blank" class="paper-link">Jonathan Smith</a>)

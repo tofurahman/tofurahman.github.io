@@ -329,8 +329,8 @@ header nav a:hover, header nav a.active {
 .abstract-toggle {
   color: #0056b3;
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
-  font-size: 0.82rem;
+  font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', 'PT Serif', serif;
+  font-size: 0.85rem;
   font-weight: 400;
   letter-spacing: 0.015em;
 }
@@ -354,19 +354,21 @@ header nav a:hover, header nav a.active {
 .abstract-content p { margin: 0 0 0.65rem; }
 .abstract-content p:last-child { margin-bottom: 0; }
 
-/* Supplemental links and work-in-progress remain easy to scan. */
-.media-list { margin-top: 0.22rem; color: #565f68; font-size: 0.87rem; }
-.media-label { color: #6a747d; font-family: 'Roboto', sans-serif; }
 
-.wip-list { margin: 0.45rem 0 0; padding-left: 1.25rem; }
-.wip-list li {
-  margin-bottom: 0.68rem;
-  color: #303941;
-  font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', 'PT Serif', serif;
-  font-size: 0.95rem;
-  line-height: 1.5;
+
+.wip-list {
+  list-style: none;
+  padding-left: 0;
 }
-.wip-coauthors { color: #626b72; font-size: 0.9rem; }
+
+.wip-list li {
+  font-size: 0.85rem;
+  margin-bottom: 0.55rem;
+}
+
+.wip-coauthors {
+  font-size: 0.85rem;
+}
 
 @media (max-width: 768px) {
   .research-section-title { margin-top: 1.8rem; }
