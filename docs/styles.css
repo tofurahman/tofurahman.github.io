@@ -258,3 +258,103 @@ header nav a:hover, header nav a.active {
   font-size: 0.85rem;
   font-family: 'PT Serif', serif;
 }
+
+
+/* Research-page polish
+   Paste this whole block at the end of your current stylesheet.
+   It uses your existing research classes, so your card, navigation,
+   About page, teaching page, colors, and JavaScript can stay as they are. */
+
+/* A quiet small-caps section heading with a fine dividing rule. The existing
+   "border-bottom: none !important" rule requires the override here. */
+.research-section-title {
+  display: block;
+  margin: 2.15rem 0 1.05rem;
+  padding: 0 0 0.42rem;
+  border-bottom: 1px solid #d8dde1 !important;
+  color: #27323c;
+  font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', 'PT Serif', serif;
+  font-size: 1.12rem !important; /* Also wins over your global h1/h2/h3 sizes. */
+  font-weight: 400;
+  font-variant: small-caps;
+  letter-spacing: 0.055em;
+  line-height: 1.35;
+}
+
+/* Read papers as a compact bibliography within your existing white card. */
+.research-item {
+  display: block;
+  margin: 0 0 1.45rem;
+}
+
+.paper-title {
+  display: block;
+  margin: 0 0 0.12rem;
+  color: #263746;                /* Plain titles still look like text. */
+  font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', 'PT Serif', serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.43;
+}
+
+.paper-title a { color: #0056b3; } /* If a title is linked, make that clear. */
+
+.paper-meta {
+  color: #565f68;
+  font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', 'PT Serif', serif;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.paper-meta a { color: #0056b3; }
+.paper-meta em { color: #7b2d3b; } /* Journal names and other italic metadata. */
+.paper-meta .separator { color: #a9b0b6; margin: 0 0.36rem; }
+
+/* Keep the existing abstract toggle behavior. Only soften its presentation. */
+.abstract-toggle {
+  color: #0056b3;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 0.015em;
+}
+
+.abstract-toggle::before { content: '[+] '; color: #78848c; }
+.abstract-toggle.expanded::before { content: '[-] '; }
+.abstract-toggle:hover { text-decoration: underline; }
+
+/* Do not set display here: your current script and CSS control opening. */
+.abstract-content {
+  margin: 0.65rem 0 0.4rem 0.2rem;
+  padding: 0.1rem 0 0.1rem 1rem;
+  border-left: 1px solid #d8dde1;
+  background: transparent;
+  color: #444d54;
+  font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', 'PT Serif', serif;
+  font-size: 0.91rem;
+  line-height: 1.62;
+}
+
+.abstract-content p { margin: 0 0 0.65rem; }
+.abstract-content p:last-child { margin-bottom: 0; }
+
+/* Supplemental links and work-in-progress remain easy to scan. */
+.media-list { margin-top: 0.22rem; color: #565f68; font-size: 0.87rem; }
+.media-label { color: #6a747d; font-family: 'Roboto', sans-serif; }
+
+.wip-list { margin: 0.45rem 0 0; padding-left: 1.25rem; }
+.wip-list li {
+  margin-bottom: 0.68rem;
+  color: #303941;
+  font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', 'PT Serif', serif;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.wip-coauthors { color: #626b72; font-size: 0.9rem; }
+
+@media (max-width: 768px) {
+  .research-section-title { margin-top: 1.8rem; }
+  .research-item { margin-bottom: 1.3rem; }
+}
+
