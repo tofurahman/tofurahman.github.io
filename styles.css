@@ -90,7 +90,14 @@ header nav a:hover, header nav a.active {
    4. ABOUT PAGE (BULLETPROOF FIX)
    ========================================================================== */
 .about-container-new {
-  grid-template-columns: 1fr;
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.about-text-new {
+  width: 100%;
+  max-width: none;
 }
 
 
