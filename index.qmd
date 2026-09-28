@@ -32,7 +32,7 @@
   
     
     <div class="research-item">
-    <div class="paper-title">Estimating Employment Lock using Household Surveys: Revisiting the TennCare Disenrollment</div>
+    <div class="paper-title">Employment Lock and the Relevant Labor Supply Margin: Revisiting the TennCare Disenrollment</div>
     <div class="paper-meta">
       <a href="https://www.dropbox.com/scl/fi/2wqblkb931rgj06nys72s/tenncare_employment.pdf?rlkey=x296r4h6x0mui7vkpck54jg6r&st=dzhjdr4a&dl=0" target="_blank" class="paper-link">PDF</a>
       <span class="separator">/</span>
@@ -42,7 +42,7 @@
     </div>
 
     <div class="abstract-content">
-      Broadly defined employment outcomes that conflate wage- and self-employment can obscure evidence of employment lock. Revisiting the 2005 TennCare disenrollment, I document that losing Medicaid increased wage employment&mdash;the margin relevant for health insurance access&mdash;among older childless adults in Tennessee, with gains concentrated in jobs involving at least 20 hours/week. Estimates for younger childless adults are substantially smaller and statistically imprecise, with no comparable declines in self-employment or wage-employment involving fewer than 20 hours/week. Taken together, the results are consistent with employment lock being strongest among individuals facing elevated health risks and binding uninsurability.
+      Broadly defined employment outcomes that conflate wage- and self-employment can obscure evidence of employment lock. Revisiting the 2005 TennCare disenrollment, I document that losing Medicaid increased wage employment&mdash;the margin relevant for health insurance access&mdash;among older childless adults in Tennessee, with gains concentrated in jobs involving at least 20 hours/week. Estimates for younger childless adults are substantially smaller and statistically imprecise, with no comparable declines in self-employment, or wage-employment involving fewer than 20 hours/week. Taken together, the results are consistent with employment lock being strongest among individuals facing elevated health risks and binding uninsurability.
     </div>
   </div>
 
