@@ -42,7 +42,7 @@
     </div>
 
     <div class="abstract-content">
-      Broadly defined employment outcomes that conflate wage- and self-employment can obscure evidence of employment lock. Revisiting the 2005 TennCare disenrollment, I document that losing Medicaid increased wage employment&mdash;the margin relevant for health insurance access&mdash;among older childless adults in Tennessee, with gains concentrated in jobs involving at least 20 hours/week. Estimates for younger childless adults are substantially smaller and statistically imprecise, with no comparable declines in self-employment, or wage-employment involving fewer than 20 hours/week. Taken together, the results are consistent with employment lock being strongest among individuals facing elevated health risks and binding uninsurability.
+      Broadly defined employment outcomes that conflate wage- and self-employment can obscure evidence of employment lock, because changes in access to public health insurance may induce countervailing responses across these margins, and self-employment is measured with substantial error in household surveys. Revisiting the 2005 TennCare disenrollment, I document that losing Medicaid increased wage employment&mdash;the margin relevant for health insurance access&mdash;among older childless adults in Tennessee, with gains concentrated in jobs involving at least 20 hours per week. Estimates for younger childless adults are substantially smaller and statistically imprecise, with no comparable declines in self-employment, or wage-employment of fewer than 20 hours per week. Taken together, the results are consistent with employment lock being strongest among individuals facing elevated health risks and binding uninsurability.
     </div>
   </div>
 
@@ -65,8 +65,11 @@
       
       <span class="media-list">
         <span class="media-label">Media Coverage:</span>
-        <a href="https://fordhaminstitute.org/national/commentary/should-states-cover-ap-exam-costs-all-students" target="_blank" class="paper-link">Fordham Institute</a>
+        <a href="https://fordhaminstitute.org/national/commentary/should-states-cover-ap-exam-costs-all-students" target="_blank" class="paper-link">Fordham Institute</a>, <a href="https://policyimpacts.org/policy-impacts-library/ap-exam-fee-waivers-for-low-income-students-in-north-carolina/" target="_blank" class="paper-link">Policy Impacts</a>
       </span>
+      
+      
+      
     </div>
 
     <div class="abstract-content">We study the effects of North Carolina’s Advanced Placement (AP) exam fee-waiver policy on exam participation and potential college-credit attainment conditional on AP enrollment. Using student-course level administrative data, we first exploit within-student variation among students enrolled in multiple AP courses during both pre- and post-waiver periods. We find that fee waivers increased exam participation by 2.1 percentage points but did not significantly increase the share of AP enrollments yielding an exam score of 3 or higher, a common threshold for college-credit eligibility. This average null, however, masks a 3-percentage-point increase in the share of low-SES AP enrollments yielding a score of 3 or higher, narrowing the baseline attainment gap by 15 percent. Using the full sample of AP enrollments and a difference-in-differences framework, we then show that enrollments with the lowest predicted exam-taking propensity absent the waiver experienced the largest gains in both exam participation and potential college-credit attainment, suggesting that universal fee waivers generate larger benefits where barriers to AP exam participation are most likely to bind. Under illustrative assumptions, our welfare calculations indicate that the policy’s benefits far exceed its costs.</div>
@@ -76,7 +79,7 @@
     <div class="paper-title">Medicaid and Health Resilience: Evidence from TennCare Disenrollment &middot; 2026</div>
     <div class="paper-meta">
       <em>Economics & Human Biology</em> <span class="separator">|</span>
-      <a href="https://authors.elsevier.com/a/1ndYx,Zjek0v91" target="_blank" class="paper-link">PDF</a>
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S1570677X26000705" target="_blank" class="paper-link">PDF</a>
       <span class="separator">/</span>
       <span class="abstract-toggle">Abstract</span>
         
