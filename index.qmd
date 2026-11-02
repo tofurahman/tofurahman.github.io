@@ -95,7 +95,7 @@
     <li>Platform Labor and Eviction (with <a href="https://sites.google.com/site/kteltser" target="_blank" class="paper-link">Keith Teltser</a>)</li>
     <li>
       The Contribution of Firms to Voting Behavior
-      (with <a href="https://carey.jhu.edu/faculty/faculty-directory/michael-luca-phd" target="_blank" class="paper-link">Michael Luca</a>, <a href="https://www.dkreisman.com/" target="_blank" class="paper-link">Daniel Kreisman</a>, <a href="https://sites.google.com/site/jonathansmithphd/" target="_blank" class="paper-link">Jonathan Smith</a>)
+      (with <a href="https://www.heinz.cmu.edu/faculty-research/profiles/luca-michael target="_blank" class="paper-link">Michael Luca</a>, <a href="https://www.dkreisman.com/" target="_blank" class="paper-link">Daniel Kreisman</a>, <a href="https://sites.google.com/site/jonathansmithphd/" target="_blank" class="paper-link">Jonathan Smith</a>)
     </li>
     <li>
       Gains, Losses, and Stickiness in Public Finance: Evidence from 3,000 School Tax Referenda
