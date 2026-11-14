@@ -6,7 +6,7 @@
 <div class="about-container-new">
   <div class="about-text-new">
     <p class="greeting">Hi, I'm Toufiq.</p>
-    <p>I am an applied microeconomist interested in labor, education, and applied econometrics. I am a Postdoctoral Research Associate at Carnegie Mellon University Heinz College.</p>
+    <p>I am an applied microeconomist interested in labor, education, and applied econometrics. I am currently a Postdoctoral Research Associate at Carnegie Mellon University Block Center for Technology and Society.</p>
 
 <p>
   <a href="mailto:toufiq@cmu.edu">Email</a>
@@ -21,7 +21,8 @@
       <div class="research-item">
     <div class="paper-title">The Effects of Capped Piece-Rate Teacher Bonuses: Evidence from Advanced Placement</div>
     <div class="paper-meta">
-      
+      Version: April, 2026
+      <span class="separator">|</span>
       <a href="https://www.dropbox.com/scl/fi/f20cq1nmbz3yra3fj1d21/AP_Teacher_Bonus.pdf?rlkey=dw4wa61iq2b48i09c4p8hfz83&st=9cgi8om0&dl=0" target="_blank" class="paper-link">PDF</a>
       <span class="separator">/</span>
       <span class="abstract-toggle">Abstract</span>
@@ -34,6 +35,8 @@
     <div class="research-item">
     <div class="paper-title">Employment Lock and the Relevant Labor Supply Margin: Revisiting the TennCare Disenrollment</div>
     <div class="paper-meta">
+      Version: October, 2026
+      <span class="separator">|</span>
       <a href="https://www.dropbox.com/scl/fi/2wqblkb931rgj06nys72s/tenncare_employment.pdf?rlkey=x296r4h6x0mui7vkpck54jg6r&st=dzhjdr4a&dl=0" target="_blank" class="paper-link">PDF</a>
       <span class="separator">/</span>
       <a href="https://www.dropbox.com/scl/fo/ti2cewx305eirp2kz5iux/ABUH7WkNQHE-gpjVv3UnnBI?rlkey=biu83ykj6rlttg7xhct31yz13&st=tgvglrgh&dl=0" target="_blank" class="paper-link">Replication Kit</a>
@@ -59,12 +62,14 @@
     <div class="paper-title">Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work &middot; 2026</div>
     <div class="paper-meta">
       (with <a href="https://cadelawson.com/" target="_blank" class="paper-link">Cade Lawson</a>) <span class="separator">|</span> <em>Economics of Education Review</em> <span class="separator">|</span>
-      <a href="https://authors.elsevier.com/a/1no4H%7E1QCG6gU" target="_blank" class="paper-link">PDF</a>
+      <a href="https://edworkingpapers.com/ai26-1345" target="_blank" class="paper-link">Pre-print</a>
+      <span class="separator">|</span>
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0272775726000798" target="_blank" class="paper-link">Journal Link</a>
       <span class="separator">/</span>
       <span class="abstract-toggle">Abstract</span>
       
       <span class="media-list">
-        <span class="media-label">Media Coverage:</span>
+        <span class="media-label">Media:</span>
         <a href="https://fordhaminstitute.org/national/commentary/should-states-cover-ap-exam-costs-all-students" target="_blank" class="paper-link">Fordham Institute</a>, <a href="https://policyimpacts.org/policy-impacts-library/ap-exam-fee-waivers-for-low-income-students-in-north-carolina/" target="_blank" class="paper-link">Policy Impacts</a>
       </span>
       
@@ -79,7 +84,8 @@
     <div class="paper-title">Medicaid and Health Resilience: Evidence from TennCare Disenrollment &middot; 2026</div>
     <div class="paper-meta">
       <em>Economics & Human Biology</em> <span class="separator">|</span>
-      <a href="https://www.sciencedirect.com/science/article/abs/pii/S1570677X26000705" target="_blank" class="paper-link">PDF</a>
+      <a href="https://ssrn.com/abstract=6035174" target="_blank" class="paper-link">Pre-print</a> 
+      <span class="separator">|</span> <a href="https://www.sciencedirect.com/science/article/abs/pii/S1570677X26000705" target="_blank" class="paper-link">Journal Link</a>
       <span class="separator">/</span>
       <span class="abstract-toggle">Abstract</span>
         
@@ -95,7 +101,7 @@
     <li>Platform Labor and Eviction (with <a href="https://sites.google.com/site/kteltser" target="_blank" class="paper-link">Keith Teltser</a>)</li>
     <li>
       The Contribution of Firms to Voting Behavior
-      (with <a href="https://www.heinz.cmu.edu/faculty-research/profiles/luca-michael target="_blank" class="paper-link">Michael Luca</a>, <a href="https://www.dkreisman.com/" target="_blank" class="paper-link">Daniel Kreisman</a>, <a href="https://sites.google.com/site/jonathansmithphd/" target="_blank" class="paper-link">Jonathan Smith</a>)
+      (with <a href="https://www.heinz.cmu.edu/faculty-research/profiles/luca-michael/" target="_blank" class="paper-link">Michael Luca</a>, <a href="https://www.dkreisman.com/" target="_blank" class="paper-link">Daniel Kreisman</a>, <a href="https://sites.google.com/site/jonathansmithphd/" target="_blank" class="paper-link">Jonathan Smith</a>)
     </li>
     <li>
       Gains, Losses, and Stickiness in Public Finance: Evidence from 3,000 School Tax Referenda
